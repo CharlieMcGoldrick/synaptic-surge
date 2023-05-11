@@ -56,8 +56,8 @@ Overall, while I feel these sites succeed in educating the user they often leave
 </details>
 <details>
 <summary><h4>Strategy Tradeoffs</h4></summary>
-![synaptic_surge_tradeoff_table](/assets/images/readme_only/synaptic_surge_strategy_tradeoff_table.png)
-![synaptic_surge_tradeoff_graph](/assets/images/readme_only/synaptic_surge_strategy_tradeoff_graph.png)
+![synaptic_surge_tradeoff_table](/assets/images/readme_only/synaptic_surge_strategy_tradeoffs_table.png)
+![synaptic_surge_tradeoff_graph](/assets/images/readme_only/synaptic_surge_strategy_tradeoffs_graph.png)
 </details>
 </details>
 
