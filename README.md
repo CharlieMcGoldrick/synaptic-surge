@@ -9,20 +9,21 @@ The project, 'Synaptic Surge', is designed with the aim of educating users about
 <summary><h3>Strategy</h3></summary>
 <details>
 <summary><h4>User Stories</h4></summary>
-First Time Visitor Goals
+
+###### First Time Visitor Goals #####
 
 - As a First Time user, I want to easily understand the main purpose of the site and learn more about the concepts of Biohacking.
 - As a First Time user, I want to be able to easily navigate throughout the site to find informative content and educational resources.
 - As a First Time user, I want to view the website and content clearly on my mobile device.
 - As a First Time user, I want to find ways to follow the Biohacking education platform on different social media platforms.
 
-Returning Visitor Goals
+###### Returning Visitor Goals ######
 
 - As a Returning user, I want to find and explore new content and resources about Biohacking so that I can continue my learning journey.
 - As a Returning user, I want to be able to interact with other users or experts in the field, so I can deepen my understanding and share ideas.
 - As a Returning user, I want to contact the organisation so I can request more information or suggest topics for future content.
 
-Frequent Visitor Goals
+###### Frequent Visitor Goals ######
 
 - As a Frequent user, I want to check to see if there are any new articles, videos, or resources about Biohacking.
 - As a Frequent user, I want to check to see if there are any new developments or trends in the field of Biohacking.
@@ -66,7 +67,7 @@ Overall, while I feel these sites succeed in educating the user they often leave
 <details>
     <summary><h4>Sprint 1</h4></summary>
 
-Sprint 1 Features:
+###### Sprint 1 Features ######
 
 - Landing Page
 - Nav Bar
@@ -77,7 +78,7 @@ Sprint 1 Features:
 - Basic Form - to fulfil 'Sign up for site updates / new scientific studies'
 - Footer with socials - to fulfil 'Increase Social media presence'
 
-Sprint 1 Requirement Types:
+###### Sprint 1 Requirement Types ######
 
 - Languages: HTML & CSS
 - <https://formspree.io/> (To log form action data)
@@ -90,11 +91,11 @@ Sprint 1 Requirement Types:
 <details>
     <summary><h4>Sprint 2</h4></summary>
 
-Sprint 2 Features:
+###### Sprint 2 Features ######
 
 - Search Bar - to fulfil 'Ability to search for keywords'
 
-Sprint 2 Requirement Types:
+###### Sprint 2 Requirement Types ######
 
 - Languages: HTML, CSS & Javascript
 
@@ -103,22 +104,22 @@ Sprint 2 Requirement Types:
 <details>
     <summary><h4>Sprint 3+</h4></summary>
 
-Sprint 3+ Features:
+###### Sprint 3+ Features ######
 
 - More information on biohacking - to fulfil the ongoing business goal; 'Educate users about Biohacking'
-	1. Nutrition and Diet: Biohackers pay close attention to what they consume, and often experiment with different diets (such as ketogenic, paleo, or intermittent fasting) to see how they affect health and performance.
-	2. Exercise and Physical Activity: Biohackers often use specific exercise regimens to improve physical and mental health. This can range from traditional workout routines to more cutting-edge approaches like high-intensity interval training (HIIT) or electrical muscle stimulation.
-	3. Sleep Optimization: Many biohackers focus on improving both the quantity and quality of their sleep, often using various tracking devices to monitor their sleep patterns and make necessary adjustments.
-	4. Meditation and Mindfulness: This includes practices that improve mental health and reduce stress, such as mindfulness exercises, breathing techniques, and various forms of meditation.
-	5. Technology: Biohackers often use wearable technology to track various health metrics (like heart rate variability or sleep patterns) and make data-informed decisions about their lifestyle changes.
-	6. Genetic and Microbiome Testing: Some biohackers use genetic testing to understand their genetic predispositions and make lifestyle changes accordingly. Similarly, microbiome testing can provide information about gut health, which is increasingly recognized as a significant factor in overall health.
-	7. Environmental Design: This can involve optimizing personal living and working spaces to support health and well-being, such as using standing desks, optimizing light for circadian rhythms, or using air purifiers to improve air quality.
+  1. Nutrition and Diet: Biohackers pay close attention to what they consume, and often experiment with different diets (such as ketogenic, paleo, or intermittent fasting) to see how they affect health and performance.
+  2. Exercise and Physical Activity: Biohackers often use specific exercise regimens to improve physical and mental health. This can range from traditional workout routines to more cutting-edge approaches like high-intensity interval training (HIIT) or electrical muscle stimulation.
+  3. Sleep Optimization: Many biohackers focus on improving both the quantity and quality of their sleep, often using various tracking devices to monitor their sleep patterns and make necessary adjustments.
+  4. Meditation and Mindfulness: This includes practices that improve mental health and reduce stress, such as mindfulness exercises, breathing techniques, and various forms of meditation.
+  5. Technology: Biohackers often use wearable technology to track various health metrics (like heart rate variability or sleep patterns) and make data-informed decisions about their lifestyle changes.
+  6. Genetic and Microbiome Testing: Some biohackers use genetic testing to understand their genetic predispositions and make lifestyle changes accordingly. Similarly, microbiome testing can provide information about gut health, which is increasingly recognized as a significant factor in overall health.
+  7. Environmental Design: This can involve optimizing personal living and working spaces to support health and well-being, such as using standing desks, optimizing light for circadian rhythms, or using air purifiers to improve air quality.
 - Forum - to fulfil 'Ability to converse with other users and experts'
 - Advanced Search - to fulfil 'Ability to search by specific requirement e.g. Mood, Depression, Sleep, etc'
 - Advanced Form - to fulfil 'Individual form choice so users get the specific information they want'
 - Podcasts - to fulfil 'Anecdotal evidence from users'
 
-Sprint 2 Requirement Types:
+###### Sprint 3+ Requirement Types ######
 
 - Languages: HTML, CSS & JavaScript, Python (perhaps node.js instead), SQL
 - Framework: NodeJs (Either this or python for the backend)
