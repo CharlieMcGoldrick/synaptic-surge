@@ -10,20 +10,20 @@ The project, 'Synaptic Surge', is designed with the aim of educating users about
 <details>
 <summary><h4>User Stories</h4></summary>
 
-###### First Time Visitor Goals #####
+#### First Time Visitor Goals ####
 
 - As a First Time user, I want to easily understand the main purpose of the site and learn more about the concepts of Biohacking.
 - As a First Time user, I want to be able to easily navigate throughout the site to find informative content and educational resources.
 - As a First Time user, I want to view the website and content clearly on my mobile device.
 - As a First Time user, I want to find ways to follow the Biohacking education platform on different social media platforms.
 
-###### Returning Visitor Goals ######
+#### Returning Visitor Goals ####
 
 - As a Returning user, I want to find and explore new content and resources about Biohacking so that I can continue my learning journey.
 - As a Returning user, I want to be able to interact with other users or experts in the field, so I can deepen my understanding and share ideas.
 - As a Returning user, I want to contact the organisation so I can request more information or suggest topics for future content.
 
-###### Frequent Visitor Goals ######
+#### Frequent Visitor Goals ####
 
 - As a Frequent user, I want to check to see if there are any new articles, videos, or resources about Biohacking.
 - As a Frequent user, I want to check to see if there are any new developments or trends in the field of Biohacking.
@@ -67,7 +67,7 @@ Overall, while I feel these sites succeed in educating the user they often leave
 <details>
     <summary><h4>Sprint 1</h4></summary>
 
-###### Sprint 1 Features ######
+#### Sprint 1 Features ####
 
 - Landing Page
 - Nav Bar
@@ -78,7 +78,7 @@ Overall, while I feel these sites succeed in educating the user they often leave
 - Basic Form - to fulfil 'Sign up for site updates / new scientific studies'
 - Footer with socials - to fulfil 'Increase Social media presence'
 
-###### Sprint 1 Requirement Types ######
+#### Sprint 1 Requirement Types ####
 
 - Languages: HTML & CSS
 - <https://formspree.io/> (To log form action data)
@@ -91,11 +91,11 @@ Overall, while I feel these sites succeed in educating the user they often leave
 <details>
     <summary><h4>Sprint 2</h4></summary>
 
-###### Sprint 2 Features ######
+#### Sprint 2 Features ####
 
 - Search Bar - to fulfil 'Ability to search for keywords'
 
-###### Sprint 2 Requirement Types ######
+#### Sprint 2 Requirement Types ####
 
 - Languages: HTML, CSS & Javascript
 
@@ -104,7 +104,7 @@ Overall, while I feel these sites succeed in educating the user they often leave
 <details>
     <summary><h4>Sprint 3+</h4></summary>
 
-###### Sprint 3+ Features ######
+#### Sprint 3+ Features ####
 
 - More information on biohacking - to fulfil the ongoing business goal; 'Educate users about Biohacking'
   1. Nutrition and Diet: Biohackers pay close attention to what they consume, and often experiment with different diets (such as ketogenic, paleo, or intermittent fasting) to see how they affect health and performance.
@@ -119,7 +119,7 @@ Overall, while I feel these sites succeed in educating the user they often leave
 - Advanced Form - to fulfil 'Individual form choice so users get the specific information they want'
 - Podcasts - to fulfil 'Anecdotal evidence from users'
 
-###### Sprint 3+ Requirement Types ######
+#### Sprint 3+ Requirement Types ####
 
 - Languages: HTML, CSS & JavaScript, Python (perhaps node.js instead), SQL
 - Framework: NodeJs (Either this or python for the backend)
