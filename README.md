@@ -1,6 +1,6 @@
 # Synaptic Surge
 
-The project, 'Synaptic Surge', is designed with the aim of educating users about everything related to biohacking. The information will be distilled into manageable segments to counteract the 'information overload' that many visitors might experience on similar sites. This platform caters to both novices interested in exploring the world of biohacking and seasoned veterans seeking to refine their knowledge in specific areas. In addition, a newsletter sign-up will be available to keep subscribers updated on any new scientific developments relevant to the topic at hand.
+The project, *Synaptic Surge*, is designed with the aim of educating users about everything related to biohacking. The information will be distilled into manageable segments to counteract the *information overload* that many visitors might experience on similar sites. This platform caters to both novices interested in exploring the world of biohacking and seasoned veterans seeking to refine their knowledge in specific areas. In addition, a newsletter sign-up will be available to keep subscribers updated on any new scientific developments relevant to the topic at hand.
 
 <details>
 <summary><h2>User Experience Design (UXD)</h2></summary>
@@ -48,6 +48,7 @@ I have found a variety of sites that include information on Biohacking:
 [Biohackers Lab](https://www.biohackerslab.com/), [David Asprey](https://daveasprey.com/), [Biohacking Collective](https://biohackingcollective.com/), [Found My Fitness](https://www.foundmyfitness.com/), [Quantified Self](https://quantifiedself.com/), and [Ben Greenfield Life](https://bengreenfieldlife.com/). Many of them seem to revolve around a personality, which gives the information on the site more credibility. This would be difficult to compete with currently, however, with a successful, monetizable site I could hire scientific professionals to give *Synaptic Surge* more credence. When in comes to design the sites have several strengths and weaknesses:
 
 [Biohackers Lab](https://www.biohackerslab.com/)
+
 Strengths
 
 - Clean and organised layout
@@ -62,6 +63,7 @@ Weaknesses
 - Generally responsive but fonts seem to big on mobile and the content could be broken up more
 
 [David Asprey](https://daveasprey.com/)
+
 Strengths
 
 - Authoritative site due to it being linked with David Asprey (*Father of Biohacking*)
@@ -70,11 +72,12 @@ Strengths
 
 Weaknesses
 
-- Black and yellow lines on homepage don't really work. I understand that it's part of his book 'Smarter Not Harder' but it doesn't fit the otherwise clean blue and white colour scheme
+- Black and yellow lines on homepage don't really work. I understand that it's part of his book *Smarter Not Harder* but it doesn't fit the otherwise clean blue and white colour scheme
 - Articles could be broken up into sub-categories
 - Generally responsive but navigation doesn't display properly on mobile
 
 [Biohacking Collective](https://biohackingcollective.com/)
+
 Strengths
 
 - Responsive
@@ -85,6 +88,7 @@ Weaknesses
 - Poor layout, it's difficult to find specific information
 
 [Found My Fitness](https://www.foundmyfitness.com/)
+
 Strengths
 
 - Authoritative site due to it's link with Dr. Rhonda Patrick
@@ -98,6 +102,7 @@ Weaknesses
 - A lot of scrolling on mobile when looking at 'Topics' articles
 
 [Quantified Self](https://quantifiedself.com/)
+
 Strengths
 
 - Minimalist design focused on content
@@ -109,6 +114,7 @@ Weaknesses
 - Poor contrast on hover elements
 
 [Ben Greenfield Life](https://bengreenfieldlife.com/)
+
 Strengths
 
 - Good colour scheme
@@ -122,8 +128,8 @@ Weaknesses
 
 Many of these sites produce podcasts, which is currently an unattainable content feature. However, I believe there is a potential niche in the podcast space for anecdotal podcasts, where I would interview users of *Synaptic Surge* and listen to their Biohacking experiences. This approach has proven successful with content creators such as:
 
-- Dr Anthony Chaffe - His focus is on the Carnivore Diet and its myriad of benefits.
-- Jake Steiner - His focus is on eyesight, specifically managing and even reversing myopia.
+- Dr Anthony Chaffe - His focus is on the Carnivore Diet and its myriad of benefits
+- Jake Steiner - His focus is on eyesight, specifically managing and even reversing myopia
 Dr Chaffe also interviews scientific peers, but I believe his interviews with regular people are quite powerful, as are Jake's, because it makes the subject matter more relatable.
 
 In addition to the sites focused specifically on biohacking, there are other platforms like Healthline and Medical News Today that cover a broader range of topics, including biohacking. These websites generally have a clear and intuitive design, with well-structured content. However, they can sometimes overwhelm users with an excessive amount of information. To improve the user experience, it would be beneficial for these sites to break down their content into more manageable chunks, while still providing clear information. This can be achieved by employing techniques that reduce visual clutter, such as using collapsible sections, implementing clear headings and subheadings, and incorporating interactive elements that allow users to explore the content at their own pace. By presenting information in a more digestible format, these websites could enhance usability and make it easier for users to find the specific information they are looking for.
@@ -148,11 +154,11 @@ In addition to the sites focused specifically on biohacking, there are other pla
 - Landing Page
 - Nav Bar
 - Responsive website
-- An education page template to fulfil 'Educate users about Biohacking'. The first entries to use this template will be:
-  1. Supplementation: This includes the use of various supplements, such as vitamins, minerals, and nootropics, that are believed to enhance various aspects of health and performance, including cognitive function.
-- About Page - to fulfil 'Educate users about Biohacking'
-- Basic Form - to fulfil 'Sign up for site updates / new scientific studies'
-- Footer with socials - to fulfil 'Increase Social media presence'
+- An education page template to fulfil *Educate users about Biohacking*. The first entries to use this template will be:
+  1. Supplementation: This includes the use of various supplements, such as vitamins, minerals, and nootropics, that are believed to enhance various aspects of health and performance, including cognitive function
+- About Page - to fulfil *Educate users about Biohacking*
+- Basic Form - to fulfil *Sign up for site updates / new scientific studies*
+- Footer with socials - to fulfil *Increase Social media presence*
 
 #### Sprint 1 Requirement Types ####
 
@@ -169,7 +175,7 @@ In addition to the sites focused specifically on biohacking, there are other pla
 
 #### Sprint 2 Features ####
 
-- Search Bar - to fulfil 'Ability to search for keywords'
+- Search Bar - to fulfil *Ability to search for keywords*
 
 #### Sprint 2 Requirement Types ####
 
@@ -182,18 +188,18 @@ In addition to the sites focused specifically on biohacking, there are other pla
 
 #### Sprint 3+ Features ####
 
-- More information on biohacking - to fulfil the ongoing business goal; 'Educate users about Biohacking'
-  1. Nutrition and Diet: Biohackers pay close attention to what they consume, and often experiment with different diets (such as ketogenic, paleo, or intermittent fasting) to see how they affect health and performance.
-  2. Exercise and Physical Activity: Biohackers often use specific exercise regimens to improve physical and mental health. This can range from traditional workout routines to more cutting-edge approaches like high-intensity interval training (HIIT) or electrical muscle stimulation.
-  3. Sleep Optimization: Many biohackers focus on improving both the quantity and quality of their sleep, often using various tracking devices to monitor their sleep patterns and make necessary adjustments.
-  4. Meditation and Mindfulness: This includes practices that improve mental health and reduce stress, such as mindfulness exercises, breathing techniques, and various forms of meditation.
-  5. Technology: Biohackers often use wearable technology to track various health metrics (like heart rate variability or sleep patterns) and make data-informed decisions about their lifestyle changes.
-  6. Genetic and Microbiome Testing: Some biohackers use genetic testing to understand their genetic predispositions and make lifestyle changes accordingly. Similarly, microbiome testing can provide information about gut health, which is increasingly recognized as a significant factor in overall health.
-  7. Environmental Design: This can involve optimizing personal living and working spaces to support health and well-being, such as using standing desks, optimizing light for circadian rhythms, or using air purifiers to improve air quality.
-- Forum - to fulfil 'Ability to converse with other users and experts'
-- Advanced Search - to fulfil 'Ability to search by specific requirement e.g. Mood, Depression, Sleep, etc'
-- Advanced Form - to fulfil 'Individual form choice so users get the specific information they want'
-- Podcasts - to fulfil 'Anecdotal evidence from users'
+- More information on biohacking - to fulfil the ongoing business goal; *Educate users about Biohacking*
+  1. Nutrition and Diet: Biohackers pay close attention to what they consume, and often experiment with different diets (such as ketogenic, paleo, or intermittent fasting) to see how they affect health and performance
+  2. Exercise and Physical Activity: Biohackers often use specific exercise regimens to improve physical and mental health. This can range from traditional workout routines to more cutting-edge approaches like high-intensity interval training (HIIT) or electrical muscle stimulation
+  3. Sleep Optimization: Many biohackers focus on improving both the quantity and quality of their sleep, often using various tracking devices to monitor their sleep patterns and make necessary adjustments
+  4. Meditation and Mindfulness: This includes practices that improve mental health and reduce stress, such as mindfulness exercises, breathing techniques, and various forms of meditation
+  5. Technology: Biohackers often use wearable technology to track various health metrics (like heart rate variability or sleep patterns) and make data-informed decisions about their lifestyle changes
+  6. Genetic and Microbiome Testing: Some biohackers use genetic testing to understand their genetic predispositions and make lifestyle changes accordingly. Similarly, microbiome testing can provide information about gut health, which is increasingly recognized as a significant factor in overall health
+  7. Environmental Design: This can involve optimizing personal living and working spaces to support health and well-being, such as using standing desks, optimizing light for circadian rhythms, or using air purifiers to improve air quality
+- Forum - to fulfil *Ability to converse with other users and experts*
+- Advanced Search - to fulfil *Ability to search by specific requirement e.g. Mood, Depression, Sleep, etc*
+- Advanced Form - to fulfil *Individual form choice so users get the specific information they want*
+- Podcasts - to fulfil *Anecdotal evidence from users*
 
 #### Sprint 3+ Requirement Types ####
 
