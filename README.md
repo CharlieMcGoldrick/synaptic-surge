@@ -170,7 +170,7 @@ The competition for this specific area features a variety of different sites; [B
 #### Sprint 1 Requirement Types ####
 
 - Languages: HTML, CSS & Javascript
-- <https://formspree.io/> (To log form action data)
+- [formspree](https://formspree.io/) (To log form action data)
 - Text
 - Images
 - Video
@@ -218,4 +218,12 @@ The competition for this specific area features a variety of different sites; [B
 - Audio
 
 </details>
+</details>
+
+<details>
+    <summary><h3>Structure</h3></summary>
+
+Touchpoints - Responsive Website
+
+![Synaptic_surge_information_architecture](assets/images/readme_only/synaptic_surge_information_architecture.drawio.svg)
 </details>
