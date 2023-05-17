@@ -43,9 +43,8 @@ The project, *Synaptic Surge*, is designed with the aim of educating users about
 </details>
 <details>
 <summary><h4>Competition</h4></summary>
-I have found a variety of sites that include information on Biohacking:
 
-[Biohackers Lab](https://www.biohackerslab.com/), [David Asprey](https://daveasprey.com/), [Biohacking Collective](https://biohackingcollective.com/), [Found My Fitness](https://www.foundmyfitness.com/), [Quantified Self](https://quantifiedself.com/), and [Ben Greenfield Life](https://bengreenfieldlife.com/). Many of them seem to revolve around a personality, which gives the information on the site more credibility. This would be difficult to compete with currently, however, with a successful, monetizable site I could hire scientific professionals to give *Synaptic Surge* more credence. When in comes to design the sites have several strengths and weaknesses:
+I have found a variety of sites that include information on Biohacking; [Biohackers Lab](https://www.biohackerslab.com/), [David Asprey](https://daveasprey.com/), [Biohacking Collective](https://biohackingcollective.com/), [Found My Fitness](https://www.foundmyfitness.com/), [Quantified Self](https://quantifiedself.com/), and [Ben Greenfield Life](https://bengreenfieldlife.com/). Many of them seem to revolve around a personality, which gives the information on the site more credibility. This would be difficult to compete with currently, however, with a successful, monetizable site I could hire scientific professionals to give *Synaptic Surge* more credence. When in comes to design the sites have several strengths and weaknesses:
 
 [Biohackers Lab](https://www.biohackerslab.com/)
 
@@ -134,6 +133,14 @@ Dr Chaffe also interviews scientific peers, but I believe his interviews with re
 
 In addition to the sites focused specifically on biohacking, there are other platforms like Healthline and Medical News Today that cover a broader range of topics, including biohacking. These websites generally have a clear and intuitive design, with well-structured content. However, they can sometimes overwhelm users with an excessive amount of information. To improve the user experience, it would be beneficial for these sites to break down their content into more manageable chunks, while still providing clear information. This can be achieved by employing techniques that reduce visual clutter, such as using collapsible sections, implementing clear headings and subheadings, and incorporating interactive elements that allow users to explore the content at their own pace. By presenting information in a more digestible format, these websites could enhance usability and make it easier for users to find the specific information they are looking for.
 </details>
+
+<details>
+<summary><h4>Competition Revisited</h4></summary>
+I have decided to revisit the strategy plane after working on the scope. Biohacking is a vast topic, and I believe I should start with a smaller vertical slice so that the site has a strong focus to begin with and then can be expanded once that area is covered (*The long WOW!*). I have decided to focus on Nootropics as it's an area that I believe isn't as well known as other areas of Biohacking such as nutrition, exercise, and sleep.
+
+The competition for this specific area features a variety of different sites; [Braintropic](https://www.braintropic.com/), [Neurohacker](https://neurohacker.com/), [Quantified Bob](https://www.quantifiedbob.com/), and [Nootriment](https://nootriment.com/). Compared to the Biohacking sites, these Nootropic sites don't have a focus on personalities but instead on education with links to scientific studies. This is more in line with what I had in mind for the MVP of *Synaptic Surge*. I think [Braintropic](https://www.braintropic.com/) and [Nootriment](https://nootriment.com/) do a great job of presenting information in a coherent, structured way, but this could still be improved, especially on mobile.
+</details>
+
 <details>
 <summary><h4>Strategy Tradeoffs</h4></summary>
 
