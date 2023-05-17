@@ -169,7 +169,7 @@ The competition for this specific area features a variety of different sites; [B
 
 #### Sprint 1 Requirement Types ####
 
-- Languages: HTML & CSS
+- Languages: HTML, CSS & Javascript
 - <https://formspree.io/> (To log form action data)
 - Text
 - Images
