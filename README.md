@@ -227,3 +227,10 @@ Touchpoints - Responsive Website
 
 ![Synaptic_surge_information_architecture](assets/images/readme_only/synaptic_surge_information_architecture.drawio.svg)
 </details>
+
+<details>
+    <summary><h3>Skeleton</h3></summary>
+
+*Wireframes will be here*
+
+</details>
