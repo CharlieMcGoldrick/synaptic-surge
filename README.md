@@ -43,16 +43,90 @@ The project, 'Synaptic Surge', is designed with the aim of educating users about
 </details>
 <details>
 <summary><h4>Competition</h4></summary>
-I have found a variety of sites that include information on Biohacking: Biohackers Lab, David Asprey, Biohacking Collective, Found My Fitness, Quantified Self, and Ben Greenfield Life. Many of them seem to revolve around a personality, which gives the information on the site more credibility. This would be difficult to compete with currently, however, with a successful, monetizable site I could hire scientific professionals to give 'Synaptic Surge' more credence.
+I have found a variety of sites that include information on Biohacking:
 
-Moreover, many of these sites create podcasts, which is an unreachable content feature right now. But I believe there could be a niche in this podcast space for anecdotal podcasts where I would interview 'Synaptic Surge' users and hear about their Biohacking experiences. This has worked well with content creators such as:
+[Biohackers Lab](https://www.biohackerslab.com/), [David Asprey](https://daveasprey.com/), [Biohacking Collective](https://biohackingcollective.com/), [Found My Fitness](https://www.foundmyfitness.com/), [Quantified Self](https://quantifiedself.com/), and [Ben Greenfield Life](https://bengreenfieldlife.com/). Many of them seem to revolve around a personality, which gives the information on the site more credibility. This would be difficult to compete with currently, however, with a successful, monetizable site I could hire scientific professionals to give *Synaptic Surge* more credence. When in comes to design the sites have several strengths and weaknesses:
 
-- Dr Anthony Chaffe - His focus is on the Carnivore Diet and its myriad of benefits (Dr Chaffe also interviews scientific peers, but I believe his interviews with regular people are quite powerful, as are Jake's, because it makes the subject matter more relatable.)
+[Biohackers Lab](https://www.biohackerslab.com/)
+Strengths
+
+- Clean and organised layout
+- Good colour contrast between the orange and white
+- Has a variety of content; text, images, videos & podcasts
+
+Weaknesses
+
+- Navbar isn't sticky which requires unnecessary scrolling to navigate the site
+- Sections could be broken up with more colours instead of being white
+- Poor colour contrast on certain pages between black and orange. Should be orange and white
+- Generally responsive but fonts seem to big on mobile and the content could be broken up more
+
+[David Asprey](https://daveasprey.com/)
+Strengths
+
+- Authoritative site due to it being linked with David Asprey (*Father of Biohacking*)
+- Hover interactions on all elements
+- High quality images
+
+Weaknesses
+
+- Black and yellow lines on homepage don't really work. I understand that it's part of his book 'Smarter Not Harder' but it doesn't fit the otherwise clean blue and white colour scheme
+- Articles could be broken up into sub-categories
+- Generally responsive but navigation doesn't display properly on mobile
+
+[Biohacking Collective](https://biohackingcollective.com/)
+Strengths
+
+- Responsive
+- Good colour contrast
+
+Weaknesses
+
+- Poor layout, it's difficult to find specific information
+
+[Found My Fitness](https://www.foundmyfitness.com/)
+Strengths
+
+- Authoritative site due to it's link with Dr. Rhonda Patrick
+- Responsive
+- Good colour contrast
+- Clean and organised layout
+
+Weaknesses
+
+- Limited interaction on elements leave it feeling a bit data
+- A lot of scrolling on mobile when looking at 'Topics' articles
+
+[Quantified Self](https://quantifiedself.com/)
+Strengths
+
+- Minimalist design focused on content
+- Text, images & videos
+- Responsive
+
+Weaknesses
+
+- Poor contrast on hover elements
+
+[Ben Greenfield Life](https://bengreenfieldlife.com/)
+Strengths
+
+- Good colour scheme
+- Text, images, videos, podcasts
+
+Weaknesses
+
+- Poor contrast on hover elements
+- Difficult to find sought after information on mobile
+- A lot of scrolling to find certain articles
+
+Many of these sites produce podcasts, which is currently an unattainable content feature. However, I believe there is a potential niche in the podcast space for anecdotal podcasts, where I would interview users of *Synaptic Surge* and listen to their Biohacking experiences. This approach has proven successful with content creators such as:
+
+- Dr Anthony Chaffe - His focus is on the Carnivore Diet and its myriad of benefits.
 - Jake Steiner - His focus is on eyesight, specifically managing and even reversing myopia.
+Dr Chaffe also interviews scientific peers, but I believe his interviews with regular people are quite powerful, as are Jake's, because it makes the subject matter more relatable.
 
-There are other sites that have a much broader focus but include information on Biohacking; Healthline and Medical News Today.
-
-Overall, while I feel these sites succeed in educating the user they often leave me with a feeling of 'information overload' and could be broken down into more manageable chunks.
+In addition to the sites focused specifically on biohacking, there are other platforms like Healthline and Medical News Today that cover a broader range of topics, including biohacking. These websites generally have a clear and intuitive design, with well-structured content. However, they can sometimes overwhelm users with an excessive amount of information. To improve the user experience, it would be beneficial for these sites to break down their content into more manageable chunks, while still providing clear information. This can be achieved by employing techniques that reduce visual clutter, such as using collapsible sections, implementing clear headings and subheadings, and incorporating interactive elements that allow users to explore the content at their own pace. By presenting information in a more digestible format, these websites could enhance usability and make it easier for users to find the specific information they are looking for.
 </details>
 <details>
 <summary><h4>Strategy Tradeoffs</h4></summary>
