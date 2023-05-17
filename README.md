@@ -225,12 +225,34 @@ The competition for this specific area features a variety of different sites; [B
 
 Touchpoints - Responsive Website
 
-![Synaptic_surge_information_architecture](assets/images/readme_only/synaptic_surge_information_architecture.drawio.svg)
+![synaptic_surge_information_architecture](assets/images/readme_only/synaptic_surge_information_architecture.drawio.svg)
 </details>
 
 <details>
     <summary><h3>Skeleton</h3></summary>
 
 *Wireframes will be here*
+
+</details>
+
+<details>
+    <summary><h3>Surface</h3></summary>
+
+<h4>Fonts</h4>
+
+*Headings* - [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab?query=Roboto+Slab)
+I'm going with Roboto Slab for my headings. It's a cool mix of modern and classic, and it's got a style that really stands out. Plus, it's easy for anyone to read.
+
+*Body Text* - [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=Open+Sans)
+For everything else, I'm using Open Sans. It's incredibly versatile, and it looks good on any device. It's simple, friendly, and really easy to read - just what I need for my site's main text.
+
+<h4>Colours</h4>
+
+![synaptic_surge_colour_swatch](assets/images/readme_only/synaptic_surge_colour_swatch.svg)
+
+- #1D2D43 (Dark Navy Blue): I could use this as my primary color. It's great for major elements like the header, footer, or primary background color. I can also use it for important text.
+- #B7C6E2 (Light Pastel Blue): This light and airy color could serve as a background color for certain sections to provide contrast with the darker blue. It's also a good color for secondary text, borders, or backgrounds of cards or insets where I want the content to stand out.
+- #DCA11C (Dark Goldenrod): This is a strong, vibrant color that can serve as a highlight or accent color. I can use it for calls to action, buttons, or other elements I want to draw attention to. As it's quite a rich color, using it sparingly can make my design pop without being overpowering.
+- #F1F1E6 (Very Pale Yellow): This very light color is excellent for backgrounds, especially if I want a slightly warmer tone than pure white. I can also use it for elements like tooltips, drop-down menus, or modals where I want a contrast with the main page.
 
 </details>
