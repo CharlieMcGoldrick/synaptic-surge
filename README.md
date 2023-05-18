@@ -347,5 +347,3 @@ For everything else, I'm using Open Sans. It's incredibly versatile, and it look
 
 </details>
 </details>
-
-
