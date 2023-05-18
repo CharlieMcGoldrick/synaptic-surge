@@ -144,9 +144,9 @@ The competition for this specific area features a variety of different sites; [B
 <details>
 <summary><h4>Strategy Tradeoffs</h4></summary>
 
-![synaptic_surge_tradeoff_table](assets/images/readme_only/synaptic_surge_strategy_tradeoffs_table.png)
+![synaptic_surge_tradeoff_table](assets/images/readme/uxd/strategy/synaptic_surge_strategy_tradeoffs_table.png)
 
-![synaptic_surge_tradeoff_graph](assets/images/readme_only/synaptic_surge_strategy_tradeoffs_graph.png)
+![synaptic_surge_tradeoff_graph](assets/images/readme/uxd/strategy/synaptic_surge_strategy_tradeoffs_graph.png)
 </details>
 </details>
 
@@ -170,7 +170,6 @@ The competition for this specific area features a variety of different sites; [B
 #### Sprint 1 Requirement Types ####
 
 - Languages: HTML, CSS & Javascript
-- [formspree](https://formspree.io/) (To log form action data)
 - Text
 - Images
 - Video
@@ -225,7 +224,7 @@ The competition for this specific area features a variety of different sites; [B
 
 Touchpoints - Responsive Website
 
-![synaptic_surge_information_architecture](assets/images/readme_only/synaptic_surge_information_architecture.drawio.svg)
+![synaptic_surge_information_architecture](assets/images/readme/uxd/structure/synaptic-surge-information-architecture.png)
 </details>
 
 <details>
@@ -235,31 +234,31 @@ Touchpoints - Responsive Website
 <details>
     <summary><h5>Landing Page</h5></summary>
 
-![desktop-landing-page](assets/images/readme_only/skeleton/desktop-landing-page.png)
+![desktop-landing-page](assets/images/readme/uxd/skeleton/desktop-landing-page.png)
 </details>
 
 <details>
     <summary><h5>About Page</h5></summary>
     
-![desktop-about-page](assets/images/readme_only/skeleton/desktop-about-page.png)
+![desktop-about-page](assets/images/readme/uxd/skeleton/desktop-about-page.png)
 </details>
 
 <details>
     <summary><h5>Supplement Page (General)</h5></summary>
 
-![desktop-supplement-page-general](assets/images/readme_only/skeleton/desktop-supplement-page-general.png)
+![desktop-supplement-page-general](assets/images/readme/uxd/skeleton/desktop-supplement-page-general.png)
 </details>
 
 <details>
     <summary><h5>Supplement Page (Specific)</h5></summary>
 
-![desktop-supplement-page-specific](assets/images/readme_only/skeleton/desktop-supplement-page-specific.png)
+![desktop-supplement-page-specific](assets/images/readme/uxd/skeleton/desktop-supplement-page-specific.png)
 </details>
 
 <details>
     <summary><h5>Footer</h5></summary>
 
-![desktop-supplement-footer](assets/images/readme_only/skeleton/desktop-footer.png)
+![desktop-supplement-footer](assets/images/readme/uxd/skeleton/desktop-footer.png)
 </details>
 </details>
 
@@ -267,63 +266,62 @@ Touchpoints - Responsive Website
 <details>
     <summary><h5>Landing Page</h5></summary>
 
-![tablet-landing-page](assets/images/readme_only/skeleton/tablet-landing-page.png)
+![tablet-landing-page](assets/images/readme/uxd/skeleton/tablet-landing-page.png)
 </details>
 
 <details>
     <summary><h5>About Page</h5></summary>
 
-![tablet-about-page](assets/images/readme_only/skeleton/tablet-about-page.png)
+![tablet-about-page](assets/images/readme/uxd/skeleton/tablet-about-page.png)
 </details>
 
 <details>
     <summary><h5>Supplement Page (General)</h5></summary>
 
-![tablet-supplement-page-general](assets/images/readme_only/skeleton/tablet-supplement-page-general.png)
+![tablet-supplement-page-general](assets/images/readme/uxd/skeleton/tablet-supplement-page-general.png)
 </details>
 
 <details>
     <summary><h5>Supplement Page (Specific)</h5></summary>
 
-![tablet-supplement-page-specific](assets/images/readme_only/skeleton/tablet-supplement-page-specific.png)
+![tablet-supplement-page-specific](assets/images/readme/uxd/skeleton/tablet-supplement-page-specific.png)
 </details>
 
 <details>
     <summary><h5>Footer</h5></summary>
 
-![tablet-supplement-footer](assets/images/readme_only/skeleton/tablet-footer.png)
-</details>
+![tablet-supplement-footer](assets/images/readme/uxd/skeleton/tablet-footer.png)
 </details>
 
 <h4>Mobile</h4>
 <details>
     <summary><h5>Landing Page</h5></summary>
 
-![mobile-landing-page](assets/images/readme_only/skeleton/mobile-landing-page.png)
+![mobile-landing-page](assets/images/readme/uxd/skeleton/mobile-landing-page.png)
 </details>
 
 <details>
     <summary><h5>About Page</h5></summary>
 
-![mobile-about-page](assets/images/readme_only/skeleton/mobile-about-page.png)
+![mobile-about-page](assets/images/readme/uxd/skeleton/mobile-about-page.png)
 </details>
 
 <details>
     <summary><h5>Supplement Page (General)</h5></summary>
 
-![mobile-supplement-page-general](assets/images/readme_only/skeleton/mobile-supplement-page-general.png)
+![mobile-supplement-page-general](assets/images/readme/uxd/skeleton/mobile-supplement-page-general.png)
 </details>
 
 <details>
     <summary><h5>Supplement Page (Specific)</h5></summary>
 
-![mobile-supplement-page-specific](assets/images/readme_only/skeleton/mobile-supplement-page-specific.png)
+![mobile-supplement-page-specific](assets/images/readme/uxd/skeleton/mobile-supplement-page-specific.png)
 </details>
 
 <details>
     <summary><h5>Footer</h5></summary>
 
-![mobile-supplement-footer](assets/images/readme_only/skeleton/mobile-footer.png)
+![mobile-supplement-footer](assets/images/readme/uxd/skeleton/mobile-footer.png)
 </details>
 </details>
 
@@ -340,7 +338,7 @@ For everything else, I'm using Open Sans. It's incredibly versatile, and it look
 
 <h4>Colours</h4>
 
-![synaptic_surge_colour_swatch](assets/images/readme_only/synaptic_surge_colour_swatch.svg)
+![synaptic_surge_colour_swatch](assets/images/readme/uxd/surface/synaptic_surge_colour_swatch.png)
 
 - #1D2D43 (Dark Navy Blue): I could use this as my primary color. It's great for major elements like the header, footer, or primary background color. I can also use it for important text.
 - #B7C6E2 (Light Pastel Blue): This light and airy color could serve as a background color for certain sections to provide contrast with the darker blue. It's also a good color for secondary text, borders, or backgrounds of cards or insets where I want the content to stand out.
