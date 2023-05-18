@@ -231,8 +231,100 @@ Touchpoints - Responsive Website
 <details>
     <summary><h3>Skeleton</h3></summary>
 
-*Wireframes will be here*
+<h4>Desktop</h4>
+<details>
+    <summary><h5>Landing Page</h5></summary>
 
+![desktop-landing-page](assets/images/readme_only/skeleton/desktop-landing-page.png)
+</details>
+
+<details>
+    <summary><h5>About Page</h5></summary>
+    
+![desktop-about-page](assets/images/readme_only/skeleton/desktop-about-page.png)
+</details>
+
+<details>
+    <summary><h5>Supplement Page (General)</h5></summary>
+
+![desktop-supplement-page-general](assets/images/readme_only/skeleton/desktop-supplement-page-general.png)
+</details>
+
+<details>
+    <summary><h5>Supplement Page (Specific)</h5></summary>
+
+![desktop-supplement-page-specific](assets/images/readme_only/skeleton/desktop-supplement-page-specific.png)
+</details>
+
+<details>
+    <summary><h5>Footer</h5></summary>
+
+![desktop-supplement-footer](assets/images/readme_only/skeleton/desktop-footer.png)
+</details>
+</details>
+
+<h4>Tablet</h4>
+<details>
+    <summary><h5>Landing Page</h5></summary>
+
+![tablet-landing-page](assets/images/readme_only/skeleton/tablet-landing-page.png)
+</details>
+
+<details>
+    <summary><h5>About Page</h5></summary>
+
+![tablet-about-page](assets/images/readme_only/skeleton/tablet-about-page.png)
+</details>
+
+<details>
+    <summary><h5>Supplement Page (General)</h5></summary>
+
+![tablet-supplement-page-general](assets/images/readme_only/skeleton/tablet-supplement-page-general.png)
+</details>
+
+<details>
+    <summary><h5>Supplement Page (Specific)</h5></summary>
+
+![tablet-supplement-page-specific](assets/images/readme_only/skeleton/tablet-supplement-page-specific.png)
+</details>
+
+<details>
+    <summary><h5>Footer</h5></summary>
+
+![tablet-supplement-footer](assets/images/readme_only/skeleton/tablet-footer.png)
+</details>
+</details>
+
+<h4>Mobile</h4>
+<details>
+    <summary><h5>Landing Page</h5></summary>
+
+![mobile-landing-page](assets/images/readme_only/skeleton/mobile-landing-page.png)
+</details>
+
+<details>
+    <summary><h5>About Page</h5></summary>
+
+![mobile-about-page](assets/images/readme_only/skeleton/mobile-about-page.png)
+</details>
+
+<details>
+    <summary><h5>Supplement Page (General)</h5></summary>
+
+![mobile-supplement-page-general](assets/images/readme_only/skeleton/mobile-supplement-page-general.png)
+</details>
+
+<details>
+    <summary><h5>Supplement Page (Specific)</h5></summary>
+
+![mobile-supplement-page-specific](assets/images/readme_only/skeleton/mobile-supplement-page-specific.png)
+</details>
+
+<details>
+    <summary><h5>Footer</h5></summary>
+
+![mobile-supplement-footer](assets/images/readme_only/skeleton/mobile-footer.png)
+</details>
 </details>
 
 <details>
