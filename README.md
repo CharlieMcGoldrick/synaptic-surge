@@ -230,7 +230,7 @@ Touchpoints - Responsive Website
 <details>
     <summary><h3>Skeleton</h3></summary>
 
-<h4>Desktop</h4>
+<h4>Desktop Wireframes</h4>
 <details>
     <summary><h5>Landing Page</h5></summary>
 
@@ -260,9 +260,8 @@ Touchpoints - Responsive Website
 
 ![desktop-supplement-footer](assets/images/readme/uxd/skeleton/desktop-footer.png)
 </details>
-</details>
 
-<h4>Tablet</h4>
+<h4>Tablet Wireframes</h4>
 <details>
     <summary><h5>Landing Page</h5></summary>
 
@@ -293,7 +292,7 @@ Touchpoints - Responsive Website
 ![tablet-supplement-footer](assets/images/readme/uxd/skeleton/tablet-footer.png)
 </details>
 
-<h4>Mobile</h4>
+<h4>Mobile Wireframes</h4>
 <details>
     <summary><h5>Landing Page</h5></summary>
 
@@ -325,6 +324,7 @@ Touchpoints - Responsive Website
 </details>
 </details>
 
+
 <details>
     <summary><h3>Surface</h3></summary>
 
@@ -346,3 +346,6 @@ For everything else, I'm using Open Sans. It's incredibly versatile, and it look
 - #F1F1E6 (Very Pale Yellow): This very light color is excellent for backgrounds, especially if I want a slightly warmer tone than pure white. I can also use it for elements like tooltips, drop-down menus, or modals where I want a contrast with the main page.
 
 </details>
+</details>
+
+
