@@ -67,3 +67,18 @@ h6 {
 #main-nav-links-right .main-nav-links {
     margin-left: 25px;
 }
+
+/* Hero Section */
+#hero-section {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background: #1D2D43;
+}
+
+#hero-bg-image {
+    height: 500px;
+    width: 100%;
+    background: url('../assets/images/synapse-surge-hero-image.png') no-repeat center center / cover;
+    opacity: 0.3;
+}
