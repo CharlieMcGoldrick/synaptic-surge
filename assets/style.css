@@ -55,6 +55,11 @@ h6 {
     font-size: 1.65rem;
 }
 
+#main-nav-link-left a {
+    display: flex;
+    align-items: center;
+}
+
 #main-nav-links-right {
     font-size: 1.1rem;
 }
