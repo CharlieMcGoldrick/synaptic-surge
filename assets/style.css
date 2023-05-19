@@ -1,8 +1,25 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /* Global Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #B7C6E2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
 }
 
 /* Navbar Styling */
@@ -16,7 +33,7 @@
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    padding: 0 25px;
+    padding: 0 50px;
     height: 100%;
 }
 
@@ -31,6 +48,15 @@
 
 .main-nav-links {
     color: #B7C6E2;
+    font-weight: 600;
+}
+
+#main-nav-link-left {
+    font-size: 1.65rem;
+}
+
+#main-nav-links-right {
+    font-size: 1.1rem;
 }
 
 #main-nav-links-right .main-nav-links {
