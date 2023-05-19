@@ -1,5 +1,26 @@
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Navbar Styling */
+#main-nav {
+    height: 100px;
+    background: #1D2D43;
+}
+
+#main-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+#main-nav a {
+    text-decoration: none;
+}
+
+#main-nav img {
+    height: 75px;
+    width: 75px;
 }
