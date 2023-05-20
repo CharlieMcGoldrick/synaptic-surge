@@ -100,4 +100,15 @@ h6 {
     margin: 0 auto;
 }
 
+#hero-content h1 {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+#hero-content p {
+    font-size: 1.25rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
 /*--------------- HERO SECTION STYLING ENDS ---------------*/
