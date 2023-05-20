@@ -74,15 +74,15 @@ h6 {
 /*--------------- HERO SECTION STYLING STARTS ---------------*/
 #hero-section {
     position: relative;
-    height: 500px;
+    height: 80vh;
     width: 100%;
     background: #1D2D43;
 }
 
 #hero-bg-image {
-    height: 500px;
+    height: 80vh;
     width: 100%;
-    background: url('../assets/images/synapse-surge-hero-image.png') no-repeat center center / cover;
+    background: url('../assets/images/synapse-surge-hero-image.webp') no-repeat center center / cover;
     opacity: 0.3;
 }
 
