@@ -1,7 +1,7 @@
 // List of supplements for each type
 const supplements = {
     Nootropic: [
-        { name: 'Nootropic 1', value: 'nootropic1-content' },
+        { name: 'Ashwaganda', value: 'nootropic1-content' },
         { name: 'Nootropic 2', value: 'nootropic2-content' },
     ],
     Mineral: [

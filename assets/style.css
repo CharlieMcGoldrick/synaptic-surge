@@ -61,7 +61,12 @@ button {
 }
 
 .button-light {
-    background-color: #B7C6E2;
+    background-color: var(--secondary-colour);
+}
+
+.button-dark {
+    background-color: var(--primary-colour);
+    color: var(--secondary-colour);
 }
 
 /*--------------- GENERAL BUTTON STYLING ENDS ---------------*/
@@ -70,7 +75,7 @@ button {
 /*--------------- ALL PAGES ---------------*/
 #main-nav {
     height: 60px;
-    background: #1D2D43;
+    background: var(--primary-colour);
 }
 
 #main-nav ul {
@@ -148,3 +153,48 @@ button {
 
 /*--------------- INDEX, ABOUT, SUPPLEMENT (GENERAL) PAGES ---------------*/
 /*--------------- HERO SECTION STYLING ENDS ---------------*/
+
+/*--------------- DROPDOWN SECTION STYLING STARTS ---------------*/
+.dropdown-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-colour);
+    width: 100%;
+    min-height: 50vh;
+}
+
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    min-height: 75%;
+    background-color: var(--secondary-colour);
+    border-radius: 50px;
+}
+
+.select-container {
+    display: flex;
+    align-self: flex-start;
+}
+
+.dropdown-section h2 {
+    color: var(--primary-colour);
+}
+
+.summary-image-container {
+    display: flex;
+}
+
+.dropdown-section .summary-image-container p {
+    color: var(--primary-colour);
+}
+
+.dropdown-section .summary-image-container img {
+    width: 50%;
+    height: auto;
+    border-radius: 50px;
+}
+
+/* DROPDOWN SECTION STYLING ENDS */
