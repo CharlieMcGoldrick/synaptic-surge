@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const supplementTypeDropdown = document.getElementById('supplement-type-dropdown');
     const supplementDropdown = document.getElementById('supplement-dropdown');
-    const supplementContentSections = document.getElementById('supplement-content');
+    const supplementContentSections = Array.from(document.getElementsByClassName('supplement-content'));
 
     // Function to generate supplement options
     function generateSupplementOptions() {
