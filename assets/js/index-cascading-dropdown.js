@@ -37,3 +37,4 @@ for (const supplement of supplementsForType) {
     option.value = supplement.value;
     supplementDropdown.appendChild(option);
 }
+
