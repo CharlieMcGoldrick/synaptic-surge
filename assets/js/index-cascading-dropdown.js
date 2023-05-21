@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         
         // Remove all existing options
         while (supplementDropdown.firstChild) {
-            supplementDropdown.firstChild.delete();
+            supplementDropdown.firstChild.remove();
         }
     
         // Add a new option
