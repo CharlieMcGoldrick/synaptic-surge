@@ -15,33 +15,36 @@ const supplements = {
 };
 
 // Get references to dropdown elements
-const supplementTypeDropdown = document.getElementById('supplement-type-dropdown');
-const supplementDropdown = document.getElementById('supplementdropdown');
-const supplementContentSections = document.getElementById('supplement-content');
+document.addEventListener('DOMContentLoaded', function () {
 
-// Function to generate supplement options
-function generateSupplementOptions() {
-    const selectedType = supplementTypeDropdown.value;
-    const supplementsForType = supplements[selectedType];
-}
+    const supplementTypeDropdown = document.getElementById('supplement-type-dropdown');
+    const supplementDropdown = document.getElementById('supplementdropdown');
+    const supplementContentSections = document.getElementById('supplement-content');
 
-// Remove all existing options
-while (supplementDropdown.firstChild) {
-    supplementDropdown.firstChild.delete();
-}
+    // Function to generate supplement options
+    function generateSupplementOptions() {
+        const selectedType = supplementTypeDropdown.value;
+        const supplementsForType = supplements[selectedType];
+    }
 
-// Add a new option
-for (const supplement of supplementsForType) {
-    const option = document.createElement('option');
-    option.text = supplement.name;
-    option.value = supplement.value;
-    supplementDropdown.appendChild(option);
-}
+    // Remove all existing options
+    while (supplementDropdown.firstChild) {
+        supplementDropdown.firstChild.delete();
+    }
 
-// Update Supplement options when a supplement type is selected
-supplementTypeDropdown.addEventListener('change', function () {
+    // Add a new option
+    for (const supplement of supplementsForType) {
+        const option = document.createElement('option');
+        option.text = supplement.name;
+        option.value = supplement.value;
+        supplementDropdown.appendChild(option);
+    }
+
+    // Update Supplement options when a supplement type is selected
+    supplementTypeDropdown.addEventListener('change', function () {
+        generateSupplementOptions();
+    });
+
+    // Initialise Options
     generateSupplementOptions();
-});
-
-// Initialise Options
-generateSupplementOptions();
+};
