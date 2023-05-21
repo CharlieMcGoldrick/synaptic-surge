@@ -55,8 +55,14 @@ document.addEventListener('DOMContentLoaded', function () {
     // Update Supplement options when a supplement type is selected
     supplementTypeDropdown.addEventListener('change', function () {
         generateSupplementOptions();
+        showContent(supplementDropdown.value); // Display content based on initial selection
+    });
+
+    supplementDropdown.addEventListener('change', function () {
+        showContent(supplementDropdown.value);
     });
 
     // Initialise Options
     generateSupplementOptions();
+    showContent(supplementDropdown.value); // Display content based on initial selection
 });
