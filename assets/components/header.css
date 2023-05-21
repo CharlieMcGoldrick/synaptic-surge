@@ -1,0 +1,42 @@
+/*--------------- NAVBAR STYLING STARTS ---------------*/
+#main-nav {
+    height: 7.5vh;
+    background: #1D2D43;
+}
+
+#main-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#main-nav a {
+    text-decoration: none;
+}
+
+#main-nav img {
+    display: block;
+    height: 55px;
+    width: 55px;
+}
+
+.main-nav-links {
+    color: #B7C6E2;
+    font-weight: 600;
+}
+
+#main-nav-link-left {
+    font-size: 1.65rem;
+}
+
+#main-nav-link-left a {
+    display: flex;
+}
+
+#main-nav-links-right {
+    font-size: 1.1rem;
+}
+
+/*--------------- NAVBAR STYLING ENDS ---------------*/
