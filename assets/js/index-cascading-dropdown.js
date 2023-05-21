@@ -15,9 +15,9 @@ const supplements = {
 };
 
 // Get references to dropdown elements
-const supplementTypeDropdown = document.getElementById('supplement-type-dropdown')
-const supplementDropdown = document.getElementById('supplementdropdown')
-const supplementContentSections = document.getElementById('supplement-content')
+const supplementTypeDropdown = document.getElementById('supplement-type-dropdown');
+const supplementDropdown = document.getElementById('supplementdropdown');
+const supplementContentSections = document.getElementById('supplement-content');
 
 // Function to generate supplement options
 function generateSupplementOptions() {
@@ -39,8 +39,9 @@ for (const supplement of supplementsForType) {
 }
 
 // Update Supplement options when a supplement type is selected
-supplementTypeDropdown.addEventListener('change', function() {
+supplementTypeDropdown.addEventListener('change', function () {
     generateSupplementOptions();
 });
 
-
+// Initialise Options
+generateSupplementOptions();
