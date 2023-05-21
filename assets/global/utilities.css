@@ -122,46 +122,56 @@
 
 /*--------------- MARGIN-LEFT/RIGHT STYLING STARTS ---------------*/
 .mx-1 {
-    margin: 0 0.25rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
 }
 
 .mx-2 {
-    margin: 0 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .mx-3 {
-    margin: 0 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .mx-4 {
-    margin: 0 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .mx-5 {
-    margin: 0 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 /*--------------- MARGIN-LEFT/RIGHT STYLING ENDS ---------------*/
 
 /*--------------- MARGIN-TOP/BOTTOM STYLING STARTS ---------------*/
 .my-1 {
-    margin: 0.25rem 0;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
 }
 
 .my-2 {
-    margin: 0.5rem 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .my-3 {
-    margin: 1rem 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .my-4 {
-    margin: 1.5rem 0;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .my-5 {
-    margin: 3rem 0;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 /*--------------- MARGIN-TOP/BOTTOM STYLING STARTS ---------------*/
@@ -283,46 +293,56 @@
 
 /*--------------- PADDING-LEFT/RIGHT STYLING STARTS ---------------*/
 .px-1 {
-    padding: 0 0.25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
 }
 
 .px-2 {
-    padding: 0 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .px-3 {
-    padding: 0 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .px-4 {
-    padding: 0 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .px-5 {
-    padding: 0 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 /*--------------- PADDING-LEFT/RIGHT STYLING ENDS ---------------*/
 
 /*--------------- PADDING-TOP/BOTTOM STYLING STARTS ---------------*/
 .py-1 {
-    padding: 0.25rem 0;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
 }
 
 .py-2 {
-    padding: 0.5rem 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .py-3 {
-    padding: 1rem 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .py-4 {
-    padding: 1.5rem 0;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .py-5 {
-    padding: 3rem 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 /*--------------- PADDING-TOP/BOTTOM STYLING ENDS ---------------*/
