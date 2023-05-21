@@ -25,20 +25,21 @@ document.addEventListener('DOMContentLoaded', function () {
     function generateSupplementOptions() {
         const selectedType = supplementTypeDropdown.value;
         const supplementsForType = supplements[selectedType];
+        
+        // Remove all existing options
+        while (supplementDropdown.firstChild) {
+            supplementDropdown.firstChild.delete();
+        }
+    
+        // Add a new option
+        for (const supplement of supplementsForType) {
+            const option = document.createElement('option');
+            option.text = supplement.name;
+            option.value = supplement.value;
+            supplementDropdown.appendChild(option);
+        }
     }
 
-    // Remove all existing options
-    while (supplementDropdown.firstChild) {
-        supplementDropdown.firstChild.delete();
-    }
-
-    // Add a new option
-    for (const supplement of supplementsForType) {
-        const option = document.createElement('option');
-        option.text = supplement.name;
-        option.value = supplement.value;
-        supplementDropdown.appendChild(option);
-    }
 
     // Update Supplement options when a supplement type is selected
     supplementTypeDropdown.addEventListener('change', function () {
