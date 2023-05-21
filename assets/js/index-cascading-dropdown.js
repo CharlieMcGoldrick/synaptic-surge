@@ -22,7 +22,7 @@ const supplementContentSections = document.getElementById('supplement-content')
 // Function to generate supplement options
 function generateSupplementOptions() {
     const selectedType = supplementTypeDropdown.value;
-    const supplementForType = supplements[selectedType];
+    const supplementsForType = supplements[selectedType];
 }
 
 // Remove all existing options
@@ -37,4 +37,10 @@ for (const supplement of supplementsForType) {
     option.value = supplement.value;
     supplementDropdown.appendChild(option);
 }
+
+// Update Supplement options when a supplement type is selected
+supplementTypeDropdown.addEventListener('change', function() {
+    generateSupplementOptions();
+});
+
 
