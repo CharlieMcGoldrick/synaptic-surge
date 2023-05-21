@@ -1,5 +1,6 @@
 .button {
-        border: none;
+    border: none;
+    border-radius: 999px;
 }
 
 .button-light {
