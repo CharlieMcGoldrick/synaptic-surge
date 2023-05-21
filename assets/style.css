@@ -67,6 +67,7 @@ button {
 /*--------------- GENERAL BUTTON STYLING ENDS ---------------*/
 
 /*--------------- NAVBAR STYLING STARTS ---------------*/
+/*--------------- ALL PAGES ---------------*/
 #main-nav {
     height: 60px;
     background: #1D2D43;
@@ -107,6 +108,7 @@ button {
     font-size: 1.1rem;
 }
 
+/*--------------- ALL PAGES ---------------*/
 /*--------------- NAVBAR STYLING ENDS ---------------*/
 
 /*--------------- HERO SECTION STYLING STARTS ---------------*/
@@ -118,10 +120,10 @@ button {
     background: var(--primary-colour);
 }
 
-#hero-bg-image {
+#hero-bg-image img {
     height: 80vh;
     width: 100%;
-    background: url('./images/synaptic-surge-hero-image.webp') no-repeat center center / cover;
+    object-fit: cover;
     opacity: 0.3;
 }
 
