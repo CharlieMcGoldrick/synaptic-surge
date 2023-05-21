@@ -25,12 +25,12 @@ document.addEventListener('DOMContentLoaded', function () {
     function generateSupplementOptions() {
         const selectedType = supplementTypeDropdown.value;
         const supplementsForType = supplements[selectedType];
-        
+
         // Remove all existing options
         while (supplementDropdown.firstChild) {
             supplementDropdown.firstChild.remove();
         }
-    
+
         // Add a new option
         for (const supplement of supplementsForType) {
             const option = document.createElement('option');
@@ -38,6 +38,17 @@ document.addEventListener('DOMContentLoaded', function () {
             option.value = supplement.value;
             supplementDropdown.appendChild(option);
         }
+    }
+
+    // Function to display content based on supplement choice
+    function showContent(supplement) {
+        supplementContentSections.forEach(supplementContentSections => {
+            if (supplementContentSections.id === supplement) {
+                supplementContentSections.style.display = 'block';
+            } else {
+                supplementContentSections.style.display = 'none';
+            }
+        });
     }
 
 
