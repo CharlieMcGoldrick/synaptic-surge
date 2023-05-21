@@ -13,3 +13,8 @@ const supplements = {
         { name: 'Vitamin 2', value: 'vitamin2-content' },
     ],
 };
+
+// Get references to dropdown elements
+const supplementTypeDropdown = document.getElementById('supplement-type-dropdown')
+const supplementDropdown = document.getElementById('supplementdropdown')
+const supplementContentSections = document.getElementById('supplement-content')
