@@ -18,7 +18,7 @@ const supplements = {
 document.addEventListener('DOMContentLoaded', function () {
 
     const supplementTypeDropdown = document.getElementById('supplement-type-dropdown');
-    const supplementDropdown = document.getElementById('supplementdropdown');
+    const supplementDropdown = document.getElementById('supplement-dropdown');
     const supplementContentSections = document.getElementById('supplement-content');
 
     // Function to generate supplement options
