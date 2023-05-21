@@ -1,10 +1,148 @@
+/*--------------- FONT IMPORTS STARTS ---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*--------------- FONT IMPORTS ENDS ---------------*/
+
 /*--------------- CSS GLOBAL IMPORTS STARTS ---------------*/
-@import url('./global/reset.css');
-@import url('./global/typography.css');
-@import url('./global/colours.css');
 @import url('./global/utilities.css');
 /*--------------- CSS GLOBAL IMPORTS ENDS ---------------*/
 
-@import url('./components/header.css');
-@import url('./components/hero.css');
-@import url('./components/buttons.css');
+/*--------------- COLOUR VARIABLES STARTS ---------------*/
+:root {
+    --primary-colour: #1D2D43;
+    --secondary-colour: #B7C6E2;
+    --accent-colour: #DCA11C;
+    --light-colour: #F1F1E6;
+}
+
+/*--------------- COLOUR VARIABLES ENDS ---------------*/
+
+/*--------------- RESET STYLING STARTS ---------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------- RESET STYLING ENDS ---------------*/
+
+/*--------------- TYPOGRAPHY STYLING STARTS ---------------*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #B7C6E2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.5;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/*--------------- TYPOGRAPHY STYLING ENDS ---------------*/
+
+/*--------------- GENERAL BUTTON STYLING STARTS ---------------*/
+.button {
+    border: none;
+    border-radius: 999px;
+}
+
+.button-light {
+    background-color: #B7C6E2;
+}
+
+/*--------------- GENERAL BUTTON STYLING ENDS ---------------*/
+
+/*--------------- NAVBAR STYLING STARTS ---------------*/
+#main-nav {
+    height: 60px;
+    background: #1D2D43;
+}
+
+#main-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#main-nav a {
+    text-decoration: none;
+}
+
+#main-nav img {
+    display: block;
+    height: 55px;
+    width: 55px;
+}
+
+.main-nav-links {
+    color: #B7C6E2;
+    font-weight: 600;
+}
+
+#main-nav-link-left {
+    font-size: 1.65rem;
+}
+
+#main-nav-link-left a {
+    display: flex;
+}
+
+#main-nav-links-right {
+    font-size: 1.1rem;
+}
+
+/*--------------- NAVBAR STYLING ENDS ---------------*/
+
+/*--------------- HERO SECTION STYLING STARTS ---------------*/
+/*--------------- INDEX, ABOUT, SUPPLEMENT (GENERAL) PAGES ---------------*/
+#hero-section {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background: var(--primary-colour);
+}
+
+#hero-bg-image {
+    height: 80vh;
+    width: 100%;
+    background: url('./images/synaptic-surge-hero-image.webp') no-repeat center center / cover;
+    opacity: 0.3;
+}
+
+#hero-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    inset: 0;
+    margin: 0 auto;
+}
+
+#hero-content h1 {
+    font-size: 3rem;
+}
+
+#hero-content p {
+    font-size: 1.25rem;
+}
+
+/*--------------- INDEX, ABOUT, SUPPLEMENT (GENERAL) PAGES ---------------*/
+/*--------------- HERO SECTION STYLING ENDS ---------------*/
