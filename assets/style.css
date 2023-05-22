@@ -192,6 +192,11 @@ a {
     border: none;
 }
 
+.dropdown-section option {
+    background-color: #F1F1E6;
+    border-radius: 10px;
+}
+
 .dropdown-section h2 {
     color: var(--primary-colour);
     font-size: 2.5rem;
