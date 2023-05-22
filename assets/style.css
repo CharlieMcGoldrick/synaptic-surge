@@ -71,6 +71,13 @@ button {
 
 /*--------------- GENERAL BUTTON STYLING ENDS ---------------*/
 
+/*--------------- GENERAL LINK STYLING STARTS ---------------*/
+a {
+    text-decoration: none;
+}
+
+/*--------------- GENERAL LINK STYLING ENDS ---------------*/
+
 /*--------------- NAVBAR STYLING STARTS ---------------*/
 /*--------------- ALL PAGES ---------------*/
 #main-nav {
@@ -86,9 +93,7 @@ button {
     height: 100%;
 }
 
-#main-nav a {
-    text-decoration: none;
-}
+
 
 #main-nav img {
     display: block;
@@ -207,6 +212,10 @@ button {
     width: 47.5%;
     height: auto;
     border-radius: 40px;
+}
+
+.dropdown-section a {
+    color: var(--primary-colour)
 }
 
 /* DROPDOWN SECTION STYLING ENDS */
