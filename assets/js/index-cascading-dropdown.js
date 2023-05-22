@@ -2,15 +2,15 @@
 const supplements = {
     Nootropic: [
         { name: 'Ashwaganda', value: 'nootropic1-content' },
-        { name: 'Nootropic 2', value: 'nootropic2-content' },
+        { name: 'Rhodiola rosea', value: 'nootropic2-content' },
     ],
     Mineral: [
-        { name: 'Mineral 1', value: 'mineral1-content' },
-        { name: 'Mineral 2', value: 'mineral2-content' },
+        { name: 'Magnesium', value: 'mineral1-content' },
+        { name: 'Potassium', value: 'mineral2-content' },
     ],
     Vitamin: [
-        { name: 'Vitamin 1', value: 'vitamin1-content' },
-        { name: 'Vitamin 2', value: 'vitamin2-content' },
+        { name: 'Vitamin A', value: 'vitamin1-content' },
+        { name: 'Vitamin E', value: 'vitamin2-content' },
     ],
 };
 

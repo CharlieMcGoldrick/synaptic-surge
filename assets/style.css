@@ -200,7 +200,7 @@ button {
 
 .dropdown-section .summary-image-container p {
     color: var(--primary-colour);
-    width: 47.5%;
+    font-size: 1.25rem;
 }
 
 .dropdown-section .summary-image-container img {
