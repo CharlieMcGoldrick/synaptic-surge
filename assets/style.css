@@ -28,7 +28,7 @@
 /*--------------- TYPOGRAPHY STYLING STARTS ---------------*/
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #B7C6E2;
+    color: var(--secondary-colour);
 }
 
 h1,
