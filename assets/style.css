@@ -72,7 +72,9 @@ button {
 /*--------------- GENERAL BUTTON STYLING ENDS ---------------*/
 
 /*--------------- GENERAL LINK STYLING STARTS ---------------*/
-a {
+a,
+a:visited {
+    color: inherit;
     text-decoration: none;
 }
 
@@ -226,19 +228,23 @@ a {
 
 /* DROPDOWN SECTION STYLING ENDS */
 
-.hr {
-    color: var(--light-colour);
-}
-
 /* FOOTER STYLING STARTS */
-.form-container {
+.footer-section {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: var(--primary-colour);
     width: 100%;
-    min-height: 500px;
+    min-height: 50vh;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    min-height: 75%;
+    max-height: 80%;
 }
 
 .form-container form {
@@ -262,21 +268,23 @@ a {
     display: block;
     width: 100%;
     border: none;
-    border-radius: 10px;
-    background-color: var(--light-colour);
+    border-radius: 999px;
+    background-color: var(--secondary-colour);
+    height: 43px;
 }
 
-.form-container input[type="submit"] {
+.form-container .button {
     width: 100%;
     border: none;
-    background-color: var(--light-colour);
     color: var(--primary-colour);
-    border-radius: 10px;
+    background-color: var(--secondary-colour);
+    /* border-radius: 10px; */
     cursor: pointer;
+    font-weight: bold;
 }
 
 .form-container .hr {
-    color: var(--light-colour);
+    border: var(--secondary-colour) solid 1px;
     width: 50%;
 }
 
@@ -286,7 +294,7 @@ a {
     align-items: center;
 }
 
-.brand-info-and-links h4 {
+.brand-info-and-links h3 {
     font-size: 2rem;
 }
 
