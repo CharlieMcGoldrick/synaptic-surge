@@ -72,6 +72,10 @@ a:visited {
     text-decoration: none;
 }
 
+a:hover {
+    color: var(--light-colour);
+}
+
 /*--------------- GENERAL LINK STYLING ENDS ---------------*/
 
 /*--------------- GENERAL BUTTON STYLING STARTS ---------------*/
