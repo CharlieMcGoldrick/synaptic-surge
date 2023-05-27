@@ -23,6 +23,10 @@
     box-sizing: border-box;
 }
 
+*:focus {
+    outline: 2px solid var(--accent-colour)
+}
+
 /*--------------- RESET STYLING ENDS ---------------*/
 
 /*--------------- TYPOGRAPHY STYLING STARTS ---------------*/
@@ -178,7 +182,8 @@ a:visited {
     margin: 0 auto;
     border-bottom: 1px solid var(--light-colour);
     width: 85%;
-    pointer-events: none; /*Allows dropdowns to be selected */
+    pointer-events: none;
+    /*Allows dropdowns to be selected */
 }
 
 .dropdown-container {
