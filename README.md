@@ -338,11 +338,11 @@ For everything else, I'm using Open Sans. It's incredibly versatile, and it look
 
 <h4>Colours</h4>
 
-![synaptic_surge_colour_swatch](assets/images/readme/uxd/surface/synaptic_surge_colour_swatch.png)
+![synaptic_surge_colour_swatch](assets/images/readme/uxd/surface/synaptic_surge_colour_swatch.png
 
-- #1D2D43 (Dark Navy Blue): I could use this as my primary color. It's great for major elements like the header, footer, or primary background color. I can also use it for important text.
-- #B7C6E2 (Light Pastel Blue): This light and airy color could serve as a background color for certain sections to provide contrast with the darker blue. It's also a good color for secondary text, borders, or backgrounds of cards or insets where I want the content to stand out.
-- #DCA11C (Dark Goldenrod): This is a strong, vibrant color that can serve as a highlight or accent color. I can use it for calls to action, buttons, or other elements I want to draw attention to. As it's quite a rich color, using it sparingly can make my design pop without being overpowering.
+- #0A1936 (Dark Navy Blue): I could use this as my primary color. It's great for major elements like the header, footer, or primary background color. I can also use it for important text.
+- #B6BDE5 (Light Pastel Blue): This light and airy color could serve as a background color for certain sections to provide contrast with the darker blue. It's also a good color for secondary text, borders, or backgrounds of cards or insets where I want the content to stand out.
+- #D3A518 (Dark Goldenrod): This is a strong, vibrant color that can serve as a highlight or accent color. I can use it for calls to action, buttons, or other elements I want to draw attention to. As it's quite a rich color, using it sparingly can make my design pop without being overpowering.
 - #F1F1E6 (Very Pale Yellow): This very light color is excellent for backgrounds, especially if I want a slightly warmer tone than pure white. I can also use it for elements like tooltips, drop-down menus, or modals where I want a contrast with the main page.
 
 </details>
