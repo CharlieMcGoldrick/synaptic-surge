@@ -244,15 +244,16 @@ a:visited {
     font-size: 1.25rem;
 }
 
+.dropdown-section .summary-image-container .footnote-link:hover {
+    color: var(--light-colour);
+}
+
 .dropdown-section .summary-image-container img {
     width: 47.5%;
     height: auto;
     border-radius: 40px;
 }
 
-.dropdown-section a {
-    color: var(--secondary-colour)
-}
 
 /* DROPDOWN SECTION STYLING ENDS */
 
