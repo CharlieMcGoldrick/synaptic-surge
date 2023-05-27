@@ -59,7 +59,7 @@ p {
 
 button {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
@@ -191,7 +191,7 @@ a:visited {
     position: absolute;
     inset: 0;
     margin: 0 auto;
-    border-bottom: 1px solid var(--light-colour);
+    border-bottom: 1px solid var(--secondary-colour);
     width: 85%;
     /*Allows dropdowns to be selected */
     pointer-events: none;
@@ -221,6 +221,11 @@ a:visited {
     background-color: transparent;
     border-radius: 10px;
     border: none;
+}
+
+.dropdown-section .dropdown:hover {
+    color: var(--primary-colour);
+    background-color: var(--light-colour);
 }
 
 .dropdown-section option {
@@ -296,24 +301,29 @@ a:visited {
 .form-container input[type="email"] {
     display: block;
     width: 100%;
+    font-size: 1.5rem;
     border: none;
     border-radius: 999px;
     background-color: var(--secondary-colour);
     height: 43px;
 }
 
-.form-container .button {
+.form-container .form-button {
     width: 100%;
     border: none;
     color: var(--primary-colour);
     background-color: var(--secondary-colour);
     cursor: pointer;
-    font-weight: bold;
+    border-radius: 999px;
+}
+
+.form-container .form-button:hover {
+    background-color: var(--light-colour);
 }
 
 .form-container .hr {
     border: var(--secondary-colour) solid 1px;
-    width: 50%;
+    width: 100%;
 }
 
 .brand-info-and-links {
@@ -323,7 +333,7 @@ a:visited {
 }
 
 .brand-info-and-links h3 {
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 .brand-info-and-links i {
@@ -341,6 +351,7 @@ a:visited {
 @media (max-width: 1199px) {
 
     /* Buttons */
+    .form-button,
     .button-link-light {
         font-size: 1.375rem;
     }
@@ -376,6 +387,32 @@ a:visited {
     .dropdown-section .summary-image-container p {
         font-size: 1.25rem;
     }
+
+    /* Footer */
+    .form-container h2 {
+        font-size: 1.875rem;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"] {
+        font-size: 1.375rem;
+    }
+
+    .brand-info-and-links h3 {
+        font-size: 1.625rem;
+    }
+
+    .form-container label {
+        font-size: 0.95rem;
+    }
+
+    .brand-info-and-links i {
+        font-size: 1.9rem;
+    }
+
+    .site-owner-copyright p {
+        font-size: 0.95rem;
+    }
 }
 
 /* Small Screens/Tablets */
@@ -387,6 +424,7 @@ a:visited {
     }
 
     /* Buttons */
+    .form-button,
     .button-link-light {
         font-size: 1.25rem;
     }
@@ -422,6 +460,32 @@ a:visited {
     .dropdown-section .summary-image-container p {
         font-size: 1.125rem;
     }
+
+    /* Footer */
+    .form-container h2 {
+        font-size: 1.75rem;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"] {
+        font-size: 1.25rem;
+    }
+
+    .brand-info-and-links h3 {
+        font-size: 1.5rem;
+    }
+
+    .form-container label {
+        font-size: 0.9rem;
+    }
+
+    .brand-info-and-links i {
+        font-size: 1.8rem;
+    }
+
+    .site-owner-copyright p {
+        font-size: 0.9rem;
+    }
 }
 
 /* Large Mobile */
@@ -433,6 +497,7 @@ a:visited {
     }
 
     /* Buttons */
+    .form-button,
     .button-link-light {
         font-size: 1.125rem;
     }
@@ -480,6 +545,32 @@ a:visited {
     .dropdown-section .summary-image-container p:last-child {
         padding-bottom: 0.7rem;
     }
+
+    /* Footer */
+    .form-container h2 {
+        font-size: 1.625rem;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"] {
+        font-size: 1.125rem;
+    }
+
+    .brand-info-and-links h3 {
+        font-size: 1.4rem;
+    }
+
+    .form-container label {
+        font-size: 0.85rem;
+    }
+
+    .brand-info-and-links i {
+        font-size: 1.7rem;
+    }
+
+    .site-owner-copyright p {
+        font-size: 0.85rem;
+    }
 }
 
 /* Small Mobile */
@@ -491,6 +582,7 @@ a:visited {
     }
 
     /* Buttons */
+    .form-button,
     .button-link-light {
         font-size: 1rem;
     }
@@ -525,6 +617,32 @@ a:visited {
 
     .dropdown-section .summary-image-container p {
         font-size: 1rem;
+    }
+
+    /* Footer */
+    .form-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"] {
+        font-size: 1rem;
+    }
+
+    .brand-info-and-links h3 {
+        font-size: 1.25rem;
+    }
+
+    .form-container label {
+        font-size: 0.80rem;
+    }
+
+    .brand-info-and-links i {
+        font-size: 1.6rem;
+    }
+
+    .site-owner-copyright p {
+        font-size: 0.8rem;
     }
 }
 
