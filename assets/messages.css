@@ -113,6 +113,11 @@ p {
 /* Small Screens/Tablets */
 @media (max-width: 991px) {
 
+    /* Typography */
+    p {
+        line-height: 1.4;
+    }
+
     /* Buttons */
     .button-link-light {
         font-size: 1.25rem;
@@ -137,6 +142,11 @@ p {
 /* Large Mobile */
 @media (max-width: 767px) {
 
+    /* Typography */
+    p {
+        line-height: 1.3;
+    }
+
     /* Buttons */
     .button-link-light {
         font-size: 1.125rem;
@@ -160,6 +170,11 @@ p {
 
 /* Small Mobile */
 @media (max-width: 575px) {
+
+    /* Typography */
+    p {
+        line-height: 1.2;
+    }
 
     /* Buttons */
     .button-link-light {
