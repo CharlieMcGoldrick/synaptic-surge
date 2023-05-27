@@ -1,0 +1,77 @@
+/*--------------- FONT IMPORTS STARTS ---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*--------------- FONT IMPORTS ENDS ---------------*/
+
+/*--------------- CSS GLOBAL IMPORTS STARTS ---------------*/
+@import url('./global/utilities.css');
+/*--------------- CSS GLOBAL IMPORTS ENDS ---------------*/
+
+/*--------------- COLOUR VARIABLES STARTS ---------------*/
+:root {
+    --primary-colour: #1D2D43;
+    --secondary-colour: #B7C6E2;
+    --accent-colour: #DCA11C;
+    --light-colour: #F1F1E6;
+}
+
+/*--------------- COLOUR VARIABLES ENDS ---------------*/
+
+/*--------------- RESET STYLING STARTS ---------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------- RESET STYLING ENDS ---------------*/
+
+/*--------------- TYPOGRAPHY STYLING STARTS ---------------*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--secondary-colour);
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/*--------------- TYPOGRAPHY STYLING ENDS ---------------*/
+
+/*--------------- GENERAL LINK STYLING STARTS ---------------*/
+a,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--light-colour)
+}
+
+/*--------------- GENERAL LINK STYLING ENDS ---------------*/
+
+/*--------------- THANK YOU SECTION STYLING STARTS ---------------*/
+.thank-you {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--primary-colour);
+}
+
+.thank-you h1 {
+    font-size: 2.5rem;
+}
+
+.thank-you p {
+    font-size: 1.2rem;
+}
+
+/*--------------- THANK YOU SECTION STYLING ENDS ---------------*/
