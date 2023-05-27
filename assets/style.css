@@ -29,6 +29,13 @@
 
 /*--------------- RESET STYLING ENDS ---------------*/
 
+/*--------------- SCROLL STYLING STARTS ---------------*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*--------------- SCROLL STYLING ENDS ---------------*/
+
 /*--------------- TYPOGRAPHY STYLING STARTS ---------------*/
 body {
     font-family: 'Open Sans', sans-serif;
@@ -58,23 +65,6 @@ button {
 
 /*--------------- TYPOGRAPHY STYLING ENDS ---------------*/
 
-/*--------------- GENERAL BUTTON STYLING STARTS ---------------*/
-.button {
-    border: none;
-    border-radius: 999px;
-}
-
-.button-light {
-    background-color: var(--secondary-colour);
-}
-
-.button-dark {
-    background-color: var(--primary-colour);
-    color: var(--secondary-colour);
-}
-
-/*--------------- GENERAL BUTTON STYLING ENDS ---------------*/
-
 /*--------------- GENERAL LINK STYLING STARTS ---------------*/
 a,
 a:visited {
@@ -84,6 +74,27 @@ a:visited {
 
 /*--------------- GENERAL LINK STYLING ENDS ---------------*/
 
+/*--------------- GENERAL BUTTON STYLING STARTS ---------------*/
+.button-link-light {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-colour);
+    background-color: var(--secondary-colour);
+    border-radius: 999px;
+}
+
+.button-link-light:visited {
+    color: var(--primary-colour);
+}
+
+.button-link-light:hover {
+    background-color: var(--light-colour);
+}
+
+
+/*--------------- GENERAL BUTTON STYLING ENDS ---------------*/
 
 /*--------------- NAVBAR STYLING STARTS ---------------*/
 /*--------------- ALL PAGES ---------------*/
@@ -102,8 +113,8 @@ a:visited {
 
 #main-nav img {
     display: block;
-    height: 55px;
-    width: 55px;
+    height: 50px;
+    width: 50px;
 }
 
 .main-nav-links {
@@ -128,37 +139,37 @@ a:visited {
 
 /*--------------- HERO SECTION STYLING STARTS ---------------*/
 /*--------------- INDEX, ABOUT, SUPPLEMENT (GENERAL) PAGES ---------------*/
-#hero-section {
+.hero-section {
     position: relative;
     height: 80vh;
     width: 100%;
     background: var(--primary-colour);
 }
 
-#hero-bg-image img {
+.hero-bg-image img {
     height: 80vh;
     width: 100%;
     object-fit: cover;
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
-#hero-content {
+.hero-content {
     display: flex;
     flex-direction: column;
     position: absolute;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 85%;
     inset: 0;
     margin: 0 auto;
 }
 
-#hero-content h1 {
-    font-size: 3rem;
+.hero-content h1 {
+    font-size: 2.5rem;
 }
 
-#hero-content p {
-    font-size: 1.25rem;
+.hero-content p {
+    font-size: 1.5rem;
 }
 
 /*--------------- INDEX, ABOUT, SUPPLEMENT (GENERAL) PAGES ---------------*/
@@ -182,8 +193,8 @@ a:visited {
     margin: 0 auto;
     border-bottom: 1px solid var(--light-colour);
     width: 85%;
-    pointer-events: none;
     /*Allows dropdowns to be selected */
+    pointer-events: none;
 }
 
 .dropdown-container {
