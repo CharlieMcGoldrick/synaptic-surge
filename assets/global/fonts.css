@@ -1,0 +1,53 @@
+/* open-sans-400 - latin */
+@font-face {
+    /* font-display: swap; */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v35-latin-400.woff2') format('woff2');
+}
+
+/* open-sans-600 - latin */
+@font-face {
+    /* font-display: swap; */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/open-sans-v35-latin-600.woff2') format('woff2');
+}
+
+/* open-sans-800 - latin */
+@font-face {
+    /* font-display: swap; */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/open-sans-v35-latin-800.woff2') format('woff2');
+}
+
+/* roboto-slab-400 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-slab-v25-latin-regular.woff2') format('woff2');
+}
+
+/* roboto-slab-600 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/roboto-slab-v25-latin-600.woff2') format('woff2');
+}
+
+/* roboto-slab-800 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/roboto-slab-v25-latin-800.woff2') format('woff2');
+}
