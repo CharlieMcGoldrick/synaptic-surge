@@ -69,7 +69,7 @@ button {
 /*--------------- GENERAL LINK STYLING STARTS ---------------*/
 a,
 a:visited {
-    color: inherit;
+    color: var(--secondary-colour);
     text-decoration: none;
 }
 
