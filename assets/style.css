@@ -441,8 +441,12 @@ a:hover {
     font-size: 1.75rem;
 }
 
-.brand-info-and-links i {
-    font-size: 2rem;
+.brand-info-and-links .svg-filter {
+    filter: invert(76%) sepia(47%) saturate(357%) hue-rotate(197deg) brightness(95%) contrast(88%);
+}
+
+.brand-info-and-links .svg-filter:hover {
+    filter: invert(99%) sepia(80%) saturate(250%) hue-rotate(331deg) brightness(107%) contrast(89%);
 }
 
 .site-owner-copyright p {
@@ -511,8 +515,13 @@ a:hover {
         font-size: 0.95rem;
     }
 
-    .brand-info-and-links i {
-        font-size: 1.9rem;
+    .social-media {
+        padding: 1.25rem 0
+    }
+
+    .brand-info-and-links img {
+        width: 70px;
+        height: 70px;
     }
 
     .site-owner-copyright p {
@@ -584,8 +593,13 @@ a:hover {
         font-size: 0.9rem;
     }
 
-    .brand-info-and-links i {
-        font-size: 1.8rem;
+    .social-media {
+        padding: 1rem 0
+    }
+
+    .brand-info-and-links img {
+        width: 65px;
+        height: 65px;
     }
 
     .site-owner-copyright p {
@@ -669,8 +683,13 @@ a:hover {
         font-size: 0.85rem;
     }
 
-    .brand-info-and-links i {
-        font-size: 1.7rem;
+    .social-media {
+        padding: 0.75rem 0
+    }
+
+    .brand-info-and-links img {
+        width: 60px;
+        height: 60px;
     }
 
     .site-owner-copyright p {
@@ -742,8 +761,13 @@ a:hover {
         font-size: 0.80rem;
     }
 
-    .brand-info-and-links i {
-        font-size: 1.6rem;
+    .social-media {
+        padding: 0.5rem 0
+    }
+
+    .brand-info-and-links img {
+        width: 55px;
+        height: 55px;
     }
 
     .site-owner-copyright p {
