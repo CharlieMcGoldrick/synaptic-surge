@@ -247,8 +247,6 @@ a:hover {
     display: block;
 }
 
-
-
 .hamburger {
     display: none;
     z-index: 10;
@@ -350,7 +348,7 @@ a:hover {
 /*--------------- NAVBAR STYLING ENDS ---------------*/
 
 /*--------------- HERO SECTION STYLING STARTS ---------------*/
-/*--------------- INDEX, ABOUT, SUPPLEMENT (GENERAL) PAGES ---------------*/
+/*--------------- ALL PAGES ---------------*/
 .hero-section {
     position: relative;
     height: 80vh;
@@ -363,7 +361,7 @@ a:hover {
     width: 100%;
     object-fit: cover;
     opacity: 0.1;
-    /* animates zoom effect on loading page */
+    /* Animates zoom effect on loading page */
     animation-name: hero-oscillate;
     animation-duration: 30s;
     animation-timing-function: ease-in-out;
@@ -490,7 +488,6 @@ a:hover {
     height: auto;
     border-radius: 40px;
 }
-
 
 /* DROPDOWN SECTION STYLING ENDS */
 
@@ -703,12 +700,6 @@ a:hover {
     #main-nav-link-left {
         display: none;
     }
-
-    /* #main-nav .image-switch {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-    } */
 
     #main-nav-links-right {
         font-size: 1.1rem;
