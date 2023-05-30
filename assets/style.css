@@ -64,6 +64,12 @@ button {
     font-weight: 600;
 }
 
+sup {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.5em;
+}
+
 /*--------------- TYPOGRAPHY STYLING ENDS ---------------*/
 
 /*--------------- GENERAL LINK STYLING STARTS ---------------*/
@@ -304,7 +310,7 @@ a:hover {
 
 .mobile-nav-header {
     font-size: 2rem;
-    /* color: var(--secondary-colour); */
+    color: var(--secondary-colour);
     display: block;
     transition: 0.3s;
     font-weight: bold;
@@ -468,7 +474,8 @@ a:hover {
     column-gap: 2.5%;
 }
 
-.dropdown-section .summary-image-container p {
+.dropdown-section .summary-image-container p,
+.dropdown-section .supplement-content p {
     color: var(--secondary-colour);
     font-size: 1.25rem;
 }
