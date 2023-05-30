@@ -162,11 +162,14 @@ a:hover {
 .dropdown-content-first-layer {
     opacity: 0;
     position: absolute;
-    width: 300px;
+    min-width: 200px;
     z-index: 1;
     max-height: 0;
     overflow: hidden;
     transition: all 0.15s ease-out;
+    background: var(--primary-colour);
+    white-space: nowrap;
+    border-radius: 10px;
 }
 
 #main-nav-links-right .nav-dropdown:hover .dropdown-content-first-layer {
@@ -178,6 +181,7 @@ a:hover {
 .dropdown-content-second-layer {
     position: relative;
     overflow: hidden;
+    background: var(--primary-colour);
 }
 
 .dropdown-content-second-layer>a {
