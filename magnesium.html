@@ -21,7 +21,322 @@
 </head>
 
 <body>
-    This is a place holder
+    <!-- NAVBAR STARTS -->
+    <nav id="main-nav">
+        <ul class="px-5">
+            <li id="main-nav-link-left">
+                <a class="main-nav-links brand-name" href="index.html">SYNAPTIC SURGE</a>
+            </li>
+            <li>
+                <a href="index.html" class="image-switch">
+                    <img src="assets/images/brand/synaptic-surge-logo-normal.webp" alt="Synaptic Surge Logo" width="50"
+                        height="50" class="image-normal">
+                    <img src="assets/images/brand/synaptic-surge-logo-hover.webp" alt="Synaptic Surge Logo" width="50"
+                        height="50" class="image-hover">
+                </a>
+            </li>
+            <li id="main-nav-links-right">
+                <div class="main-nav-links">
+                    <div class="nav-dropdown">
+                        <a href="about.html" class="nav-dropdown-button mr-3">ABOUT</a>
+                        <div class="dropdown-content-first-layer">
+                            <a href="about.html#dropdown-section-about" class="nav-dropdown-button">WHAT IS
+                                BIOHACKING?</a>
+                        </div>
+                    </div>
+                    <div class="nav-dropdown">
+                        <a href="supplements.html" class="nav-dropdown-button">SUPPLEMENTS</a>
+                        <div class="dropdown-content-first-layer">
+                            <div class="dropdown-content-second-layer">
+                                <a href="supplements.html#dropdown-section-nootropics"
+                                    class="nav-dropdown-button">NOOTROPICS</a>
+                                <div class="nootropics-dropdown-content">
+                                    <a href="ashwagandha.html">ASHWAGANDHA</a>
+                                    <a href="rhodiola-rosea.html">RHODIOLA ROSEA</a>
+                                </div>
+                            </div>
+                            <div class="dropdown-content-second-layer">
+                                <a href="supplements.html#dropdown-section-minerals"
+                                    class="nav-dropdown-button">MINERALS</a>
+                                <div class="minerals-dropdown-content">
+                                    <a href="magnesium.html">MAGNESIUM</a>
+                                    <a href="potassium.html">POTASSIUM</a>
+                                </div>
+                            </div>
+                            <div class="dropdown-content-second-layer">
+                                <a href="supplements.html#dropdown-section-vitamins"
+                                    class="nav-dropdown-button">VITAMINS</a>
+                                <div class="vitamins-dropdown-content">
+                                    <a href="vitamin-a.html">VITAMIN A</a>
+                                    <a href="vitamin-e.html">VITAMIN E</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="hamburger" id="hamburger">
+                <div class="bar1 bars"></div>
+                <div class="bar2 bars"></div>
+                <div class="bar3 bars"></div>
+            </li>
+        </ul>
+        <div id="mobile-nav" class="side-panel" role="menu">
+            <div class="mobile-nav-container p-3">
+                <div class="about-mobile-nav pb-4">
+                    <a href="about.html" class="mobile-nav-header" role="menuitem">ABOUT</a>
+                    <a href="about.html#dropdown-section-about" class="mobile-nav-first-child pl-3" role="menuitem">WHAT
+                        IS BIOHACKING?</a>
+                </div>
+                <div class="supplements-mobile-nav">
+                    <a href="supplements.html" class="mobile-nav-header" role="menuitem">SUPPLEMENTS</a>
+                    <div class="nootropics-mobile-nav">
+                        <a href="supplements.html#dropdown-section-nootropics" class="mobile-nav-first-child pl-3"
+                            role="menuitem">NOOTROPICS</a>
+                        <a href="ashwagandha.html" class="mobile-nav-second-child pl-4" role="menuitem">ASHWAGANDHA</a>
+                        <a href="rhodiola-rosea.html" class="mobile-nav-second-child pl-4" role="menuitem">RHODIOLA
+                            ROSEA</a>
+                    </div>
+                    <div class="minerals-mobile-nav">
+                        <a href="supplements.html#dropdown-section-minerals" class="mobile-nav-first-child pl-3"
+                            role="menuitem">MINERALS</a>
+                        <a href="magnesium.html" class="mobile-nav-second-child pl-4" role="menuitem">MAGNESIUM</a>
+                        <a href="potassium.html" class="mobile-nav-second-child pl-4" role="menuitem">POTASSIUM</a>
+                    </div>
+                    <div class="vitamins-mobile-nav">
+                        <a href="supplements.html#dropdown-section-vitamins" class="mobile-nav-first-child pl-3"
+                            role="menuitem">VITAMINS</a>
+                        <a href="vitamin-a.html" class="mobile-nav-second-child pl-4" role="menuitem">VITAMIN
+                            A</a>
+                        <a href="vitamin-e.html" class="mobile-nav-second-child pl-4" role="menuitem">VITAMIN
+                            E</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR ENDS -->
+
+    <!-- HERO SECTION STARTS -->
+    <section id="hero-section-home" class="hero-section">
+        <div id="hero-bg-image-home" class="hero-bg-image">
+            <img src="assets/images/brand/synaptic-surge-hero-image.webp" alt="Neural Network Hero Image" width="1456"
+                height="816">
+        </div>
+        <div id="hero-content-home" class="hero-content txt-centre">
+            <h1 class="py-3">MAGNESIUM</h1>
+            <p class="pb-3">Discover the power of Synaptic Surge, where science meets health in a way you've never
+                experienced before. Dive into the
+                world of biohacking, unlock hidden potentials, and start living at your peak. Your journey to
+                optimal
+                health starts
+                here.</p>
+            <a href="#dropdown-section-magnesium" class="button-link-light py-2 px-4">LEARN MORE ABOUT MAGNESIUM</a>
+        </div>
+    </section>
+    <!-- HERO SECTION ENDS -->
+
+    <!-- MAGNESIUM DROPDOWN STARTS -->
+    <section id="dropdown-section-magnesium" class="dropdown-section py-5">
+        <div class="dropdown-container p-5 m-5">
+            <h2 class="txt-centre py-3">MAGNESIUM</h2>
+            <div class="select-container py-3">
+                <select name="supplement-type" id="supplement-type-dropdown" class="dropdown py-2 px-1 mr-3"
+                    aria-controls="supplement-dropdown">
+                    <option value="overview-content">Overview</option>
+                    <option value="functionality-content">Functionality</option>
+                    <option value="benefits-content">Benefits</option>
+                    <option value="side-effects-content">Side Effects</option>
+                    <option value="drug-interactions-content">Drug Interactions</option>
+                    <option value="dosage-content">Dosage</option>
+                </select>
+            </div>
+            <div id="supplement-content-container">
+                <div id="overview-content" class="supplement-content">
+                    <p id="overview" class="mb-4">
+                        Magnesium is a crucial mineral for the body and plays a part in more than 300 enzymatic
+                        reactions. These reactions
+                        include those involved in the synthesis of fat, protein, and nucleic acids, neurological
+                        activity, muscular contraction
+                        and relaxation, cardiac activity, and bone metabolism <sup><a
+                                href="https://pubmed.ncbi.nlm.nih.gov/26404370/" target="_blank"
+                                rel="noopener noreferrer"> [1]</a>
+                        </sup>. It is one of the seven essential macrominerals that the human
+                        body needs in large amounts. The average adult body contains about 25 grams of magnesium, with
+                        more than half in the
+                        bones.
+                    </p>
+                    <div class="button-container txt-centre">
+                        <a href="https://www.amazon.co.uk/s?k=MAGNESIUM&ref=nb_sb_noss_1" target="_blank"
+                            rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                            MAGNESIUM</a>
+                    </div>
+                </div>
+                <div id="functionality-content" class="supplement-content">
+                    <p id="functionality" class="mb-4">
+                        Magnesium plays a significant role in the prevention of numerous health conditions. It
+                        contributes to the structural development of bone, DNA and RNA synthesis, and is required for
+                        the synthesis of glutathione, an
+                        antioxidant. Magnesium also plays a crucial role in nerve transmission and muscle contraction
+                        <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5786912/" target="_blank"
+                                rel="noopener noreferrer"> [2]</a>
+                        </sup>. Moreover, it aids in the balance of calcium, potassium, and sodium, all vital elements
+                        for
+                        cellular health.
+                    </p>
+                    <div class="button-container txt-centre">
+                        <a href="https://www.amazon.co.uk/s?k=MAGNESIUM&ref=nb_sb_noss_1" target="_blank"
+                            rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                            MAGNESIUM</a>
+                    </div>
+                </div>
+                <div id="benefits-content" class="supplement-content">
+                    <p id="benefits" class="mb-4">
+                        The health benefits of magnesium are extensive. Magnesium is effective in fighting depression
+                        <sup>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/16542786/" target="_blank"
+                                rel="noopener noreferrer">
+                                [3]</a>
+                        </sup>, has benefits against type 2 diabetes <sup>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/9861593/" target="_blank"
+                                rel="noopener noreferrer"> [4]</a>
+                        </sup>, can lower blood pressure <sup>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/19617879/" target="_blank"
+                                rel="noopener noreferrer">
+                                [5]</a>
+                        </sup>
+                        , and has anti-inflammatory benefits <sup>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/21159786/" target="_blank"
+                                rel="noopener noreferrer">
+                                [6]</a>
+                        </sup>
+                        . It also can
+                        reduce insulin resistance, which is a significant cause of metabolic syndrome and type 2
+                        diabetes <sup>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/28642636/" target="_blank"
+                                rel="noopener noreferrer"> [7]</a>
+                        </sup>
+                        . Additionally, it
+                        is believed to have benefits for PMS symptoms <sup>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/9861593/" target="_blank"
+                                rel="noopener noreferrer"> [8]</a>
+                        </sup> and can improve migraines
+                        <sup>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/18705538/" target="_blank" rel="noopener
+                                noreferrer">
+                                [9]</a>.
+                        </sup>
+                    </p>
+                    <div class="button-container txt-centre">
+                        <a href="https://www.amazon.co.uk/s?k=MAGNESIUM&ref=nb_sb_noss_1" target="_blank"
+                            rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                            MAGNESIUM</a>
+                    </div>
+                </div>
+                <div id="side-effects-content" class="supplement-content">
+                    <p id="side_effects" class="mb-4">
+                        Although magnesium is well tolerated by most people, high doses can cause adverse effects. These
+                        effects can include diarrhea, nausea, and abdominal cramping <sup><a
+                                href="https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/" target="_blank"
+                                rel="noopener noreferrer"> [10]</a></sup>. Extremely high doses can lead to irregular
+                        heartbeat, cardiac arrest, and even death. People with kidney disease should avoid taking
+                        magnesium
+                        supplements without a doctor's consultation as their kidneys may not be able to remove excess
+                        magnesium from the blood.
+                    </p>
+                    <div class="button-container txt-centre">
+                        <a href="https://www.amazon.co.uk/s?k=MAGNESIUM&ref=nb_sb_noss_1" target="_blank"
+                            rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                            MAGNESIUM</a>
+                    </div>
+                </div>
+                <div id="drug-interactions-content" class="supplement-content">
+                    <p id="drug_interactions" class="mb-4">
+                        Magnesium can interact with several types of medications, including, but not limited to, certain
+                        antibiotics, blood
+                        pressure medications, and diuretics. For example, magnesium can decrease absorption of digoxin,
+                        a heart medication, and
+                        certain antibiotics like ciprofloxacin and moxifloxacin. High doses of magnesium can also
+                        decrease the effectiveness of
+                        bisphosphonates (like alendronate), medications used to treat osteoporosis <sup><a
+                                href="https://www.nccih.nih.gov/health/magnesium" target="_blank"
+                                rel="noopener noreferrer"> [11]</a></sup>
+                        <sup><a href="https://www.webmd.com/diet/qa/what-drugs-interact-with-magnesium" target="_blank"
+                                rel="noopener noreferrer"> [12]</a></sup>.
+                    </p>
+                    <div class="button-container txt-centre">
+                        <a href="https://www.amazon.co.uk/s?k=MAGNESIUM&ref=nb_sb_noss_1" target="_blank"
+                            rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                            MAGNESIUM</a>
+                    </div>
+                </div>
+                <div id="dosage-content" class="supplement-content">
+                    <p id="dosage" class="mb-4">
+                        The recommended dietary allowance (RDA) for magnesium for adults is between 310 and 420 mg
+                        depending on age and gender.
+                        For children, the RDA varies with age and ranges between 30-240mg <sup>
+                            <a href="https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/" target="_blank"
+                                rel="noopener noreferrer">
+                                [13]</a>
+                        </sup>. For treating deficiencies, dosages are usually higher,
+                        depending on the severity
+                        of the deficiency. However, always consult a healthcare provider before starting or changing a
+                        supplement regimen.
+                    </p>
+                    <div class="button-container txt-centre">
+                        <a href="https://www.amazon.co.uk/s?k=MAGNESIUM&ref=nb_sb_noss_1" target="_blank"
+                            rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                            MAGNESIUM</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MAGNESIUM DROPDOWN ENDS -->
+
+    <!-- FOOTER STARTS -->
+    <footer class="footer-section txt-centre">
+        <div class="form-container pt-5">
+            <h2>Join our newsletter</h2>
+            <form action="./thank-you.html" class="py-3">
+                <label for="fname" class="pb-2">First name:</label>
+                <input type="text" id="fname" name="fname" required class="py-2 px-4">
+                <label for="lname" class="pt-3 pb-2">Last name:</label>
+                <input type="text" id="lname" name="lname" required class="p-2">
+                <label for="email" class="pt-3 pb-2">Email:</label>
+                <input type="email" id="email" name="email" required class="p-2 mb-4">
+                <button type="submit" class="form-button py-2 px-4 mt-3 mb-4">SUBMIT</button>
+            </form>
+            <hr class="hr">
+            <div class="brand-info-and-links py-5">
+                <h3>Follow us on Social Media</h3>
+                <div class="social-media py-4">
+                    <a href="https://www.facebook.com/" target="_blank" aria-label="Visit our Facebook page">
+                        <img src="assets/images/socials/facebook.svg" alt="Facebook Social Media Icon"
+                            class="px-3 svg-filter" width="75" height="75">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" aria-label="Visit our Instagram page">
+                        <img src="assets/images/socials/instagram.svg" alt="Instagram Social Media Icon"
+                            class="px-3 svg-filter" width="75" height="75">
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank" aria-label="Visit our Twitter page">
+                        <img src="assets/images/socials/twitter.svg" alt="Twitter Social Media Icon"
+                            class="px-3 svg-filter" width="75" height="75">
+                    </a>
+                </div>
+                <div class="site-owner-copyright">
+                    <p>Charlie McGoldrick | © 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER ENDS -->
+    <!-- JAVASCRIPT IMPORT STARTS -->
+    <script src="assets/js/specific-supplement-content.js" defer></script>
+    <script src="assets/js/hamburger-sliding-side-panel.js" defer></script>
+    <!-- JAVASCRIPT IMPORT ENDS -->
+
+    <!-- BODY ENDS -->
 </body>
 
 </html>
