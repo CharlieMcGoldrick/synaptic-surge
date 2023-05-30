@@ -690,11 +690,15 @@ a:hover {
         font-size: 1.35rem;
     }
 
-    #main-nav .image-switch {
+    #main-nav-link-left {
+        display: none;
+    }
+
+    /* #main-nav .image-switch {
         position: absolute;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
-    }
+    } */
 
     #main-nav-links-right {
         font-size: 1.1rem;
@@ -996,6 +1000,24 @@ a:hover {
 
     .site-owner-copyright p {
         font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .dropdown-section h2 {
+        padding: 0.5rem 0;
+    }
+
+    .select-container {
+        flex-direction: column;
+    }
+
+    #supplement-type-dropdown {
+        padding-bottom: 0.75rem;
+    }
+
+    #supplement-dropdown {
+        padding-bottom: 0.75rem;
     }
 }
 
