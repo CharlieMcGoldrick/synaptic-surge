@@ -526,6 +526,10 @@ a:hover {
     }
 
     /* Navbar */
+    #main-nav ul {
+        padding: 0 2.5rem;
+    }
+
     #main-nav-link-left {
         font-size: 1.5rem;
     }
@@ -621,8 +625,18 @@ a:hover {
     }
 
     /* Navbar */
+    #main-nav ul {
+        padding: 0 2rem;
+    }
+
     #main-nav-link-left {
         font-size: 1.35rem;
+    }
+
+    #main-nav .image-switch {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
     }
 
     #main-nav-links-right {
@@ -635,6 +649,14 @@ a:hover {
 
     .dropdown-content-second-layer a {
         font-size: 1rem;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    #main-nav-links-right {
+        display: none;
     }
 
     /* Hero section */
@@ -716,6 +738,10 @@ a:hover {
     }
 
     /* Navbar */
+    #main-nav ul {
+        padding: 0 1.5rem;
+    }
+
     #main-nav-link-left {
         font-size: 1.2rem;
     }
@@ -730,14 +756,6 @@ a:hover {
 
     .dropdown-content-second-layer a {
         font-size: 0.90rem;
-    }
-
-    .hamburger {
-        display: block;
-    }
-
-    #main-nav-links-right {
-        display: none;
     }
 
     /* Hero section */
@@ -835,6 +853,10 @@ a:hover {
     }
 
     /* Navbar */
+    #main-nav ul {
+        padding: 0 1rem;
+    }
+
     #main-nav-link-left {
         font-size: 1.1rem;
     }
