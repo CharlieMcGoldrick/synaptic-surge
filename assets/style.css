@@ -718,6 +718,14 @@ a:hover {
         font-size: 0.90rem;
     }
 
+    .hamburger {
+        display: block;
+    }
+
+    #main-nav-links-right {
+        display: none;
+    }
+
     /* Hero section */
     .hero-section h1 {
         font-size: 1.9rem;
