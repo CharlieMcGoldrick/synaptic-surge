@@ -489,6 +489,12 @@ a:hover {
     border-radius: 40px;
 }
 
+.dropdown-section .summary-image-container iframe {
+    max-width: 100%;
+    min-height: 250px;
+    border-radius: 40px;
+}
+
 /* DROPDOWN SECTION STYLING ENDS */
 
 /* FOOTER STYLING STARTS */
@@ -745,6 +751,14 @@ a:hover {
         font-size: 1.75rem;
     }
 
+    .dropdown-section .about-container {
+        flex-direction: column;
+    }
+
+    .dropdown-section .summary-image-container p:last-child {
+        padding-bottom: 1.5rem;
+    }
+
     .dropdown-section .summary-image-container {
         padding-bottom: 2rem;
     }
@@ -846,10 +860,6 @@ a:hover {
 
     .dropdown-section h2 {
         font-size: 1.625rem;
-    }
-
-    .dropdown-section .summary-image-container {
-        flex-direction: column;
     }
 
     .dropdown-section .summary-image-container img {
