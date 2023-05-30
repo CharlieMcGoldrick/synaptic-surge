@@ -1,9 +1,9 @@
 /*--------------- FONT IMPORTS STARTS ---------------*/
-@import url('./global/fonts.css');
+@import url('./global-css/fonts.css');
 /*--------------- FONT IMPORTS ENDS ---------------*/
 
 /*--------------- CSS GLOBAL IMPORTS STARTS ---------------*/
-@import url('./global/utilities.css');
+@import url('./global-css/utilities.css');
 /*--------------- CSS GLOBAL IMPORTS ENDS ---------------*/
 
 /*--------------- COLOUR VARIABLES STARTS ---------------*/
