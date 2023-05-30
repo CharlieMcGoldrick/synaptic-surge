@@ -304,7 +304,7 @@ a:hover {
 
 .mobile-nav-header {
     font-size: 2rem;
-    color: var(--secondary-colour);
+    /* color: var(--secondary-colour); */
     display: block;
     transition: 0.3s;
     font-weight: bold;
