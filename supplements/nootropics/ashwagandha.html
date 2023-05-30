@@ -9,19 +9,377 @@
         content="Explore the numerous health benefits of Ashwagandha, a powerful adaptogenic herb. Learn about its uses, efficacy, and how Ashwagandha supplements can contribute to your wellness journey.">
     <meta name="keywords"
         content="Ashwagandha, Adaptogens, Stress Relief, Ashwagandha Benefits, Ashwagandha Supplements, Herbal Supplements, Health, Wellness, Natural Remedies, Biohacking">
-    <link rel="preload" href="assets/fonts/open-sans-v35-latin-400.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="assets/fonts/open-sans-v35-latin-600.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="assets/fonts/open-sans-v35-latin-800.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="assets/fonts/roboto-slab-v25-latin-400.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="assets/fonts/roboto-slab-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="assets/fonts/roboto-slab-v25-latin-800.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="icon" href="assets/images/brand/favicon.ico" type="image/x-icon">
+    <link rel="preload" href="../../assets/fonts/open-sans-v35-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/open-sans-v35-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/open-sans-v35-latin-800.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../../assets/fonts/roboto-slab-v25-latin-400.woff2" as="font" type="font/woff2"
+        crossorigin>
+    <link rel="preload" href="../../assets/fonts/roboto-slab-v25-latin-600.woff2" as="font" type="font/woff2"
+        crossorigin>
+    <link rel="preload" href="../../assets/fonts/roboto-slab-v25-latin-800.woff2" as="font" type="font/woff2"
+        crossorigin>
+    <link rel="stylesheet" href="../../assets/style.css">
+    <link rel="icon" href="../../assets/images/brand/favicon.ico" type="image/x-icon">
     <title>Ashwagandha | Synaptic Surge</title>
 </head>
 
 <body>
-    This is a place holder
+    <!-- NAVBAR STARTS -->
+    <nav id="main-nav">
+        <ul class="px-5">
+            <li id="main-nav-link-left">
+                <a class="main-nav-links brand-name" href="../../index.html">SYNAPTIC SURGE</a>
+            </li>
+            <li>
+                <a href="../../index.html" class="image-switch">
+                    <img src="../../assets/images/brand/synaptic-surge-logo-normal.webp" alt="Synaptic Surge Logo"
+                        width="50" height="50" class="image-normal">
+                    <img src="../../assets/images/brand/synaptic-surge-logo-hover.webp" alt="Synaptic Surge Logo"
+                        width="50" height="50" class="image-hover">
+                </a>
+            </li>
+            <li id="main-nav-links-right">
+                <div class="main-nav-links">
+                    <div class="nav-dropdown">
+                        <a href="../../about.html" class="nav-dropdown-button mr-3">ABOUT</a>
+                        <div class="dropdown-content-first-layer">
+                            <a href="../../about.html#dropdown-section-about" class="nav-dropdown-button">WHAT IS
+                                BIOHACKING?</a>
+                        </div>
+                    </div>
+                    <div class="nav-dropdown">
+                        <a href="/supplements/supplements.html" class="nav-dropdown-button">SUPPLEMENTS</a>
+                        <div class="dropdown-content-first-layer">
+                            <div class="dropdown-content-second-layer">
+                                <a href="/supplements/supplements.html#dropdown-section-nootropics"
+                                    class="nav-dropdown-button">NOOTROPICS</a>
+                                <div class="nootropics-dropdown-content">
+                                    <a href="/supplements/nootropics/ashwagandha.html">ASHWAGANDHA</a>
+                                    <a href="/supplements/nootropics/rhodiola-rosea.html">RHODIOLA ROSEA</a>
+                                </div>
+                            </div>
+                            <div class="dropdown-content-second-layer">
+                                <a href="/supplements/supplements.html#dropdown-section-minerals"
+                                    class="nav-dropdown-button">MINERALS</a>
+                                <div class="minerals-dropdown-content">
+                                    <a href="/supplements/minerals/magnesium.html">MAGNESIUM</a>
+                                    <a href="/supplements/minerals/potassium.html">POTASSIUM</a>
+                                </div>
+                            </div>
+                            <div class="dropdown-content-second-layer">
+                                <a href="/supplements/supplements.html#dropdown-section-vitamins"
+                                    class="nav-dropdown-button">VITAMINS</a>
+                                <div class="vitamins-dropdown-content">
+                                    <a href="/supplements/vitamins/vitamin-a.html">VITAMIN A</a>
+                                    <a href="/supplements/vitamins/vitamin-e.html">VITAMIN E</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="hamburger" id="hamburger">
+                <div class="bar1 bars"></div>
+                <div class="bar2 bars"></div>
+                <div class="bar3 bars"></div>
+            </li>
+        </ul>
+        <div id="mobile-nav" class="side-panel" role="menu">
+            <div class="mobile-nav-container p-3">
+                <div class="about-mobile-nav pb-4">
+                    <a href="../about.html" class="mobile-nav-header" role="menuitem">ABOUT</a>
+                    <a href="../about.html#dropdown-section-about" class="mobile-nav-first-child pl-3"
+                        role="menuitem">WHAT
+                        IS BIOHACKING?</a>
+                </div>
+                <div class="supplements-mobile-nav">
+                    <a href="/supplements/supplements.html" class="mobile-nav-header" role="menuitem">SUPPLEMENTS</a>
+                    <div class="nootropics-mobile-nav">
+                        <a href="supplements.html#dropdown-section-nootropics" class="mobile-nav-first-child pl-3"
+                            role="menuitem">NOOTROPICS</a>
+                        <a href="/supplements/nootropics/ashwagandha.html" class="mobile-nav-second-child pl-4"
+                            role="menuitem">ASHWAGANDHA</a>
+                        <a href="/supplements/nootropics/rhodiola-rosea.html" class="mobile-nav-second-child pl-4"
+                            role="menuitem">RHODIOLA ROSEA</a>
+                    </div>
+                    <div class="minerals-mobile-nav">
+                        <a href="supplements.html#dropdown-section-minerlas" class="mobile-nav-first-child pl-3"
+                            role="menuitem">MINERALS</a>
+                        <a href="/supplements/nootropics/ashwagandha.html" class="mobile-nav-second-child pl-4"
+                            role="menuitem">ASHWAGANDHA</a>
+                        <a href="/supplements/nootropics/rhodiola-rosea.html" class="mobile-nav-second-child pl-4"
+                            role="menuitem">RHODIOLA ROSEA</a>
+                    </div>
+                    <div class="vitamins-mobile-nav">
+                        <a href="supplements.html#dropdown-section-vitamins" class="mobile-nav-first-child pl-3"
+                            role="menuitem">VITAMINS</a>
+                        <a href="/supplements/vitamins/vitamin-a.html" class="mobile-nav-second-child pl-4"
+                            role="menuitem">VITAMIN
+                            A</a>
+                        <a href="/supplements/vitamins/vitamin-e.html" class="mobile-nav-second-child pl-4"
+                            role="menuitem">VITAMIN
+                            E</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR ENDS -->
+
+    <!-- HERO SECTION STARTS -->
+    <section id="hero-section-home" class="hero-section">
+        <div id="hero-bg-image-home" class="hero-bg-image">
+            <img src="../../assets/images/brand/synaptic-surge-hero-image.webp" alt="Neural Network Hero Image"
+                width="1456" height="816">
+        </div>
+        <div id="hero-content-home" class="hero-content txt-centre">
+            <h1 class="py-3">ASHWAGANDHA</h1>
+            <p class="pb-3">Discover the power of Synaptic Surge, where science meets health in a way you've never
+                experienced before. Dive into the
+                world of biohacking, unlock hidden potentials, and start living at your peak. Your journey to optimal
+                health starts
+                here.</p>
+            <a href="#dropdown-section-home" class="button-link-light py-2 px-4">LEARN MORE ABOUT ASHWAGANDHA</a>
+        </div>
+    </section>
+    <!-- HERO SECTION ENDS -->
+
+    <!-- ASHWAGANDHA DROPDOWN STARTS -->
+    <section id="dropdown-section-home" class="dropdown-section py-5">
+        <div class="dropdown-container p-5 m-5">
+            <h2 class="txt-centre py-3">ASHWAGANDHA</h2>
+            <div class="select-container py-3">
+                <select name="supplement-type" id="supplement-type-dropdown" class="dropdown py-2 px-1 mr-3"
+                    aria-controls="supplement-dropdown">
+                    <option value="overview-content">Overview</option>
+                    <option value="functionality-content">Functionality</option>
+                    <option value="benefits-content">Benefits</option>
+                    <option value="side-effects-content">Side Effects</option>
+                    <option value="drug-interactions-content">Drug Interactions</option>
+                    <option value="dosage-content">Dosage</option>
+                </select>
+            </div>
+            <div id="overview-content" class="supplement-content">
+                <div class="summary-image-container pb-5">
+                    <div class="supplement-paragraphs">
+                        <p>Experience Ashwagandha's power. Known for potentially reducing
+                            cortisol levels<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3573577/"
+                                target="_blank" rel="noopener noreferrer" class="footnote-link"><sup> [1]</sup></a>, it
+                            helps manage stress.
+                        </p>
+                        <br>
+                        <p>It can also boost brain
+                            function<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3252722/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup> [2]</sup></a> and improve
+                            endurance<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3545242/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup> [3]</sup></a>.</p>
+                        <br>
+                        <p>Discover Ashwagandha's potential for a balanced life.
+                    </div>
+                    <img src="./assets/images/supplements/ashwaganda-chopping-board.webp"
+                        alt="Ashwaganda Root On Chopping Board" width="500" height="500">
+                </div>
+                <div class="button-container txt-centre">
+                    <a href="https://www.amazon.co.uk/s?k=ashwagandha&crid=WESZUU3WK6ZQ&sprefix=ashwagand%2Caps%2C234&tag=nootriment-21&ref=nb_sb_ss_c_1_9"
+                        target="_blank" rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                        ASHWAGANDHA</a>
+                </div>
+            </div>
+            <div id="functionality-content" class="supplement-content">
+                <div class="summary-image-container pb-5">
+                    <div class="supplement-paragraphs">
+                        <p>Experience Rhodiola Rosea, a natural adaptogen. It may alleviate physical
+                            fatigue<a href="https://pubmed.ncbi.nlm.nih.gov/23443221/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup>
+                                    [1]</sup></a> and enhance mental performance<a
+                                href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6208354/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup>
+                                    [2]</sup></a>.</p>
+                        <br>
+                        <p>This herb could also boost physical
+                            performance<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4688356/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup> [3]</sup></a> and improve mood.
+                        </p>
+                        <br>
+                        <p>Explore Rhodiola Rosea for a natural wellness boost.</p>
+                    </div>
+                    <img src="./assets/images/supplements/rhodiola-rosea-chopping-board.webp"
+                        alt="Rhodiola Rosea Root On Chopping Board" width="500" height="500">
+                </div>
+                <div class="button-container txt-centre">
+                    <a href="https://www.amazon.co.uk/s?k=ashwagandha&crid=WESZUU3WK6ZQ&sprefix=ashwagand%2Caps%2C234&tag=nootriment-21&ref=nb_sb_ss_c_1_9"
+                        target="_blank" rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                        ASHWAGANDHA</a>
+                </div>
+            </div>
+            <div id="benefits-content" class="supplement-content">
+                <div class="summary-image-container pb-5">
+                    <div class="supplement-paragraphs">
+                        <p>Experience the benefits of Magnesium, a vital mineral. It plays a crucial role in maintaining
+                            heart
+                            health<a href="https://pubmed.ncbi.nlm.nih.gov/23969766/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup> [1]</sup></a>
+                            and supporting a healthy
+                            mood<a href="https://pubmed.ncbi.nlm.nih.gov/28140318/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup> [2]</sup></a>.
+                        </p>
+                        <br>
+                        <p>Magnesium also contributes to bone
+                            health<a href="https://pubmed.ncbi.nlm.nih.gov/22364157/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup>
+                                    [3]</sup></a>
+                            and muscle
+                            function<a href="https://pubmed.ncbi.nlm.nih.gov/17172008/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup>
+                                    [4]</sup></a>.</p>
+                        <br>
+                        <p>Discover the importance of Magnesium for overall well-being.</p>
+                    </div>
+                    <img src="./assets/images/supplements/magnesium-spilling-out-bottle.webp"
+                        alt="Magnesium Supplement Spilling Out Of The Bottle" width="500" height="500">
+                </div>
+                <div class="button-container txt-centre">
+                    <a href="https://www.amazon.co.uk/s?k=ashwagandha&crid=WESZUU3WK6ZQ&sprefix=ashwagand%2Caps%2C234&tag=nootriment-21&ref=nb_sb_ss_c_1_9"
+                        target="_blank" rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                        ASHWAGANDHA</a>
+                </div>
+            </div>
+            <div id="side-effects-content" class="supplement-content">
+                <div class="summary-image-container pb-5">
+                    <div class="supplement-paragraph">
+                        <p>Unlock the health-boosting potential of Potassium, a vital mineral. It is essential for heart
+                            function<a href="https://pubmed.ncbi.nlm.nih.gov/22360272/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup>
+                                    [1]</sup></a> and muscle contraction<a
+                                href="https://pubmed.ncbi.nlm.nih.gov/28089418/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup> [2]</sup></a>.
+                        </p>
+                        <br>
+                        <p>Potassium also aids in maintaining fluid
+                            balance<a href="https://pubmed.ncbi.nlm.nih.gov/15297079/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup>
+                                    [3]</sup></a> and nerve signal
+                            transmission<a href="https://pubmed.ncbi.nlm.nih.gov/21924270/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup>
+                                    [4]</sup></a>.</p>
+                        <br>
+                        <p>Explore the essential role of Potassium in human health.</p>
+                    </div>
+                    <img src="./assets/images/supplements/potassium-spilling-out-bottle.webp"
+                        alt="Potassium Supplement Spilling Out Of The Bottle" width="500" height="500">
+                </div>
+                <div class="button-container txt-centre">
+                    <a href="https://www.amazon.co.uk/s?k=ashwagandha&crid=WESZUU3WK6ZQ&sprefix=ashwagand%2Caps%2C234&tag=nootriment-21&ref=nb_sb_ss_c_1_9"
+                        target="_blank" rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                        ASHWAGANDHA</a>
+                </div>
+            </div>
+            <div id="drug-interactions-content" class="supplement-content">
+                <div class="summary-image-container pb-5">
+                    <div class="supplement-paragraph">
+                        <p>Discover the power of Vitamin A, an essential vitamin. It's vital for eye
+                            health<a href="https://pubmed.ncbi.nlm.nih.gov/26541085/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup>
+                                    [1]</sup></a>
+                            and immune function<a href="https://pubmed.ncbi.nlm.nih.gov/21398393/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup>
+                                    [2]</sup></a>.</p>
+                        <br>
+                        <p>Vitamin A also supports healthy
+                            skin<a href="https://pubmed.ncbi.nlm.nih.gov/26137547/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup> [3]</sup></a>
+                            and cell
+                            growth<a href="https://pubmed.ncbi.nlm.nih.gov/29231905/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup>
+                                    [4]</sup></a>.</p>
+                        <br>
+                        <p>Unleash the benefits of Vitamin A for your well-being.</p>
+                    </div>
+                    <img src="./assets/images/supplements/vitamin-a-spilling-out-bottle.webp"
+                        alt="Vitamin-A Supplement Spilling Out Of The Bottle" width="500" height="500">
+                </div>
+                <div class="button-container txt-centre">
+                    <a href="https://www.amazon.co.uk/s?k=ashwagandha&crid=WESZUU3WK6ZQ&sprefix=ashwagand%2Caps%2C234&tag=nootriment-21&ref=nb_sb_ss_c_1_9"
+                        target="_blank" rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                        ASHWAGANDHA</a>
+                </div>
+            </div>
+            <div id="dosage-content" class="supplement-content">
+                <div class="summary-image-container pb-5">
+                    <div class="supplement-paragraph">
+                        <p>Experience the health benefits of Vitamin E, a powerful antioxidant. It plays a key role in
+                            skin health<a href="https://pubmed.ncbi.nlm.nih.gov/17921406/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup>
+                                    [1]</sup></a> and immune function<a href="https://pubmed.ncbi.nlm.nih.gov/23183299/"
+                                target="_blank" rel="noopener noreferrer" class="footnote-link"><sup> [2]</sup></a>.</p>
+                        <br>
+                        <p>Vitamin E also contributes to heart
+                            health<a href="https://pubmed.ncbi.nlm.nih.gov/7486839/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup> [3]</sup></a>
+                            and cell
+                            protection<a href="https://pubmed.ncbi.nlm.nih.gov/10479465/" target="_blank"
+                                rel="noopener noreferrer" class="footnote-link"><sup>
+                                    [4]</sup></a>.</p>
+                        <br>
+                        <p>Discover the integral role of Vitamin E in overall health.</p>
+                    </div>
+                    <img src="./assets/images/supplements/vitamin-e-spilling-out-bottle.webp"
+                        alt="Vitamin-E Supplement Spilling Out Of The Bottle" width="500" height="500">
+                </div>
+                <div class="button-container txt-centre">
+                    <a href="https://www.amazon.co.uk/s?k=ashwagandha&crid=WESZUU3WK6ZQ&sprefix=ashwagand%2Caps%2C234&tag=nootriment-21&ref=nb_sb_ss_c_1_9"
+                        target="_blank" rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                        ASHWAGANDHA</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ASHWAGANDHA DROPDOWN ENDS -->
+
+    <!-- FOOTER STARTS -->
+    <footer class="footer-section txt-centre">
+        <div class="form-container pt-5">
+            <h2>Join our newsletter</h2>
+            <form action="./thank-you.html" class="py-3">
+                <label for="fname" class="pb-2">First name:</label>
+                <input type="text" id="fname" name="fname" required class="py-2 px-4">
+                <label for="lname" class="pt-3 pb-2">Last name:</label>
+                <input type="text" id="lname" name="lname" required class="p-2">
+                <label for="email" class="pt-3 pb-2">Email:</label>
+                <input type="email" id="email" name="email" required class="p-2 mb-4">
+                <button type="submit" class="form-button py-2 px-4 mt-3 mb-4">SUBMIT</button>
+            </form>
+            <hr class="hr">
+            <div class="brand-info-and-links py-5">
+                <h3>Follow us on Social Media</h3>
+                <div class="social-media py-4">
+                    <a href="https://www.facebook.com/" target="_blank" aria-label="Visit our Facebook page">
+                        <img src="../../assets/images/socials/facebook.svg" alt="Facebook Social Media Icon"
+                            class="px-3 svg-filter" width="75" height="75">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" aria-label="Visit our Instagram page">
+                        <img src="../../assets/images/socials/instagram.svg" alt="Instagram Social Media Icon"
+                            class="px-3 svg-filter" width="75" height="75">
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank" aria-label="Visit our Twitter page">
+                        <img src="../../assets/images/socials/twitter.svg" alt="Twitter Social Media Icon"
+                            class="px-3 svg-filter" width="75" height="75">
+                    </a>
+                </div>
+                <div class="site-owner-copyright">
+                    <p>Charlie McGoldrick | © 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER ENDS -->
+
+    <!-- JAVASCRIPT IMPORT STARTS -->
+    <script src="../../assets/js/specific-supplement-content.js" defer></script>
+    <script src="../../assets/js/hamburger-sliding-side-panel.js" defer></script>
+    <!-- JAVASCRIPT IMPORT ENDS -->
+</body>
+<!-- BODY ENDS -->
 </body>
 
 </html>
