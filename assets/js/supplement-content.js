@@ -28,3 +28,8 @@ function initializeDropdown(dropdown) {
     handleDropdownChange(dropdown);
 }
 
+// Get all dropdowns and initialise them
+const dropdowns = document.querySelectorAll('.dropdown');
+for (let dropdown of dropdowns) {
+    initializeDropdown(dropdown);
+}
