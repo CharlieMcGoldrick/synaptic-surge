@@ -255,8 +255,27 @@ a:hover {
     height: 80vh;
     width: 100%;
     object-fit: cover;
-    opacity: 0.2;
+    opacity: 0.1;
+    /* animates zoom effect on loading page */
+    animation-name: hero-oscillate;
+    animation-duration: 30s;
+    aanimation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
+
+/* Creates the level of zoom for hero image */
+@keyframes hero-oscillate {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
 
 .hero-content {
     display: flex;
