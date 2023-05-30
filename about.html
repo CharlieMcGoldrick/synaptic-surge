@@ -26,10 +26,10 @@
 
 <body>
     <!-- NAVBAR STARTS -->
-    <nav id="main-nav" role="navigation">
+    <nav id="main-nav">
         <ul class="px-5">
             <li id="main-nav-link-left">
-                <a class="main-nav-links brand-name" href="index.html">SYNAPTIC SURGE</a>
+                <a class="main-nav-links brand-name" href="../index.html">SYNAPTIC SURGE</a>
             </li>
             <li>
                 <a href="index.html" class="image-switch">
@@ -52,21 +52,24 @@
                         <a href="/supplements/supplements.html" class="nav-dropdown-button">SUPPLEMENTS</a>
                         <div class="dropdown-content-first-layer">
                             <div class="dropdown-content-second-layer">
-                                <a href="#" class="nav-dropdown-button">NOOTROPICS</a>
+                                <a href="/supplements/supplements.html#dropdown-section-nootropics"
+                                    class="nav-dropdown-button">NOOTROPICS</a>
                                 <div class="nootropics-dropdown-content">
                                     <a href="/supplements/nootropics/ashwagandha.html">ASHWAGANDHA</a>
                                     <a href="/supplements/nootropics/rhodiola-rosea.html">RHODIOLA ROSEA</a>
                                 </div>
                             </div>
                             <div class="dropdown-content-second-layer">
-                                <a href="#" class="nav-dropdown-button">MINERALS</a>
+                                <a href="/supplements/supplements.html#dropdown-section-minerals"
+                                    class="nav-dropdown-button">MINERALS</a>
                                 <div class="minerals-dropdown-content">
                                     <a href="/supplements/minerals/magnesium.html">MAGNESIUM</a>
                                     <a href="/supplements/minerals/potassium.html">POTASSIUM</a>
                                 </div>
                             </div>
                             <div class="dropdown-content-second-layer">
-                                <a href="#" class="nav-dropdown-button">VITAMINS</a>
+                                <a href="/supplements/supplements.html#dropdown-section-vitamins"
+                                    class="nav-dropdown-button">VITAMINS</a>
                                 <div class="vitamins-dropdown-content">
                                     <a href="/supplements/vitamins/vitamin-a.html">VITAMIN A</a>
                                     <a href="/supplements/vitamins/vitamin-e.html">VITAMIN E</a>
@@ -76,37 +79,41 @@
                     </div>
                 </div>
             </li>
-            <li class="hamburger" id="hamburger" aria-label="menu">
+            <li class="hamburger" id="hamburger">
                 <div class="bar1 bars"></div>
                 <div class="bar2 bars"></div>
                 <div class="bar3 bars"></div>
             </li>
         </ul>
-        <div id="mobile-nav" class="side-panel">
+        <div id="mobile-nav" class="side-panel" role="menu">
             <div class="mobile-nav-container p-3">
                 <div class="about-mobile-nav pb-4">
-                    <a href="about.html" class="mobile-nav-header" role="menuitem">ABOUT</a>
-                    <a href="about.html#dropdown-section-about" class="mobile-nav-first-child pl-3" role="menuitem">WHAT
+                    <a href="../about.html" class="mobile-nav-header" role="menuitem">ABOUT</a>
+                    <a href="../about.html#dropdown-section-about" class="mobile-nav-first-child pl-3"
+                        role="menuitem">WHAT
                         IS BIOHACKING?</a>
                 </div>
                 <div class="supplements-mobile-nav">
                     <a href="/supplements/supplements.html" class="mobile-nav-header" role="menuitem">SUPPLEMENTS</a>
                     <div class="nootropics-mobile-nav">
-                        <a href="#" class="mobile-nav-first-child pl-3" role="menuitem">NOOTROPICS</a>
+                        <a href="supplements.html#dropdown-section-nootropics" class="mobile-nav-first-child pl-3"
+                            role="menuitem">NOOTROPICS</a>
                         <a href="/supplements/nootropics/ashwagandha.html" class="mobile-nav-second-child pl-4"
                             role="menuitem">ASHWAGANDHA</a>
                         <a href="/supplements/nootropics/rhodiola-rosea.html" class="mobile-nav-second-child pl-4"
                             role="menuitem">RHODIOLA ROSEA</a>
                     </div>
                     <div class="minerals-mobile-nav">
-                        <a href="#" class="mobile-nav-first-child pl-3" role="menuitem">MINERALS</a>
+                        <a href="supplements.html#dropdown-section-minerlas" class="mobile-nav-first-child pl-3"
+                            role="menuitem">MINERALS</a>
                         <a href="/supplements/nootropics/ashwagandha.html" class="mobile-nav-second-child pl-4"
                             role="menuitem">ASHWAGANDHA</a>
                         <a href="/supplements/nootropics/rhodiola-rosea.html" class="mobile-nav-second-child pl-4"
                             role="menuitem">RHODIOLA ROSEA</a>
                     </div>
                     <div class="vitamins-mobile-nav">
-                        <a href="#" class="mobile-nav-first-child pl-3" role="menuitem">VITAMINS</a>
+                        <a href="supplements.html#dropdown-section-vitamins" class="mobile-nav-first-child pl-3"
+                            role="menuitem">VITAMINS</a>
                         <a href="/supplements/vitamins/vitamin-a.html" class="mobile-nav-second-child pl-4"
                             role="menuitem">VITAMIN
                             A</a>
@@ -118,8 +125,6 @@
             </div>
         </div>
     </nav>
-
-
     <!-- NAVBAR ENDS -->
 
     <!-- HERO SECTION STARTS -->
@@ -148,22 +153,13 @@
     </section>
     <!-- HERO SECTION ENDS -->
 
-    <!-- POPULAR SUPPLEMENTS STARTS -->
+    <!-- WHAT IS BIOHACKING SECTION STARTS -->
     <section id="dropdown-section-about" class="dropdown-section py-5">
         <div class="dropdown-container p-5 m-5">
             <h2 class="txt-centre py-3">WHAT IS BIOHACKING?</h2>
             <div class="select-container py-3">
-                <!-- <select name="supplement-type" id="supplement-type-dropdown" class="dropdown py-2 px-1 mr-3"
-                    aria-controls="supplement-dropdown">
-                    <option value="Nootropic">Nootropics</option>
-                    <option value="Mineral">Minerals</option>
-                    <option value="Vitamin">Vitamins</option>
-                </select>
-                <select name="supplement" id="supplement-dropdown" class="dropdown"> -->
-                <!-- Options will be created dynamically -->
-                <!-- </select> -->
             </div>
-            <div id="nootropic1-content" class="supplement-content">
+            <div id="about-content" class="about-content">
                 <div class="summary-image-container pb-5">
                     <div class="supplement-paragraphs">
                         <p>Biohacking is the forward-thinking practice of making nuanced yet impactful tweaks to your
@@ -181,16 +177,17 @@
                             unlocking the best version of you.</p>
 
                     </div>
-                    <iframe width="500" height="500" src="https://youtu.be/ADyCY382lAY">
+                    <iframe width="500" height="500" src="https://youtu.be/ADyCY382lAY"
+                        title="My experience with bio-hacking | Martin Kremmer | TEDxCopenhagen">
                     </iframe>
-                    <!-- <img src="./assets/images/supplements/ashwaganda-chopping-board.webp"
-                        alt="Ashwaganda Root On Chopping Board" width="500" height="500"> -->
                 </div>
                 <div class="button-container txt-centre">
                     <a href="/supplements/supplements.html" class="button-link-light py-2 px-4">SUPPLEMENTS</a>
                 </div>
+            </div>
+        </div>
     </section>
-    <!-- POPULAR SUPPLEMENTS ENDS -->
+    <!-- WHAT IS BIOHACKING SECTION ENDS -->
 
     <!-- FOOTER STARTS -->
     <footer class="footer-section txt-centre">
