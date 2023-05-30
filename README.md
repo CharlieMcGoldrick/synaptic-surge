@@ -2,6 +2,8 @@
 
 The project, *Synaptic Surge*, is designed with the aim of educating users about everything related to biohacking. The information will be distilled into manageable segments to counteract the *information overload* that many visitors might experience on similar sites. This platform caters to both novices interested in exploring the world of biohacking and seasoned veterans seeking to refine their knowledge in specific areas. In addition, a newsletter sign-up will be available to keep subscribers updated on any new scientific developments relevant to the topic at hand.
 
+![Synaptic Surge - Am I Responsive?](assets/images/readme/synaptic-surge-am-i-responsive.webp)
+
 <details>
 <summary><h2>User Experience Design (UXD)</h2></summary>
 
@@ -144,9 +146,9 @@ The competition for this specific area features a variety of different sites; [B
 <details>
 <summary><h4>Strategy Tradeoffs</h4></summary>
 
-![synaptic_surge_tradeoff_table](assets/images/readme/uxd/strategy/synaptic_surge_strategy_tradeoffs_table.png)
+![Synaptic Surge Tradeoff Table](assets/images/readme/uxd/strategy/synaptic_surge_strategy_tradeoffs_table.png)
 
-![synaptic_surge_tradeoff_graph](assets/images/readme/uxd/strategy/synaptic_surge_strategy_tradeoffs_graph.png)
+![Synaptic Surge Tradeoff_Graph](assets/images/readme/uxd/strategy/synaptic_surge_strategy_tradeoffs_graph.png)
 </details>
 </details>
 
@@ -224,7 +226,7 @@ The competition for this specific area features a variety of different sites; [B
 
 Touchpoints - Responsive Website
 
-![synaptic_surge_information_architecture](assets/images/readme/uxd/structure/synaptic-surge-information-architecture.png)
+![Synaptic Surge Information Architecture](assets/images/readme/uxd/structure/synaptic-surge-information-architecture.png)
 </details>
 
 <details>
@@ -234,93 +236,93 @@ Touchpoints - Responsive Website
 <details>
     <summary><h5>Landing Page</h5></summary>
 
-![desktop-landing-page](assets/images/readme/uxd/skeleton/desktop-landing-page.png)
+![Desktop Landing Page](assets/images/readme/uxd/skeleton/desktop-landing-page.png)
 </details>
 
 <details>
     <summary><h5>About Page</h5></summary>
     
-![desktop-about-page](assets/images/readme/uxd/skeleton/desktop-about-page.png)
+![Desktop About Page](assets/images/readme/uxd/skeleton/desktop-about-page.png)
 </details>
 
 <details>
     <summary><h5>Supplement Page (General)</h5></summary>
 
-![desktop-supplement-page-general](assets/images/readme/uxd/skeleton/desktop-supplement-page-general.png)
+![Desktop Supplement Page - General](assets/images/readme/uxd/skeleton/desktop-supplement-page-general.png)
 </details>
 
 <details>
     <summary><h5>Supplement Page (Specific)</h5></summary>
 
-![desktop-supplement-page-specific](assets/images/readme/uxd/skeleton/desktop-supplement-page-specific.png)
+![Desktop Supplement Page - Specific](assets/images/readme/uxd/skeleton/desktop-supplement-page-specific.png)
 </details>
 
 <details>
     <summary><h5>Footer</h5></summary>
 
-![desktop-supplement-footer](assets/images/readme/uxd/skeleton/desktop-footer.png)
+![Desktop Footer](assets/images/readme/uxd/skeleton/desktop-footer.png)
 </details>
 
 <h4>Tablet Wireframes</h4>
 <details>
     <summary><h5>Landing Page</h5></summary>
 
-![tablet-landing-page](assets/images/readme/uxd/skeleton/tablet-landing-page.png)
+![Tablet Landing Page](assets/images/readme/uxd/skeleton/tablet-landing-page.png)
 </details>
 
 <details>
     <summary><h5>About Page</h5></summary>
 
-![tablet-about-page](assets/images/readme/uxd/skeleton/tablet-about-page.png)
+![Tablet About Page](assets/images/readme/uxd/skeleton/tablet-about-page.png)
 </details>
 
 <details>
     <summary><h5>Supplement Page (General)</h5></summary>
 
-![tablet-supplement-page-general](assets/images/readme/uxd/skeleton/tablet-supplement-page-general.png)
+![Tablet Supplement Page - General](assets/images/readme/uxd/skeleton/tablet-supplement-page-general.png)
 </details>
 
 <details>
     <summary><h5>Supplement Page (Specific)</h5></summary>
 
-![tablet-supplement-page-specific](assets/images/readme/uxd/skeleton/tablet-supplement-page-specific.png)
+![Tablet Supplement Page - Specific](assets/images/readme/uxd/skeleton/tablet-supplement-page-specific.png)
 </details>
 
 <details>
     <summary><h5>Footer</h5></summary>
 
-![tablet-supplement-footer](assets/images/readme/uxd/skeleton/tablet-footer.png)
+![Tablet Footer](assets/images/readme/uxd/skeleton/tablet-footer.png)
 </details>
 
 <h4>Mobile Wireframes</h4>
 <details>
     <summary><h5>Landing Page</h5></summary>
 
-![mobile-landing-page](assets/images/readme/uxd/skeleton/mobile-landing-page.png)
+![Mobile Landing Page](assets/images/readme/uxd/skeleton/mobile-landing-page.png)
 </details>
 
 <details>
     <summary><h5>About Page</h5></summary>
 
-![mobile-about-page](assets/images/readme/uxd/skeleton/mobile-about-page.png)
+![Mobile About Page](assets/images/readme/uxd/skeleton/mobile-about-page.png)
 </details>
 
 <details>
     <summary><h5>Supplement Page (General)</h5></summary>
 
-![mobile-supplement-page-general](assets/images/readme/uxd/skeleton/mobile-supplement-page-general.png)
+![Mobile Supplement Page - General](assets/images/readme/uxd/skeleton/mobile-supplement-page-general.png)
 </details>
 
 <details>
     <summary><h5>Supplement Page (Specific)</h5></summary>
 
-![mobile-supplement-page-specific](assets/images/readme/uxd/skeleton/mobile-supplement-page-specific.png)
+![Mobile Supplement Page - Specific](assets/images/readme/uxd/skeleton/mobile-supplement-page-specific.png)
 </details>
 
 <details>
     <summary><h5>Footer</h5></summary>
 
-![mobile-supplement-footer](assets/images/readme/uxd/skeleton/mobile-footer.png)
+![Mobile Footer](assets/images/readme/uxd/skeleton/mobile-footer.png)
 </details>
 </details>
 
@@ -330,20 +332,78 @@ Touchpoints - Responsive Website
 
 <h4>Fonts</h4>
 
-*Headings* - [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab?query=Roboto+Slab)
+Headings - [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab?query=Roboto+Slab)
 I'm going with Roboto Slab for my headings. It's a cool mix of modern and classic, and it's got a style that really stands out. Plus, it's easy for anyone to read.
 
-*Body Text* - [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=Open+Sans)
+Body Text - [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=Open+Sans)
 For everything else, I'm using Open Sans. It's incredibly versatile, and it looks good on any device. It's simple, friendly, and really easy to read - just what I need for my site's main text.
 
 <h4>Colours</h4>
 
-![synaptic_surge_colour_swatch](assets/images/readme/uxd/surface/synaptic_surge_colour_swatch.png
+![Synaptic Surge Colour Swatch](assets/images/readme/uxd/surface/synaptic_surge_colour_swatch.png)
 
 - #0A1936 (Dark Navy Blue): I could use this as my primary color. It's great for major elements like the header, footer, or primary background color. I can also use it for important text.
 - #B6BDE5 (Light Pastel Blue): This light and airy color could serve as a background color for certain sections to provide contrast with the darker blue. It's also a good color for secondary text, borders, or backgrounds of cards or insets where I want the content to stand out.
 - #D3A518 (Dark Goldenrod): This is a strong, vibrant color that can serve as a highlight or accent color. I can use it for calls to action, buttons, or other elements I want to draw attention to. As it's quite a rich color, using it sparingly can make my design pop without being overpowering.
 - #F1F1E6 (Very Pale Yellow): This very light color is excellent for backgrounds, especially if I want a slightly warmer tone than pure white. I can also use it for elements like tooltips, drop-down menus, or modals where I want a contrast with the main page.
+
+</details>
+</details>
+
+<details>
+<summary><h2>Technologies Used</h2></summary>
+
+<details>
+<summary><h3>Languages</h3></summary>
+
+- HTML
+- CSS
+- Javascript
+</details>
+
+<details>
+<summary><h3>Websites, Software & other Tools</h3></summary>
+
+- [Codeanywhere](https://codeanywhere.com/solutions/collaborate) This is was my IDE for the project.
+- [CodePen](codepen.io) I used this to test code outside of [Codeanywhere](https://codeanywhere.com/solutions/collaborate) so that I didn't use up hours unnecessarily. I also used it to find the right filter colour for my SVGs.
+- [Git](https://git-scm.com/) Used to commit and push code to [Github](https://github.com/).
+- [Github](https://github.com/) This was used as a remote repository and I also used Github pages to host the live site.
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/) Used to learn and stick to a conventional commit framework.
+- [Midjourney](https://www.midjourney.com/) I used this AI tool for image generation.
+- [Photoshop](https://www.adobe.com/uk/products/photoshop.html) Used for Creating, Editing, resizing and converting images to webp.
+- [Illustrator](https://www.adobe.com/uk/products/illustrator.html) Used to create vectors from AI generated images and perosnally made images
+- [AdobeXD](https://helpx.adobe.com/support/xd.html) Used to create wireframes.
+- [Google Fonts](https://fonts.google.com/) Sourcing fonts.
+- [Google Webfonts Helper](https://gwfh.mranftl.com/fonts) Used to download google fonts in WOFF2 format.
+- [W3Schools](https://www.w3schools.com/) Used to learn more about CSS and Javascript.
+- [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) Used for a clearer, more comprehensive look at flexbox.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) Used to learn more about Javascript.
+- [Youtube](https://www.youtube.com/) Used to learn more about Git, CSS and Javascript.
+- [Codepen](https://codepen.io/sosuke/pen/Pjoqqp) Used to learn more about CSS and Javascript.
+- [Am I Responsive?](https://ui.dev/amiresponsive) Used to create mock-ups for various screen sizes.
+- [Color Space](https://mycolor.space/) Used to create colour palette.
+
+</details>
+
+<details>
+<summary><h2>Credits</h2></summary>
+
+- [W3Schools](https://www.w3schools.com/) Used to learn more about CSS and Javascript, such as flexbox [Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) and [Cascading Dropdowns](https://www.w3schools.com/howto/howto_js_cascading_dropdown.asp).
+- [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) Used for a clearer, more comprehensive look at flexbox.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) Used to learn more about Javascript.
+- [Kevin Powell](https://www.youtube.com/@KevinPowell) Helpful CSS tips, like the use of *inset*.
+- [Free Code Camp](https://www.youtube.com/@freecodecamp) To learn JavaScript.
+- [Color Space](https://mycolor.space/) Used to create colour palette.
+- [Midjourney](https://www.midjourney.com/) I used this AI tool for image generation.
+- [CoeePen](https://codepen.io/sosuke/pen/Pjoqqp) Filter generation to convert black to target hex colour.
+
+</details>
+
+<details>
+<summary><h2>Acknowledgements</h2></summary>
+
+- Thank you to my mentor Graeme and Code Institute (including slack community) for the great supper, advice and guidance.
+- Thank you to my friends and family for their patience and understanding whilst working on this project.
 
 </details>
 </details>
