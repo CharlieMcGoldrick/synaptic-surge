@@ -23,93 +23,97 @@
 
 <body>
     <!-- NAVBAR STARTS -->
-    <nav id="main-nav">
-        <ul class="px-5">
-            <li id="main-nav-link-left">
-                <a class="main-nav-links brand-name" href="index.html">SYNAPTIC SURGE</a>
+    <nav id="main-nav" role="menubar">
+        <ul class="px-5" role="none">
+            <li id="main-nav-link-left" role="none">
+                <a class="main-nav-links brand-name" href="index.html" role="menuitem">SYNAPTIC SURGE</a>
             </li>
             <li>
-                <a href="index.html" class="image-switch">
+                <a href="index.html" class="image-switch" role="presentation">
                     <img src="assets/images/brand/synaptic-surge-logo-normal.webp" alt="Synaptic Surge Logo" width="50"
                         height="50" class="image-normal">
                     <img src="assets/images/brand/synaptic-surge-logo-hover.webp" alt="Synaptic Surge Logo" width="50"
                         height="50" class="image-hover">
                 </a>
             </li>
-            <li id="main-nav-links-right">
+            <li id="main-nav-links-right" role="none">
                 <div class="main-nav-links">
-                    <div class="nav-dropdown">
-                        <a href="about.html" class="nav-dropdown-button mr-3">ABOUT</a>
+                    <div class="nav-dropdown" role="menu">
+                        <a href="about.html" class="nav-dropdown-button mr-3" role="menuitem">ABOUT</a>
                         <div class="dropdown-content-first-layer">
-                            <a href="about.html" class="nav-dropdown-button">WHAT IS BIOHACKING?</a>
+                            <a href="about.html" class="nav-dropdown-button" role="menuitem">WHAT IS BIOHACKING?</a>
                         </div>
                     </div>
                     <div class="nav-dropdown">
-                        <a href="/supplements/supplements.html" class="nav-dropdown-button">SUPPLEMENTS</a>
+                        <a href="/supplements/supplements.html" class="nav-dropdown-button"
+                            role="menuitem">SUPPLEMENTS</a>
                         <div class="dropdown-content-first-layer">
                             <div class="dropdown-content-second-layer">
-                                <a href="#" class="nav-dropdown-button">NOOTROPICS</a>
+                                <a href="#" class="nav-dropdown-button" role="menuitem">NOOTROPICS</a>
                                 <div class="nootropics-dropdown-content">
-                                    <a href="/supplements/nootropics/ashwagandha.html">ASHWAGANDHA</a>
-                                    <a href="/supplements/nootropics/rhodiola-rosea.html">RHODIOLA ROSEA</a>
+                                    <a href="/supplements/nootropics/ashwagandha.html" role="menuitem">ASHWAGANDHA</a>
+                                    <a href="/supplements/nootropics/rhodiola-rosea.html" role="menuitem">RHODIOLA
+                                        ROSEA</a>
                                 </div>
                             </div>
                             <div class="dropdown-content-second-layer">
-                                <a href="#" class="nav-dropdown-button">MINERALS</a>
+                                <a href="#" class="nav-dropdown-button" role="menuitem">MINERALS</a>
                                 <div class="minerals-dropdown-content">
-                                    <a href="/supplements/minerals/magnesium.html">MAGNESIUM</a>
-                                    <a href="/supplements/minerals/potassium.html">POTASSIUM</a>
+                                    <a href="/supplements/minerals/magnesium.html" role="menuitem">MAGNESIUM</a>
+                                    <a href="/supplements/minerals/potassium.html" role="menuitem">POTASSIUM</a>
                                 </div>
                             </div>
                             <div class="dropdown-content-second-layer">
-                                <a href="#" class="nav-dropdown-button">VITAMINS</a>
+                                <a href="#" class="nav-dropdown-button" role="menuitem">VITAMINS</a>
                                 <div class="vitamins-dropdown-content">
-                                    <a href="/supplements/vitamins/vitamin-a.html">VITAMIN A</a>
-                                    <a href="/supplements/vitamins/vitamin-e.html">VITAMIN E</a>
+                                    <a href="/supplements/vitamins/vitamin-a.html" role="menuitem">VITAMIN A</a>
+                                    <a href="/supplements/vitamins/vitamin-e.html" role="menuitem">VITAMIN E</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </li>
-            <div class="hamburger" id="hamburger">
+            <div class="hamburger" id="hamburger" aria-label="menu" role="button">
                 <div class="bar1 bars"></div>
                 <div class="bar2 bars"></div>
                 <div class="bar3 bars"></div>
             </div>
-            <div id="mobile-nav" class="side-panel">
-                <div class="mobile-nav-container p-3">
-                    <div class="about-mobile-nav pb-4">
-                        <a href="about.html" class="mobile-nav-header">ABOUT</a>
-                        <a href="about.html" class="mobile-nav-first-child pl-3">WHAT IS BIOHACKING?</a>
+        </ul>
+        <div id="mobile-nav" class="side-panel">
+            <div class="mobile-nav-container p-3">
+                <div class="about-mobile-nav pb-4">
+                    <a href="about.html" class="mobile-nav-header" role="menuitem">ABOUT</a>
+                    <a href="about.html" class="mobile-nav-first-child pl-3" role="menuitem">WHAT IS BIOHACKING?</a>
+                </div>
+                <div class="supplements-mobile-nav">
+                    <a href="/supplements/supplements.html" class="mobile-nav-header" role="menuitem">SUPPLEMENTS</a>
+                    <div class="nootropics-mobile-nav">
+                        <a href="#" class="mobile-nav-first-child pl-3" role="menuitem">NOOTROPICS</a>
+                        <a href="/supplements/nootropics/ashwagandha.html" class="mobile-nav-second-child pl-4"
+                            role="menuitem">ASHWAGANDHA</a>
+                        <a href="/supplements/nootropics/rhodiola-rosea.html" class="mobile-nav-second-child pl-4"
+                            role="menuitem">RHODIOLA ROSEA</a>
                     </div>
-                    <div class="supplements-mobile-nav">
-                        <a href="/supplements/supplements.html" class="mobile-nav-header">SUPPLEMENTS</a>
-                        <div class="nootropics-mobile-nav">
-                            <a href="#" class="mobile-nav-first-child pl-3">NOOTROPICS</a>
-                            <a href="/supplements/nootropics/ashwagandha.html"
-                                class="mobile-nav-second-child pl-4">ASHWAGANDHA</a>
-                            <a href="/supplements/nootropics/rhodiola-rosea.html"
-                                class="mobile-nav-second-child pl-4">RHODIOLA ROSEA</a>
-                        </div>
-                        <div class="minerals-mobile-nav">
-                            <a href="#" class="mobile-nav-first-child pl-3">MINERALS</a>
-                            <a href="/supplements/nootropics/ashwagandha.html"
-                                class="mobile-nav-second-child pl-4">ASHWAGANDHA</a>
-                            <a href="/supplements/nootropics/rhodiola-rosea.html"
-                                class="mobile-nav-second-child pl-4">RHODIOLA ROSEA</a>
-                        </div>
-                        <div class="vitamins-mobile-nav">
-                            <a href="#" class="mobile-nav-first-child pl-3">VITAMINS</a>
-                            <a href="/supplements/vitamins/vitamin-a.html" class="mobile-nav-second-child pl-4">VITAMIN
-                                A</a>
-                            <a href="/supplements/vitamins/vitamin-e.html" class="mobile-nav-second-child pl-4">VITAMIN
-                                E</a>
-                        </div>
+                    <div class="minerals-mobile-nav">
+                        <a href="#" class="mobile-nav-first-child pl-3" role="menuitem">MINERALS</a>
+                        <a href="/supplements/nootropics/ashwagandha.html" class="mobile-nav-second-child pl-4"
+                            role="menuitem">ASHWAGANDHA</a>
+                        <a href="/supplements/nootropics/rhodiola-rosea.html" class="mobile-nav-second-child pl-4"
+                            role="menuitem">RHODIOLA ROSEA</a>
+                    </div>
+                    <div class="vitamins-mobile-nav">
+                        <a href="#" class="mobile-nav-first-child pl-3" role="menuitem">VITAMINS</a>
+                        <a href="/supplements/vitamins/vitamin-a.html" class="mobile-nav-second-child pl-4"
+                            role="menuitem">VITAMIN
+                            A</a>
+                        <a href="/supplements/vitamins/vitamin-e.html" class="mobile-nav-second-child pl-4"
+                            role="menuitem">VITAMIN
+                            E</a>
                     </div>
                 </div>
             </div>
-        </ul>
+        </div>
     </nav>
 
     <!-- NAVBAR ENDS -->
