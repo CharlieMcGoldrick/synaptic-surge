@@ -259,7 +259,7 @@ a:hover {
     /* animates zoom effect on loading page */
     animation-name: hero-oscillate;
     animation-duration: 30s;
-    aanimation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
