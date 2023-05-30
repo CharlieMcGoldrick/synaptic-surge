@@ -727,6 +727,10 @@ a:hover {
         display: none;
     }
 
+    .mobile-nav-container {
+        padding-left: 5rem;
+    }
+
     /* Hero section */
     .hero-section h1 {
         font-size: 2.1rem;
@@ -832,6 +836,10 @@ a:hover {
 
     .dropdown-content-second-layer a {
         font-size: 0.90rem;
+    }
+
+    .mobile-nav-container {
+        padding-left: 1rem;
     }
 
     /* Hero section */
