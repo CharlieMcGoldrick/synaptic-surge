@@ -382,6 +382,7 @@ For everything else, I'm using Open Sans. It's incredibly versatile, and it look
 - [Codepen](https://codepen.io/sosuke/pen/Pjoqqp) Used to learn more about CSS and Javascript.
 - [Am I Responsive?](https://ui.dev/amiresponsive) Used to create mock-ups for various screen sizes.
 - [Color Space](https://mycolor.space/) Used to create colour palette.
+- [Dynamic Drive](http://tools.dynamicdrive.com/favicon/) Used to create favicon.
 
 </details>
 
@@ -396,6 +397,8 @@ For everything else, I'm using Open Sans. It's incredibly versatile, and it look
 - [Color Space](https://mycolor.space/) Used to create colour palette.
 - [Midjourney](https://www.midjourney.com/) I used this AI tool for image generation.
 - [CoeePen](https://codepen.io/sosuke/pen/Pjoqqp) Filter generation to convert black to target hex colour.
+- [Dynamic Drive](http://tools.dynamicdrive.com/favicon/) Used to create favicon.
+- - [Am I Responsive?](https://ui.dev/amiresponsive) Used to create mock-ups for various screen sizes.
 
 </details>
 
