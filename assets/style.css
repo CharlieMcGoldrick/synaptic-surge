@@ -102,6 +102,7 @@ a:hover {
 
 .button-link-light:hover {
     background-color: var(--light-colour);
+    color: var(--primary-colour);
 }
 
 
