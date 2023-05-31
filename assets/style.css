@@ -109,7 +109,7 @@ a:hover {
 /*--------------- GENERAL BUTTON STYLING ENDS ---------------*/
 
 /*--------------- NAVBAR STYLING STARTS ---------------*/
-/*--------------- ALL PAGES ---------------*/
+
 #main-nav {
     height: 60px;
     background: var(--primary-colour);
@@ -357,11 +357,10 @@ a:hover {
     color: var(--secondary-colour);
 }
 
-/*--------------- ALL PAGES ---------------*/
+
 /*--------------- NAVBAR STYLING ENDS ---------------*/
 
 /*--------------- HERO SECTION STYLING STARTS ---------------*/
-/*--------------- ALL PAGES ---------------*/
 .hero-section {
     position: relative;
     height: 80vh;
@@ -414,7 +413,14 @@ a:hover {
     font-size: 1.5rem;
 }
 
-/*--------------- INDEX, ABOUT, SUPPLEMENT (GENERAL) PAGES ---------------*/
+.supplement-hero-buttons-container {
+    display: flex;
+}
+
+.supplement-hero-buttons-container>* {
+    margin: 0 2rem;
+}
+
 /*--------------- HERO SECTION STYLING ENDS ---------------*/
 
 /*--------------- DROPDOWN SECTION STYLING STARTS ---------------*/
@@ -865,6 +871,15 @@ a:hover {
         font-size: 1.125rem;
     }
 
+    .supplement-hero-buttons-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .supplement-hero-buttons-container>* {
+        margin: 1rem 0;
+    }
+
     /* Popular Supplements Section */
     .dropdown-container {
         padding: 1.5rem;
@@ -883,9 +898,14 @@ a:hover {
         font-size: 1.625rem;
     }
 
+    .dropdown-section .summary-image-container {
+        flex-direction: column;
+    }
+
     .dropdown-section .summary-image-container img {
         width: 100%;
     }
+
 
     .dropdown-section .summary-image-container {
         padding-bottom: 1.5rem;
