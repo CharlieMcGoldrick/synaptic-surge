@@ -133,7 +133,7 @@ Many of these sites produce podcasts, which is currently an unattainable content
 - Jake Steiner - His focus is on eyesight, specifically managing and even reversing myopia
 Dr Chaffe also interviews scientific peers, but I believe his interviews with regular people are quite powerful, as are Jake's, because it makes the subject matter more relatable.
 
-In addition to the sites focused specifically on biohacking, there are other platforms like Healthline and Medical News Today that cover a broader range of topics, including biohacking. These websites generally have a clear and intuitive design, with well-structured content. However, they can sometimes overwhelm users with an excessive amount of information. To improve the user experience, it would be beneficial for these sites to break down their content into more manageable chunks, while still providing clear information. This can be achieved by employing techniques that reduce visual clutter, such as using collapsible sections, implementing clear headings and subheadings, and incorporating interactive elements that allow users to explore the content at their own pace. By presenting information in a more digestible format, these websites could enhance usability and make it easier for users to find the specific information they are looking for.
+In addition to the sites focused specifically on biohacking, there are other platforms like Healthline and Medical News Today that cover a broader range of topics, including biohacking. These websites generally have a clear and intuitive design, with well-structured content. However, they can sometimes overwhelm users with an excessive amount of information. To improve the user experience, it would be beneficial for these sites to break down their content into more manageable chunks, while still providing clear information. This can be achieved by utilising techniques that reduce visual clutter, such as using collapsible sections, implementing clear headings and subheadings, and incorporating interactive elements that allow users to explore the content at their own pace. By presenting information in a more digestible format, these websites could enhance usability and make it easier for users to find the specific information they are looking for.
 </details>
 
 <details>
@@ -420,6 +420,29 @@ For everything else, I'm using Open Sans. It's incredibly versatile, and it look
 </details>
 
 <details>
+<summary><h2>Deployment</h2></summary>
+
+I have deployed this website on GitHub Pages. To do this yourself, follow the steps below:
+
+1. Log in to your GitHub account and navigate to the repository you wish to deploy.
+2. Click on the "Settings" tab.
+3. In the left-hand navigation menu, click on the "Pages" button.
+4. Under "Source", click on the dropdown that says "None" and then select "main".
+5. Wait for a few seconds and the page should automatically refresh.
+6. In GitHub Pages, you can see the link to your published site.
+
+To make a clone of this repository, follow these steps:
+
+1. Login to your GitHub account.
+2. Go to the repository by visiting the link: [Charlie McGoldrick Github - Synaptic Surge Repo](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge).
+3. Click the "Code" button and then use the copy button next to the link to copy the link.
+4. In your IDE of choice, open a new terminal and use the following clone command:
+   `git clone <https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge.git>`.
+5. You will now have a copy of the repository in you local version.
+
+</details>
+
+<details>
 <summary><h2>Credits</h2></summary>
 
 - [W3Schools](https://www.w3schools.com/) Used to learn more about CSS and Javascript, such as flexbox [Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) and [Cascading Dropdowns](https://www.w3schools.com/howto/howto_js_cascading_dropdown.asp).
@@ -438,7 +461,7 @@ For everything else, I'm using Open Sans. It's incredibly versatile, and it look
 <details>
 <summary><h2>Acknowledgements</h2></summary>
 
-- Thank you to my mentor Graeme and Code Institute (including slack community) for the great supper, advice and guidance.
+- Thank you to my mentors, Graeme Taylor, Brian Macharia, and Code Institute (including the Slack community), for the great support, advice, and guidance.
 - Thank you to my friends and family for their patience and understanding whilst working on this project.
 
 </details>
