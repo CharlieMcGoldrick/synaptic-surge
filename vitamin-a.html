@@ -21,7 +21,315 @@
 </head>
 
 <body>
-    This is a place holder
+    <!-- NAVBAR STARTS -->
+    <nav id="main-nav">
+        <ul class="px-5">
+            <li id="main-nav-link-left">
+                <a class="main-nav-links brand-name" href="index.html">SYNAPTIC SURGE</a>
+            </li>
+            <li>
+                <a href="index.html" class="image-switch">
+                    <img src="assets/images/brand/synaptic-surge-logo-normal.webp" alt="Synaptic Surge Logo" width="50"
+                        height="50" class="image-normal">
+                    <img src="assets/images/brand/synaptic-surge-logo-hover.webp" alt="Synaptic Surge Logo" width="50"
+                        height="50" class="image-hover">
+                </a>
+            </li>
+            <li id="main-nav-links-right">
+                <div class="main-nav-links">
+                    <div class="nav-dropdown">
+                        <a href="about.html" class="nav-dropdown-button mr-3">ABOUT</a>
+                        <div class="dropdown-content-first-layer">
+                            <a href="about.html#dropdown-section-about" class="nav-dropdown-button">WHAT IS
+                                BIOHACKING?</a>
+                        </div>
+                    </div>
+                    <div class="nav-dropdown">
+                        <a href="supplements.html" class="nav-dropdown-button">SUPPLEMENTS</a>
+                        <div class="dropdown-content-first-layer">
+                            <div class="dropdown-content-second-layer">
+                                <a href="supplements.html#dropdown-section-nootropics"
+                                    class="nav-dropdown-button">NOOTROPICS</a>
+                                <div class="nootropics-dropdown-content">
+                                    <a href="ashwagandha.html">ASHWAGANDHA</a>
+                                    <a href="rhodiola-rosea.html">RHODIOLA ROSEA</a>
+                                </div>
+                            </div>
+                            <div class="dropdown-content-second-layer">
+                                <a href="supplements.html#dropdown-section-minerals"
+                                    class="nav-dropdown-button">MINERALS</a>
+                                <div class="minerals-dropdown-content">
+                                    <a href="magnesium.html">MAGNESIUM</a>
+                                    <a href="potassium.html">POTASSIUM</a>
+                                </div>
+                            </div>
+                            <div class="dropdown-content-second-layer">
+                                <a href="supplements.html#dropdown-section-vitamins"
+                                    class="nav-dropdown-button">VITAMINS</a>
+                                <div class="vitamins-dropdown-content">
+                                    <a href="vitamin-a.html">VITAMIN A</a>
+                                    <a href="vitamin-e.html">VITAMIN E</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="hamburger" id="hamburger">
+                <div class="bar1 bars"></div>
+                <div class="bar2 bars"></div>
+                <div class="bar3 bars"></div>
+            </li>
+        </ul>
+        <div id="mobile-nav" class="side-panel" role="menu">
+            <div class="mobile-nav-container p-3">
+                <div class="about-mobile-nav pb-4">
+                    <a href="about.html" class="mobile-nav-header" role="menuitem">ABOUT</a>
+                    <a href="about.html#dropdown-section-about" class="mobile-nav-first-child pl-3" role="menuitem">WHAT
+                        IS BIOHACKING?</a>
+                </div>
+                <div class="supplements-mobile-nav">
+                    <a href="supplements.html" class="mobile-nav-header" role="menuitem">SUPPLEMENTS</a>
+                    <div class="nootropics-mobile-nav">
+                        <a href="supplements.html#dropdown-section-nootropics" class="mobile-nav-first-child pl-3"
+                            role="menuitem">NOOTROPICS</a>
+                        <a href="ashwagandha.html" class="mobile-nav-second-child pl-4" role="menuitem">ASHWAGANDHA</a>
+                        <a href="rhodiola-rosea.html" class="mobile-nav-second-child pl-4" role="menuitem">RHODIOLA
+                            ROSEA</a>
+                    </div>
+                    <div class="minerals-mobile-nav">
+                        <a href="supplements.html#dropdown-section-minerals" class="mobile-nav-first-child pl-3"
+                            role="menuitem">MINERALS</a>
+                        <a href="magnesium.html" class="mobile-nav-second-child pl-4" role="menuitem">MAGNESIUM</a>
+                        <a href="potassium.html" class="mobile-nav-second-child pl-4" role="menuitem">POTASSIUM</a>
+                    </div>
+                    <div class="vitamins-mobile-nav">
+                        <a href="supplements.html#dropdown-section-vitamins" class="mobile-nav-first-child pl-3"
+                            role="menuitem">VITAMINS</a>
+                        <a href="vitamin-a.html" class="mobile-nav-second-child pl-4" role="menuitem">VITAMIN
+                            A</a>
+                        <a href="vitamin-e.html" class="mobile-nav-second-child pl-4" role="menuitem">VITAMIN
+                            E</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR ENDS -->
+
+    <!-- HERO SECTION STARTS -->
+    <section id="hero-section-home" class="hero-section">
+        <div id="hero-bg-image-home" class="hero-bg-image">
+            <img src="assets/images/brand/synaptic-surge-hero-image.webp" alt="Neural Network Hero Image" width="1456"
+                height="816">
+        </div>
+        <div id="hero-content-home" class="hero-content txt-centre">
+            <h1 class="py-4">VITAMIN A</h1>
+            <p class="pb-4">Discover the power of Synaptic Surge, where science meets health in a way you've never
+                experienced before. Dive into the
+                world of biohacking, unlock hidden potentials, and start living at your peak. Your journey to
+                optimal
+                health starts
+                here.</p>
+            <a href="#dropdown-section-vitamin-a" class="button-link-light py-2 px-4">LEARN MORE ABOUT VITAMIN A</a>
+        </div>
+    </section>
+    <!-- HERO SECTION ENDS -->
+
+    <!-- VITAMIN A DROPDOWN STARTS -->
+    <section id="dropdown-section-vitamin-a" class="dropdown-section py-5">
+        <div class="dropdown-container p-5 m-5">
+            <h2 class="txt-centre py-3">VITAMIN A</h2>
+            <div class="select-container py-3">
+                <select name="supplement-type" id="supplement-type-dropdown" class="dropdown py-2 px-1 mr-3"
+                    aria-controls="supplement-dropdown">
+                    <option value="overview-content">Overview</option>
+                    <option value="functionality-content">Functionality</option>
+                    <option value="benefits-content">Benefits</option>
+                    <option value="side-effects-content">Side Effects</option>
+                    <option value="drug-interactions-content">Drug Interactions</option>
+                    <option value="dosage-content">Dosage</option>
+                </select>
+            </div>
+            <div id="supplement-content-container">
+                <div id="overview-content" class="supplement-content">
+                    <p id="overview" class="mb-4">
+                        Vitamin A is a fat-soluble vitamin that is naturally present in many foods. It is essential for
+                        human health and plays a
+                        crucial role in vision, immune function, reproduction, and cell communication <sup><a
+                                href="https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/" target="_blank"
+                                rel="noopener noreferrer">
+                                [1]</a></sup>.
+                    </p>
+                    <div class="button-container txt-centre">
+                        <a href="https://www.amazon.co.uk/s?k=Vitamin+a&ref=nb_sb_noss_2" target="_blank"
+                            rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                            VITAMIN A</a>
+                    </div>
+                </div>
+                <div id="functionality-content" class="supplement-content">
+                    <p id="functionality" class="mb-4">
+                        Vitamin A comes in two forms: preformed vitamin A, found in animal products, and provitamin A,
+                        found in fruits and
+                        vegetables. The body converts these compounds into the active form of vitamin A, retinol, which
+                        interacts with the
+                        proteins in the body to support the vitamin's essential functions <sup><a
+                                href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6162863/" target="_blank"
+                                rel="noopener noreferrer">
+                                [2]</a></sup>.
+                    </p>
+                    <div class="button-container txt-centre">
+                        <a href="https://www.amazon.co.uk/s?k=Vitamin+a&ref=nb_sb_noss_2" target="_blank"
+                            rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                            VITAMIN A</a>
+                    </div>
+                </div>
+                <div id="benefits-content" class="supplement-content">
+                    <p id="benefits" class="mb-4">
+                        Vitamin A has numerous health benefits, including:
+                    </p>
+                    <p class="mb-4">
+                        - Supporting Immune Function: Vitamin A is essential for the functioning of the immune system,
+                        as it helps to
+                        regulate cellular immune responses and humoral immune processes <sup><a
+                                href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6162863/" target="_blank"
+                                rel="noopener noreferrer">
+                                [3]</a></sup>.
+                    </p>
+                    <p class="mb-4">
+                        - Maintaining Healthy Vision: Vitamin A is a component of the protein rhodopsin, which supports
+                        the retina to absorb
+                        light <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5119489/" target="_blank"
+                                rel="noopener noreferrer"> [4]</a></sup>.
+                    </p>
+                    <p class="mb-4">
+                        - Promoting Skin Health: Vitamin A is necessary for the growth and repair of skin tissue, and
+                        helps maintain healthy
+                        teeth, skeletal and soft tissue, and mucous membranes <sup><a
+                                href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5579659/" target="_blank"
+                                rel="noopener noreferrer">
+                                [5]</a></sup>.
+                    </p>
+                    <div class="button-container txt-centre">
+                        <a href="https://www.amazon.co.uk/s?k=Vitamin+a&ref=nb_sb_noss_2" target="_blank"
+                            rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                            VITAMIN A</a>
+                    </div>
+                </div>
+                <div id="side-effects-content" class="supplement-content">
+                    <p id="side_effects" class="mb-4">
+                        Vitamin A is generally safe when consumed in recommended amounts, but excessive intake can be
+                        harmful, causing symptoms
+                        like dizziness, nausea, headaches, skin irritation, and joint or bone pain <sup><a
+                                href="https://ods.od.nih.gov/factsheets/VitaminA-Consumer/" target="_blank"
+                                rel="noopener noreferrer">
+                                [6]</a></sup>. Always consult a healthcare professional before beginning any new
+                        supplement regimen.
+                    </p>
+                    <div class="button-container txt-centre">
+                        <a href="https://www.amazon.co.uk/s?k=Vitamin+a&ref=nb_sb_noss_2" target="_blank"
+                            rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                            VITAMIN A</a>
+                    </div>
+                </div>
+                <div id="drug-interactions-content" class="supplement-content">
+                    <p id="drug_interactions" class="mb-4">
+                        The recommended daily allowance for Vitamin A varies based on age and sex, but generally, it's
+                        recommended that men get
+                        900 micrograms and women get 700 micrograms per day <sup><a
+                                href="https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/" target="_blank"
+                                rel="noopener noreferrer">
+                                [7]</a></sup>.
+                    </p>
+                    <p class="mb-4">
+                        Always follow the recommended dosage on your specific supplement and consult with a healthcare
+                        professional before
+                        starting a new supplement regimen.
+                    </p>
+                    <div class="button-container txt-centre">
+                        <a href="https://www.amazon.co.uk/s?k=Vitamin+a&ref=nb_sb_noss_2" target="_blank"
+                            rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                            VITAMIN A</a>
+                    </div>
+                </div>
+                <div id="dosage-content" class="supplement-content">
+                    <p id="dosage" class="mb-4">
+                        Rhodiola Rosea dosage can vary widely depending on the specific extract and the purpose for
+                        which it's being used.
+                        However, a common dosage range is between 200 to 600 mg per day of an extract standardized
+                        to contain 2-3% rosavins
+                        and 0.8-1% salidroside, two of the most important active compounds in Rhodiola Rosea<sup><a
+                                href="https://www.webmd.com/vitamins/ai/ingredientmono-883/rhodiola" target="_blank"
+                                rel="noopener noreferrer"> [8]</a></sup>.
+                    </p>
+                    <p class="mb-4">
+                        Some studies have used doses up to 680 mg to 1700 mg daily, divided into two doses<sup><a
+                                href="https://pubmed.ncbi.nlm.nih.gov/22228617/" target="_blank"
+                                rel="noopener noreferrer"> [9]</a></sup>.
+                        However, it is always advised to start with a lower dose to assess tolerance, then gradually
+                        increase as needed.
+                    </p>
+                    <p class="mb-4">It's typically recommended to take Rhodiola Rosea on an empty stomach, but not
+                        before bed,
+                        due to its stimulating
+                        effects. As with any supplement, it's essential to consult with a healthcare professional
+                        before starting a new
+                        regimen.
+                    </p>
+                    <div class="button-container txt-centre">
+                        <a href="https://www.amazon.co.uk/s?k=Vitamin+a&ref=nb_sb_noss_2" target="_blank"
+                            rel="noopener noreferrer" class="button-link-light py-2 px-4">PURCHASE
+                            VITAMIN A</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- VITAMIN A DROPDOWN ENDS -->
+
+    <!-- FOOTER STARTS -->
+    <footer class="footer-section txt-centre">
+        <div class="form-container pt-5">
+            <h2>Join our newsletter</h2>
+            <form action="./thank-you.html" class="py-3">
+                <label for="fname" class="pb-2">First name:</label>
+                <input type="text" id="fname" name="fname" required class="py-2 px-4">
+                <label for="lname" class="pt-3 pb-2">Last name:</label>
+                <input type="text" id="lname" name="lname" required class="p-2">
+                <label for="email" class="pt-3 pb-2">Email:</label>
+                <input type="email" id="email" name="email" required class="p-2 mb-4">
+                <button type="submit" class="form-button py-2 px-4 mt-3 mb-4">SUBMIT</button>
+            </form>
+            <hr class="hr">
+            <div class="brand-info-and-links py-5">
+                <h3>Follow us on Social Media</h3>
+                <div class="social-media py-4">
+                    <a href="https://www.facebook.com/" target="_blank" aria-label="Visit our Facebook page">
+                        <img src="assets/images/socials/facebook.svg" alt="Facebook Social Media Icon"
+                            class="px-3 svg-filter" width="75" height="75">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" aria-label="Visit our Instagram page">
+                        <img src="assets/images/socials/instagram.svg" alt="Instagram Social Media Icon"
+                            class="px-3 svg-filter" width="75" height="75">
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank" aria-label="Visit our Twitter page">
+                        <img src="assets/images/socials/twitter.svg" alt="Twitter Social Media Icon"
+                            class="px-3 svg-filter" width="75" height="75">
+                    </a>
+                </div>
+                <div class="site-owner-copyright">
+                    <p>Charlie McGoldrick | © 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER ENDS -->
+    <!-- JAVASCRIPT IMPORT STARTS -->
+    <script src="assets/js/specific-supplement-content.js" defer></script>
+    <script src="assets/js/hamburger-sliding-side-panel.js" defer></script>
+    <!-- JAVASCRIPT IMPORT ENDS -->
+
+    <!-- BODY ENDS -->
 </body>
 
 </html>
