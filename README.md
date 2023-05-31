@@ -420,6 +420,68 @@ For everything else, I'm using Open Sans. It's incredibly versatile, and it look
 </details>
 
 <details>
+<summary><h2>Validation, Performance, Accessibility & Testing</h2></summary>
+
+<h4>Validation</h4>
+Every page passed [w3C HTML Validation](https://validator.w3.org/nu/)
+<details>
+<summary><h4>HTML Validation</h4></summary>
+
+![w3C Validator - Markup - Home](assets/images/readme/html-validation/w3c-validator-markup-home.webp)
+![w3C Validator - Markup - About](assets/images/readme/html-validation/w3c-validator-markup-about.webp)
+![w3C Validator - Markup - Supplements](assets/images/readme/html-validation/w3c-validator-markup-supplements.webp)
+![w3C Validator - Markup - Ashwagandha](assets/images/readme/html-validation/w3c-validator-markup-ashwagandha.webp)
+![w3C Validator - Markup - Rhodiola Rosea](assets/images/readme/html-validation/w3c-validator-markup-rhodiola-rosea.webp)
+![w3C Validator - Markup - Magnesium](assets/images/readme/html-validation/w3c-validator-markup-magnesium.webp)
+![w3C Validator - Markup - Potassium](assets/images/readme/html-validation/w3c-validator-markup-potassium.webp)
+![w3C Validator - Markup - Vitamin A](assets/images/readme/html-validation/w3c-validator-markup-vitamin-a.webp)
+![w3C Validator - Markup - Vitamin E](assets/images/readme/html-validation/w3c-validator-markup-vitamin-e.webp)
+</details>
+
+Every page passed [w3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input)
+<details>
+<summary><h4>CSS Validation</h4></summary>
+
+![w3C Validator - Markup - Home](assets/images/readme/css-validation/w3c-validator-css-style.webp)
+![w3C Validator - Markup - About](assets/images/readme/css-validation/w3c-validator-css-messages.webp)
+![w3C Validator - Markup - Supplements](assets/images/readme/css-validation/w3c-validator-css-fonts.webp)
+![w3C Validator - Markup - Ashwagandha](assets/images/readme/css-validation/w3c-validator-css-utilities.webp)
+
+</details>
+
+<h3>Performance & Accessibility</h3> 
+I used [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) and all pages passed with 0 errors. I also used [Google Lighthouse](hhttps://developer.chrome.com/docs/lighthouse/overview) and every page was in the high greens for performance, accessbility and best practises.
+<details>
+<summary><h4>Google Lighthouse</h4></summary>
+
+![Google Lighthouse - Homepage - Desktop](assets/images/readme/google-lighthouse/google-lighthouse-homepage-desktop.webp)
+![Google Lighthouse - Homepage - Mobile](assets/images/readme/google-lighthouse/google-lighthouse-homepage-mobile.webp)
+![Google Lighthouse - About Page - Desktop](assets/images/readme/google-lighthouse/google-lighthouse-about-page-desktop.webp)
+![Google Lighthouse - About Page - Mobile](assets/images/readme/google-lighthouse/google-lighthouse-about-page-mobile.webp)
+![Google Lighthouse - Supplement Page - Desktop](assets/images/readme/google-lighthouse/google-lighthouse-supplement-page-desktop.webp)
+![Google Lighthouse - Supplement Page - Mobile](assets/images/readme/google-lighthouse/google-lighthouse-supplement-page-mobile.webp)
+![Google Lighthouse - Ashwagandha Page - Desktop](assets/images/readme/google-lighthouse/google-lighthouse-ashwagandha-desktopwebp.webp)
+![Google Lighthouse - Ashwagandha Page - Mobile](assets/images/readme/google-lighthouse/google-lighthouse-ashwagandha-mobile.webp)
+![Google Lighthouse - Rhodiola Rosea Page - Desktop](assets/images/readme/google-lighthouse/google-lighthouse-rhodiola-rosea-page-desktop.webp)
+![Google Lighthouse - Rhodiola Rosea Page - Mobile](assets/images/readme/google-lighthouse/google-lighthouse-rhodiola-rosea-page-mobile.webp)
+![Google Lighthouse - Magnesium Page - Desktop](assets/images/readme/google-lighthouse/google-lighthouse-magnesium-page-desktop.webp)
+![Google Lighthouse - Magnesium Rosea Page - Mobile](assets/images/readme/google-lighthouse/google-lighthouse-magnesium-page-mobile.webp)
+![Google Lighthouse - Potassium Page - Desktop](assets/images/readme/google-lighthouse/google-lighthouse-potassium-page-desktop.webp)
+![Google Lighthouse - Potassium Rosea Page - Mobile](assets/images/readme/google-lighthouse/google-lighthouse-potassium-page-mobile.webp)
+![Google Lighthouse - Vitamin A Page - Desktop](assets/images/readme/google-lighthouse/google-lighthouse-vitamin-a-page-desktop.webp)
+![Google Lighthouse - Vitamin A Rosea Page - Mobile](assets/images/readme/google-lighthouse/google-lighthouse-vitamin-a-page-mobile.webp)
+![Google Lighthouse - Vitamin A Page - Desktop](assets/images/readme/google-lighthouse/google-lighthouse-vitamin-e-page-desktop.webp)
+![Google Lighthouse - Vitamin A Rosea Page - Mobile](assets/images/readme/google-lighthouse/google-lighthouse-vitamin-e-page-mobile.webp)
+
+</details>
+
+<h3>Testing</h3>
+1. I have tested the functionality. All of the links go to the desired locations and the link hover styles work. If the link is external then it opens up on another page. The navbar slides down when it's hovered and the hamburger menu opens when using a touch scrren. The form submits on all pages and the user is greeted with a thank you page that has a button to take them back.
+2. The website works as intended on Chrome, Firefox and Edge.
+3. I've tested the website on a laptop (1366x766px) and a Samsung Galaxy S9 (360x740px).
+</details>
+
+<details>
 <summary><h2>Deployment</h2></summary>
 
 I have deployed this website on GitHub Pages. To do this yourself, follow the steps below:
