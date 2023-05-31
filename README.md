@@ -419,7 +419,6 @@ For everything else, I'm using Open Sans. It's incredibly versatile, and it look
 - [Mobile Menu Flashing On Page Load](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/f195b92115bcf29aa4ac5a78623236c61f766222) - Add inline CSS so that the mobile menu loads in hidden.
 
 </details>
-
 </details>
 
 <details>
