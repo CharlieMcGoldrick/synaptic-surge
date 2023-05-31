@@ -440,6 +440,16 @@ To make a clone of this repository, follow these steps:
    `git clone <https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge.git>`.
 5. You will now have a copy of the repository in you local version.
 
+To fork this repository, follow these steps:
+
+1. Log in to your GitHub account.
+2. Go to the repository you want to fork, which is located at:  [Charlie McGoldrick Github - Synaptic Surge Repo](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge).
+3. In the top-right corner of the repository page, click on the "Fork" button
+4. GitHub will prompt you to select where you want to fork the repository. Choose your personal account or organization.
+5. Wait for the forking process to complete. Once it's done, you will be redirected to your forked repository under your GitHub account.
+
+NOTE: Any changes pushed to the main branch automatically show up on the website.
+
 </details>
 
 <details>
