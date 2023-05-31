@@ -299,8 +299,16 @@ a:hover {
     padding-right: 17px;
     overflow-y: scroll;
     transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+.side-panel:not(.visible) {
     visibility: hidden;
     opacity: 0;
+}
+
+.side-panel.visible {
+    visibility: visible;
+    opacity: 1;
 }
 
 
