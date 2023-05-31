@@ -1,16 +1,31 @@
 // List of supplements for each type
 const supplements = {
-    Nootropic: [
-        { name: 'Ashwaganda', value: 'nootropic1-content' },
-        { name: 'Rhodiola rosea', value: 'nootropic2-content' },
+    Nootropic: [{
+        name: 'Ashwaganda',
+        value: 'nootropic1-content'
+    },
+    {
+        name: 'Rhodiola rosea',
+        value: 'nootropic2-content'
+    },
     ],
-    Mineral: [
-        { name: 'Magnesium', value: 'mineral1-content' },
-        { name: 'Potassium', value: 'mineral2-content' },
+    Mineral: [{
+        name: 'Magnesium',
+        value: 'mineral1-content'
+    },
+    {
+        name: 'Potassium',
+        value: 'mineral2-content'
+    },
     ],
-    Vitamin: [
-        { name: 'Vitamin A', value: 'vitamin1-content' },
-        { name: 'Vitamin E', value: 'vitamin2-content' },
+    Vitamin: [{
+        name: 'Vitamin A',
+        value: 'vitamin1-content'
+    },
+    {
+        name: 'Vitamin E',
+        value: 'vitamin2-content'
+    },
     ],
 };
 

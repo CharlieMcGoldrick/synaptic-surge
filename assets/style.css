@@ -398,6 +398,9 @@ a:hover {
     }
 }
 
+.heading-validation {
+    display: none;
+}
 
 .hero-content {
     display: flex;
