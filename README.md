@@ -388,11 +388,42 @@ For everything else, I'm using Open Sans. It's incredibly versatile, and it look
 
 <details>
 
+<summary><h2>Features</h2></summary>
+<h3>Navigation</h3>
+Each page features a responsive navigation bar with the brand name on the left and brand logo in the middle. To the right are the other navigational elements; About & Supplements. About & Supplements can be hovered over to reveal more navigation items.
+
+On mobile, the brand logo is on the left and the brand name is hidden. On the right is a hamburger menu which reveals the navigation menu when touched.
+
+<h3>Hero Section<h3>
+Each page has a hero section that often has a heading and then a small paragraph related to the page that the user is on. There are footnotes that open up in a new tab, linking to scientific studies to back up the cliams. There is a call to action button on each hero section which takes the user further down the page.
+
+On the about page there are three CTA buttons so the user can quickly navigate to nootropics, minerals or vitamins.
+
+For the specific supplement pages, the heading and paragraph is replace by a table that features the relevant supplement and a few highlights about it.
+
+<h3>Dropdown Section<h3>
+Each page has a dropdown section which the CTA buttons on the hero section take the user to. In this section the user can interact with the dropdowns to see the content that they wish to see.
+
+On the home page the user can switch the content between the popular supplements provided.
+
+On the about page, the information on this page is static and it has a paragraph and video educating the user about Biohacking.
+
+On the general supplement page there are three dropdown sections, so the user can choose content whether they're interesting in nootropics, minerals or vitamins.
+
+Finally, on the specific supplement pages the user can switch between: overview, functionality, benefits, side effects, drug interactions and dosage. Each specific supplement has a CTA to purchase the relevant supplement.
+
+<h3>Footer</h3>
+Each page has a footer which contains a form (with form validation) that users can fill out to join Synaptic Surge's newsletter. When a user fills this page out they are taken to a thank you page. Below the form are the social media icosn which open on another page.
+
+<h3>Thank You Page</h3>
+When the form is submitted the user is taken to the thank you page, where they can navigate back to the homepage with a button.
+</details>
 <summary><h2>Bugs</h2></summary>
 
 <h3>Known Bugs</h3>
 
 - Mobile Menu - Clicking on nav content that is on the same page will scroll but the menu won't close. E.g. about.html > #dropdown-section-about
+- Mobile Hover - Hover styles stay implemented when using a touch screen.
 
 <h3>Fixed Bugs</h3>
 
