@@ -166,11 +166,11 @@ a:hover {
     padding: 0.5rem 0;
 }
 
-.dropdown-content-first-layer {
+#main-nav-links-right .dropdown-content-first-layer {
     opacity: 0;
     position: absolute;
     min-width: 200px;
-    padding: 1rem 0;
+    padding: 1rem;
     z-index: 1;
     max-height: 0;
     overflow: hidden;
@@ -192,9 +192,14 @@ a:hover {
     background: var(--primary-colour);
 }
 
-.dropdown-content-second-layer>a {
+#main-nav-links-right .dropdown-content-second-layer .nav-dropdown-button {
+    font-size: 1.2rem;
+}
+
+#main-nav-links-right .dropdown-content-second-layer .nootropics-dropdown-content,
+#main-nav-links-right .dropdown-content-second-layer .minerals-dropdown-content,
+#main-nav-links-right .dropdown-content-second-layer .vitamins-dropdown-content {
     font-size: 1.1rem;
-    padding-bottom: 1rem;
 }
 
 .nootropics-dropdown-content>a,
