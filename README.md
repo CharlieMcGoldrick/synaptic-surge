@@ -390,12 +390,11 @@ For everything else, I'm using Open Sans. It's incredibly versatile, and it look
 
 <summary><h2>Bugs</h2></summary>
 
-<summary><h3>Known Bugs</h3></summary>
+<h3>Known Bugs</h3>
 
 - Mobile Menu - Clicking on nav content that is on the same page will scroll but the menu won't close. E.g. about.html > #dropdown-section-about
 
-</details>
-<summary><h3>Fixed Bugs</h3></summary>
+<h3>Fixed Bugs</h3>
 
 - [Nav Spacing](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/25d195257de602621673bfcb61336389f6979bc9)  - Delete extra li tag to fix nav spacing.
 - [Slow Site](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/0f8b56564a76a41ac5e81ceb09cbd3a894df15a2) - Change images from png to webp.
@@ -418,7 +417,6 @@ For everything else, I'm using Open Sans. It's incredibly versatile, and it look
 - [Wrong Stylesheet](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/f195b92115bcf29aa4ac5a78623236c61f766222) - Add correct stylesheet to 'thank-you.html'.
 - [Mobile Menu Flashing On Page Load](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/f195b92115bcf29aa4ac5a78623236c61f766222) - Add inline CSS so that the mobile menu loads in hidden.
 
-</details>
 </details>
 
 <details>
