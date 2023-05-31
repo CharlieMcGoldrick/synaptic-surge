@@ -347,22 +347,19 @@ For everything else, I'm using Open Sans. It's incredibly versatile, and it look
 - #D3A518 (Dark Goldenrod): This is a strong, vibrant color that can serve as a highlight or accent color. I can use it for calls to action, buttons, or other elements I want to draw attention to. As it's quite a rich color, using it sparingly can make my design pop without being overpowering.
 - #F1F1E6 (Very Pale Yellow): This very light color is excellent for backgrounds, especially if I want a slightly warmer tone than pure white. I can also use it for elements like tooltips, drop-down menus, or modals where I want a contrast with the main page.
 
-</details>
-</details>
+<summary><h4>Technologies Used</h4></summary>
 
 <details>
-<summary><h2>Technologies Used</h2></summary>
-
-<details>
-<summary><h3>Languages</h3></summary>
+<summary><h5>Languages</h5></summary>
 
 - HTML
 - CSS
 - Javascript
+
 </details>
 
 <details>
-<summary><h3>Websites, Software & other Tools</h3></summary>
+<summary><h5>Websites, Software & other Tools</h5></summary>
 
 - [Codeanywhere](https://codeanywhere.com/solutions/collaborate) This is was my IDE for the project.
 - [CodePen](codepen.io) I used this to test code outside of [Codeanywhere](https://codeanywhere.com/solutions/collaborate) so that I didn't use up hours unnecessarily. I also used it to find the right filter colour for my SVGs.
@@ -385,6 +382,44 @@ For everything else, I'm using Open Sans. It's incredibly versatile, and it look
 - [Dynamic Drive](http://tools.dynamicdrive.com/favicon/) Used to create favicon.
 
 </details>
+</details>
+</details>
+</details>
+
+<details>
+
+<summary><h2>Bugs</h2></summary>
+
+<summary><h3>Known Bugs</h3></summary>
+
+- Mobile Menu - Clicking on nav content that is on the same page will scroll but the menu won't close. E.g. about.html > #dropdown-section-about
+
+</details>
+<summary><h3>Fixed Bugs</h3></summary>
+
+- [Nav Spacing](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/25d195257de602621673bfcb61336389f6979bc9)  - Delete extra li tag to fix nav spacing.
+- [Slow Site](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/0f8b56564a76a41ac5e81ceb09cbd3a894df15a2) - Change images from png to webp.
+- [ID Not Being Found](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/e33d28e2946d4e21112efacc151467e7037f6767) - Add '-' to supplement dropdown in index-cascading-dropdown.js.
+- [Code Outside Of Appropriate Function](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/9decc403ef6dee70a35cb45b1d537cfb3ee32646) - Move while and for loop into generate function.
+- [DOMContentLoaded Not Working](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/6201b140a04b9e731cfd7a23857e7a4958c198b3) - Add missing ')' at the end of event.
+- [Content Not Appearing](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/4dbdbd4d7a04b0419d651c77e9aab1a0649965c3) - Change 'delete' to 'remove' so that the content doesn't disappear entirely.
+- [Class Not Being Found](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/d6aff89ba67e6d6c2877a338bdf1508a61120d8b) - Change 'getElementById' to 'getClementsByClassName'. Also add 'Array.from.
+- [Too Many Dashes In Comments Validation](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/afbc4ecb91141fe49fae868ea79fcc88a8652480) - Remove any extra '-' from comments.
+- [Animation Timing Function Not Working](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/ca251f00a2b790d245336a21ca43fed1cde3bdfc) - Remove extra 'a'.
+- [Buttons In A Tag Validation](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/f460f3228532b311585c8429ab62cf7fb3136912) - Remove buttons from a tags for validation.
+- [Scrollbar On X](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/2fb0dbf6612574bd3c80d21c318d164cc4b63a69) - Add 'overflow-x: hidden;' to stop overflow after adding '.side-panel'.
+- [Z-Index Not Working On Hamburger](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/48fcee1ce04538d06acaea7af7ddde45b41bbd34) - Add 'position: relative;' so that 'z-index' works.
+- [Non Li In Ul Validation](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/9645c248ebc5f8cf6b930ee23ecaf200310f3d22) - Add 'hamburger' div to li for validation.
+- [Mobile Nav Disappeared](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/59330d1100195efe366042f2daabf281cf5071da) - Add 'mobile-nav' again after I accidently deleted it.
+- [Wrong Content](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/2aff5f9cb3288db42e9959846b55260fd0a41771) - Swap content between '404.html' and 'thank-you.html'.
+- [Youtube Link Not Working](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/69d2e47f19d3ec0c260d93477693cf120579ad1a) - Add actual embed link so youtube video shows.
+- [404 Error With Links](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/47434071b19b64852ebeb4779fc92399044e655f) - Reorganise file path and delete any unnecessary parts of a link.
+- [Button Hover Colour](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/2fbcd5c78e91582ed97bcadd55af6a66662cac23) - Add 'color: var(--primary-colour);' to appropriate hover class.
+- [Wrong Stylesheet](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/f195b92115bcf29aa4ac5a78623236c61f766222) - Add correct stylesheet to 'thank-you.html'.
+- [Mobile Menu Flashing On Page Load](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/f195b92115bcf29aa4ac5a78623236c61f766222) - Add inline CSS so that the mobile menu loads in hidden.
+
+</details>
+
 </details>
 
 <details>
