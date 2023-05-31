@@ -428,6 +428,39 @@ a:hover {
 
 /*--------------- HERO SECTION STYLING ENDS ---------------*/
 
+/*--------------- HERO SECTION - SPECIFIC SUPPLEMENT STYLING STARTS ---------------*/
+.table {
+    background-color: transparent;
+    border-radius: 50px;
+    overflow: hidden;
+    border-collapse: separate;
+    margin-top: 1rem;
+}
+
+.table li {
+    list-style: none;
+}
+
+
+.table>thead:first-child>tr:first-child>th {
+    font-weight: 600;
+    font-size: 2rem;
+    background-color: var(--secondary-colour);
+    color: var(--primary-colour)
+}
+
+.table th {
+    font-weight: 400;
+}
+
+.table>tbody>tr>th,
+.table>tbody>tr>td {
+    border-top: none;
+    padding: 10px 30px;
+}
+
+/*--------------- HERO SECTION - SPECIFIC SUPPLEMENT STYLING ENDS ---------------*/
+
 /*--------------- DROPDOWN SECTION STYLING STARTS ---------------*/
 .dropdown-section {
     display: flex;
