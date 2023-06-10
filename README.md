@@ -2,6 +2,10 @@
 
 The project, *Synaptic Surge*, is designed with the aim of educating users about everything related to biohacking. The information will be distilled into manageable segments to counteract the *information overload* that many visitors might experience on similar sites. This platform caters to both novices interested in exploring the world of biohacking and seasoned veterans seeking to refine their knowledge in specific areas. In addition, a newsletter sign-up will be available to keep subscribers updated on any new scientific developments relevant to the topic at hand.
 
+This repository is a clone of the original project that I submitted to the Code Institute. You can view the original project as it was at the time of submission at the following link: https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge.
+
+I have cloned this project to continue developing and expanding on it. As I make updates and improvements, they will be pushed to this repository, allowing the site to evolve beyond its initial submission state.
+
 ![Synaptic Surge - Am I Responsive?](assets/images/readme/synaptic-surge-am-i-responsive.webp)
 
 <details>
