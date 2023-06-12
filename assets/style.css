@@ -792,8 +792,17 @@ a:hover {
     }
 
     /* Hero section */
-    .hero-section {
-        min-height: 80vh;
+    #hero-section-supplement-specific {
+        height: 100vh;
+    }
+
+    #hero-bg-image-supplement-specific img {
+        height: 100vh;
+    }
+
+    .table>tbody>tr>th,
+    .table>tbody>tr>td {
+        padding: 10px 10px;
     }
 
     .hero-section h1 {
