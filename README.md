@@ -431,6 +431,7 @@ When the form is submitted the user is taken to the thank you page, where they c
 
 - Mobile Menu - Clicking on nav content that is on the same page will scroll but the menu won't close. E.g. about.html > #dropdown-section-about
 - Mobile Hover - Hover styles stay implemented when using a touch screen.
+- Mobile Specific Supplement Page - The table isn't fitting on certain mobile screens
 
 <h3>Fixed Bugs</h3>
 
