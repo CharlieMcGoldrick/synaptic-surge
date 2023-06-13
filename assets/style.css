@@ -79,10 +79,6 @@ a:visited {
     text-decoration: none;
 }
 
-a:hover {
-    color: var(--light-colour);
-}
-
 /*--------------- GENERAL LINK STYLING ENDS ---------------*/
 
 /*--------------- GENERAL BUTTON STYLING STARTS ---------------*/
@@ -99,12 +95,6 @@ a:hover {
 .button-link-light:visited {
     color: var(--primary-colour);
 }
-
-.button-link-light:hover {
-    background-color: var(--light-colour);
-    color: var(--primary-colour);
-}
-
 
 /*--------------- GENERAL BUTTON STYLING ENDS ---------------*/
 
@@ -156,11 +146,6 @@ a:hover {
     cursor: pointer;
 }
 
-#main-nav-links-right .nav-dropdown-button:hover {
-    color: var(--light-colour);
-    cursor: pointer;
-}
-
 .dropdown-content-first-layer>a {
     font-size: 1.2rem;
     padding: 0.5rem 0;
@@ -178,12 +163,6 @@ a:hover {
     background: var(--primary-colour);
     white-space: nowrap;
     border-radius: 10px;
-}
-
-#main-nav-links-right .nav-dropdown:hover .dropdown-content-first-layer {
-    opacity: 1;
-    max-height: 500px;
-    transition: all 0.25s ease-in;
 }
 
 .dropdown-content-second-layer {
@@ -217,12 +196,6 @@ a:hover {
     transition: max-height 0.3s ease;
 }
 
-.dropdown-content-second-layer:hover .nootropics-dropdown-content,
-.dropdown-content-second-layer:hover .minerals-dropdown-content,
-.dropdown-content-second-layer:hover .vitamins-dropdown-content {
-    max-height: 200px;
-}
-
 #main-nav .image-switch {
     position: relative;
     display: block;
@@ -244,14 +217,6 @@ a:hover {
     display: none;
 }
 
-#main-nav .image-switch:hover .image-normal {
-    display: none;
-}
-
-#main-nav .image-switch:hover .image-hover {
-    display: block;
-}
-
 .hamburger {
     display: none;
     z-index: 10;
@@ -268,16 +233,6 @@ a:hover {
     margin: 8px 0;
     transition: 0.4s;
     border-radius: 15px;
-}
-
-.hamburger:hover .bars {
-    background-color: var(--light-colour);
-}
-
-.bar1:hover,
-.bar2:hover,
-.bar3:hover {
-    background-color: var(--light-colour);
 }
 
 .change .bar1 {
@@ -333,10 +288,6 @@ a:hover {
     font-weight: bold;
 }
 
-.mobile-nav-header:hover {
-    color: var(--light-colour);
-}
-
 .mobile-nav-first-child {
     font-size: 1.75rem;
     font-weight: 600;
@@ -349,12 +300,6 @@ a:hover {
     color: var(--secondary-colour);
     display: block;
     transition: 0.3s;
-}
-
-.nootropics-mobile-nav a:hover,
-.minerals-mobile-nav a:hover,
-.vitamins-mobile-nav a:hover {
-    color: var(--light-colour);
 }
 
 .mobile-nav-second-child {
@@ -512,11 +457,6 @@ a:hover {
     border: none;
 }
 
-.dropdown-section .dropdown:hover {
-    color: var(--primary-colour);
-    background-color: var(--light-colour);
-}
-
 .dropdown-section option {
     color: var(--primary-colour);
     background-color: var(--light-colour);
@@ -537,10 +477,6 @@ a:hover {
 .dropdown-section .supplement-content p {
     color: var(--secondary-colour);
     font-size: 1.25rem;
-}
-
-.dropdown-section .summary-image-container .footnote-link:hover {
-    color: var(--light-colour);
 }
 
 .dropdown-section .summary-image-container img {
@@ -612,10 +548,6 @@ a:hover {
     border-radius: 999px;
 }
 
-.form-container .form-button:hover {
-    background-color: var(--light-colour);
-}
-
 .form-container .hr {
     border: var(--secondary-colour) solid 1px;
     width: 100%;
@@ -635,15 +567,185 @@ a:hover {
     filter: invert(76%) sepia(47%) saturate(357%) hue-rotate(197deg) brightness(95%) contrast(88%);
 }
 
-.brand-info-and-links .svg-filter:hover {
-    filter: invert(99%) sepia(80%) saturate(250%) hue-rotate(331deg) brightness(107%) contrast(89%);
-}
-
 .site-owner-copyright p {
     font-size: 1rem;
 }
 
-/* FOOTER STYLING ENDS */
+/*--------------- FOOTER STYLING ENDS ---------------*/
+
+/*--------------- HOVER STYLING STARTS ---------------*/
+@media (hover: hover) and (pointer: fine) {
+
+    /* Link Hover */
+    a:hover {
+        color: var(--light-colour);
+    }
+
+    /* Button Hover */
+    .button-link-light:hover {
+        background-color: var(--light-colour);
+        color: var(--primary-colour);
+    }
+
+    /* Navbar Dropdown Hover */
+    #main-nav-links-right .nav-dropdown-button:hover {
+        color: var(--light-colour);
+        cursor: pointer;
+    }
+
+    #main-nav-links-right .nav-dropdown:hover .dropdown-content-first-layer {
+        opacity: 1;
+        max-height: 500px;
+        transition: all 0.25s ease-in;
+    }
+
+    .dropdown-content-second-layer:hover .nootropics-dropdown-content,
+    .dropdown-content-second-layer:hover .minerals-dropdown-content,
+    .dropdown-content-second-layer:hover .vitamins-dropdown-content {
+        max-height: 200px;
+    }
+
+    /* Navbar Logo Hover */
+    #main-nav .image-switch .image-hover {
+        display: none;
+    }
+
+    #main-nav .image-switch:hover .image-normal {
+        display: none;
+    }
+
+    #main-nav .image-switch:hover .image-hover {
+        display: block;
+    }
+
+    /* Hamburger Navbar Hover */
+    .hamburger:hover .bars {
+        background-color: var(--light-colour);
+    }
+
+    .bar1:hover,
+    .bar2:hover,
+    .bar3:hover {
+        background-color: var(--light-colour);
+    }
+
+    .mobile-nav-header:hover {
+        color: var(--light-colour);
+    }
+
+    .nootropics-mobile-nav a:hover,
+    .minerals-mobile-nav a:hover,
+    .vitamins-mobile-nav a:hover {
+        color: var(--light-colour);
+    }
+
+    /* Dropdown Section Hover */
+    .dropdown-section .dropdown:hover {
+        color: var(--primary-colour);
+        background-color: var(--light-colour);
+    }
+
+    .dropdown-section .summary-image-container .footnote-link:hover {
+        color: var(--light-colour);
+    }
+
+    /* Form Hover */
+    .form-container .form-button:hover {
+        background-color: var(--light-colour);
+    }
+
+    .brand-info-and-links .svg-filter:hover {
+        filter: invert(99%) sepia(80%) saturate(250%) hue-rotate(331deg) brightness(107%) contrast(89%);
+    }
+}
+
+/*--------------- HOVER STYLING ENDS ---------------*/
+
+/*--------------- TOUCH STYLING STARTS ---------------*/
+@media (hover: none) and (pointer: coarse),
+(max-width: 991px) {
+
+    /* Link Touch */
+    a:active {
+        color: var(--light-colour);
+    }
+
+    /* Button Touch */
+    .button-link-light:active {
+        background-color: var(--light-colour);
+        color: var(--primary-colour);
+    }
+
+    /* Navbar Dropdown Touch */
+    #main-nav-links-right .nav-dropdown-button:active {
+        color: var(--light-colour);
+        cursor: pointer;
+    }
+
+    #main-nav-links-right .nav-dropdown:active .dropdown-content-first-layer {
+        opacity: 1;
+        max-height: 500px;
+        transition: all 0.25s ease-in;
+    }
+
+    .dropdown-content-second-layer:active .nootropics-dropdown-content,
+    .dropdown-content-second-layer:active .minerals-dropdown-content,
+    .dropdown-content-second-layer:active .vitamins-dropdown-content {
+        max-height: 200px;
+    }
+
+    /* Navbar Logo Touch */
+    #main-nav .image-switch:active .image-normal {
+        display: none;
+    }
+
+    #main-nav .image-switch:active .image-hover {
+        display: block;
+    }
+
+    /* Hamburger Navbar Touch */
+    .hamburger:active .bars {
+        background-color: var(--light-colour);
+    }
+
+    .bar1:active,
+    .bar2:active,
+    .bar3:active {
+        background-color: var(--light-colour);
+    }
+
+    .mobile-nav-header:active {
+        color: var(--light-colour);
+    }
+
+    .nootropics-mobile-nav a:active,
+    .minerals-mobile-nav a:active,
+    .vitamins-mobile-nav a:active {
+        color: var(--light-colour);
+    }
+
+    /* Dropdown Section Touch */
+    .dropdown-section .dropdown:active {
+        color: var(--primary-colour);
+        background-color: var(--light-colour);
+    }
+
+    .dropdown-section .summary-image-container .footnote-link:active {
+        color: var(--light-colour);
+    }
+
+    /* Form Section Touch */
+    .form-container .form-button:active {
+        background-color: var(--light-colour);
+    }
+
+    .brand-info-and-links .svg-filter:active {
+        filter: invert(99%) sepia(80%) saturate(250%) hue-rotate(331deg) brightness(107%) contrast(89%);
+    }
+}
+
+/*--------------- TOUCH STYLING ENDS ---------------*/
+
 
 /*--------------- MEDIA QUERIES START ---------------*/
 /* Medium Screens/laptops */
