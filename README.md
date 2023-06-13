@@ -430,7 +430,6 @@ When the form is submitted the user is taken to the thank you page, where they c
 <h3>Known Bugs</h3>
 
 - Mobile Menu - Clicking on nav content that is on the same page will scroll but the menu won't close. E.g. about.html > #dropdown-section-about
-- Tap Highlight - Clicking a link on mobile has an unintended highlight (this highlight is a default browser behaviour) 
 
 <h3>Fixed Bugs</h3>
 
@@ -456,6 +455,7 @@ When the form is submitted the user is taken to the thank you page, where they c
 - [Mobile Menu Flashing On Page Load](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/f195b92115bcf29aa4ac5a78623236c61f766222) - Add inline CSS so that the mobile menu loads in hidden.
 - [Table Off Page On Mobile](https://github.com/CharlieMcGoldrick/synaptic-surge/commit/acb1fbfaaeaa0baf8be65dcd4bcd0f12f242a6d8) - Change VH on 991px screens and below to be 100vh for the supplement specific page.
 - [Mobile Hover Styles Not Working With Touch](https://github.com/CharlieMcGoldrick/synaptic-surge/commit/acb1fbfaaeaa0baf8be65dcd4bcd0f12f242a6d8) - Add hover styles to it's own section with the necessary media query and then also add touch styles.
+- [Tap Highlight](https://github.com/CharlieMcGoldrick/synaptic-surge/commit/3bf32a36746ee46a1d810c46ef82c7fadd6deb5f) - Add transparency to default tap highlight style (This makes the :active pseudo-class more clear).
 
 </details>
 
