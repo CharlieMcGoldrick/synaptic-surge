@@ -455,6 +455,7 @@ When the form is submitted the user is taken to the thank you page, where they c
 - [Wrong Stylesheet](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/f195b92115bcf29aa4ac5a78623236c61f766222) - Add correct stylesheet to 'thank-you.html'.
 - [Mobile Menu Flashing On Page Load](https://github.com/CharlieMcGoldrick/ci-ms1-synaptic-surge/commit/f195b92115bcf29aa4ac5a78623236c61f766222) - Add inline CSS so that the mobile menu loads in hidden.
 - [Table Off Page On Mobile](https://github.com/CharlieMcGoldrick/synaptic-surge/commit/acb1fbfaaeaa0baf8be65dcd4bcd0f12f242a6d8) - Change VH on 991px screens and below to be 100vh for the supplement specific page.
+- [Mobile Hover Styles Not Working With Touch](https://github.com/CharlieMcGoldrick/synaptic-surge/commit/acb1fbfaaeaa0baf8be65dcd4bcd0f12f242a6d8) - Add hover styles to it's own section with the necessary media query and then also add touch styles.
 
 </details>
 
