@@ -41,6 +41,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: var(--secondary-colour);
     overflow-x: hidden;
+    /* Make tap highlight transparent */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 h1,
