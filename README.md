@@ -430,7 +430,7 @@ When the form is submitted the user is taken to the thank you page, where they c
 <h3>Known Bugs</h3>
 
 - Mobile Menu - Clicking on nav content that is on the same page will scroll but the menu won't close. E.g. about.html > #dropdown-section-about
-- Mobile Hover - Hover styles stay implemented when using a touch screen.
+- Tap Highlight - Clicking a link on mobile has an unintended highlight (this highlight is a default browser behaviour) 
 
 <h3>Fixed Bugs</h3>
 
